@@ -77,7 +77,7 @@ class Ui_Form(object):
 
     def mainpage(self):
         self.MainWindow = QtWidgets.QMainWindow()
-        self.ui = Ui_MainWindow()
+        self.ui = Ui_Form()
         self.ui.setupUi(self.MainWindow)
         Form.hide()
         self.MainWindow.show()
