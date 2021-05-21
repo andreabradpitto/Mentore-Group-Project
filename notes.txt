@@ -16,7 +16,7 @@ you back to the first main window.
 To be done:
 
 1. Design and link the 'Browse' page with the Browse button on the Main Window.
-2. Link the 'Q-A' page with the class selected by the user either from the recently used, or from the browse.
+2. Link the 'Q-A' page with the class selected by the user either from the recently used, or from the browser.
 
 
 ---
