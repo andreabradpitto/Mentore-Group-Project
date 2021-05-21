@@ -7,9 +7,9 @@ This is the readme of the brach devoted to the GUI development.
 ### Prerequisites
 Understanding the principles of Ontology and owlapi
 
-### Develop a tool with a GUI for manually updating/inserting in the Ontology* with school subjects
+### Develop a tool with a GUI for manually inserting in/updating the Ontology* with school subjects
 - New Concepts as Subclasses of the Class SchoolSubject
-- Sentences for each topics
+- Sentences for each topic
 - Questions and Answers
 
 *It maybe either a new Ontology, or the existing Ontology Caresses.owl, with a newClass(SchoolSubject)
