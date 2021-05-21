@@ -24,7 +24,7 @@ class Ui_MainWindow(object):
         self.plus = QtWidgets.QPushButton(self.centralwidget)
         self.plus.setGeometry(QtCore.QRect(374, 266, 75, 23))
         self.plus.setStyleSheet("color: rgb(255, 255, 255);\n"
-"background-color:rgb(116, 71, 105)")
+                                "background-color:rgb(116, 71, 105)")
         self.plus.setAutoRepeatDelay(298)
         self.plus.setAutoDefault(False)
         self.plus.setDefault(False)
