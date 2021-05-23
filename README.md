@@ -18,6 +18,6 @@ Understanding the principles of Ontology and owlapi
 - Evaluate the possibility of recording some audio files with the GUI which may be uploaded online and linked in the Ontology
 
 ## Developers:
-Raza TODO - TODO <br/>
-Laiba Zahid - TODO <br/>
+Muhammad Raza Rizvi - s4853521@studenti.unige.it <br/>
+Laiba Zahid - s4853477@studenti.unige.it <br/>
 Andrea Pitto - s3942710@studenti.unige.it
