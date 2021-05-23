@@ -33,6 +33,25 @@ Meeting Discussion Notes:
 
 Extra to be done maybe:
 9. Can we edit the ontology? Sure. Can we remove a class? Can we remove a q/a?
+
+
+HOW TO:
+How to read the subclasses from .owl file and create buttons / dropdown for 'Browse'.?
+
+Main Window
+
+1. A sentence which shows that this is the page where you can either select a class that is already present OR you can add a new class, press help for info
+2. Button1: Selecting a class that is already present
+3. Button2: Adding a new class (+ Button)
+4. Something as a feedback to show that the class is selected / added + selected
+5. Help button on the top bar having some documentation
+
+Button1 window: Browser for selecting from the classes already present
+After selecting the class, goes on to the 'Add sentence / question' window
+
+Button2 window: Main window updates and have all the contents on the 'AddConcept' page designed by Andrea.
+After entering the concept, Ok, After selecting the class, goes on to the 'Add sentence / question' window
+
 ---
 
 Andrea's updates:
