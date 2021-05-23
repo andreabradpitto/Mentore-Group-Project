@@ -19,6 +19,20 @@ To be done:
 2. Link the 'Q-A' page with the class selected by the user either from the recently used, or from the browser.
 
 
+Meeting Discussion Notes:
+
+1. First page should focus on selecting / browsing the Concept rather than add concept,sentence, question options. - Ok
+2. After this selection, the teacher can choose to add a sentence and question/answer - Ok
+3. Maybe an option for chooisng if this sentence iis positve . negative
+3. Q/A page should only have an option of entering one q/a at a time
+4. Maybe one window at a time will be better, but why do you think a separate window is better? - Yes, its better to update the contents rather than closing an opening again
+5. Having separate .py files for each page is a good idea
+6. Ubuntu / Windows? Andrea 
+7. Open an ontology? No.
+8. Color
+
+Extra to be done maybe:
+9. Can we edit the ontology? Sure. Can we remove a class? Can we remove a q/a?
 ---
 
 Andrea's updates:
