@@ -12,7 +12,7 @@ Understanding the principles of Ontology and owlapi
 - Sentences for each topic
 - Questions and Answers
 
-*It maybe either a new Ontology, or the existing Ontology Caresses.owl, with a new Class(SchoolSubject)
+*It maybe either a new Ontology, or the existing Ontology Caresses.owl, with a new Class (SchoolSubject)
 
 ### Optional
 - Evaluate the possibility of recording some audio files with the GUI which may be uploaded online and linked in the Ontology
