@@ -1,4 +1,5 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
+from mentorePalette import mentorePaletteSetter
 
 
 class PageWindow(QtWidgets.QMainWindow):
@@ -80,6 +81,7 @@ if __name__ == "__main__":
     import sys
 
     app = QtWidgets.QApplication(sys.argv)
-    w = Window()
-    w.show()
+    mentoreWindow = Window()
+
+    mentoreWindow.show()
     sys.exit(app.exec_())

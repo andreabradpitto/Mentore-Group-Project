@@ -81,7 +81,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.add_pb.setText(_translate("MainWindow", "Add"))
         self.menuHelp.setTitle(_translate("MainWindow", "Help"))
 
-        self.setWindowIcon(QtGui.QIcon('images/robot_logo2.svg'))
+        self.setWindowIcon(QtGui.QIcon('images/mentore_logo.svg'))
 
         self.connect_events()
 

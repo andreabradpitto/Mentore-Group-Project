@@ -82,7 +82,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.actionOpen_ontology.setText(_translate("MainWindow", "Open ontology"))
         self.actionExit.setText(_translate("MainWindow", "Exit"))
 
-        self.setWindowIcon(QtGui.QIcon('images/robot_logo2.svg'))
+        self.setWindowIcon(QtGui.QIcon('images/mentore_logo.svg'))
 
         self.connect_events()
 

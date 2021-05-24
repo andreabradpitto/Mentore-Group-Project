@@ -26,7 +26,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.setObjectName("MainWindow")
         self.resize(800, 480)
 
-        self.setWindowIcon(QtGui.QIcon('images/robot_logo2.svg'))
+        self.setWindowIcon(QtGui.QIcon('images/mentore_logo.svg'))
 
         palette = QtGui.QPalette()
         palette = mentorePaletteSetter(palette)
