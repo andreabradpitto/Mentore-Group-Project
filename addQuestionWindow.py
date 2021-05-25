@@ -9,7 +9,7 @@ class AddQuestionWindow(PageWindow):
         self.initUI()
 
     def initUI(self):
-        self.setWindowTitle("Add Question")
+        self.setWindowTitle("Add question")
         self.setObjectName("AddWQuestionWindow")
 
         self.centralwidget = QtWidgets.QWidget()
