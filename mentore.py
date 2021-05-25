@@ -16,7 +16,7 @@ class MainWindow(PageWindow):
 
     def initUI(self):
         self.setWindowTitle("Mentore")
-        #self.setObjectName("MainWindow")
+        self.setObjectName("MainWindow")
 
         self.centralwidget = QtWidgets.QWidget()
         self.centralwidget.setObjectName("centralwidget")
@@ -71,14 +71,14 @@ class MainWindow(PageWindow):
         return handleButton
 
 
-class AddWindow(PageWindow):
+class AddMainWindow(PageWindow):
     def __init__(self):
         super().__init__()
         self.initUI()
 
     def initUI(self):
-        self.setWindowTitle("Add concept")
-        #self.setObjectName("AddWindow")
+        self.setWindowTitle("Add menu")
+        self.setObjectName("AddWindow")
 
         self.centralwidget = QtWidgets.QWidget()
         self.centralwidget.setObjectName("centralwidget")
@@ -94,9 +94,11 @@ class AddWindow(PageWindow):
         self.addVLayout.setObjectName("addVLayout")
         self.addSentence_pb = QtWidgets.QPushButton("Add sentence", self.verticalLayoutWidget)
         self.addSentence_pb.setObjectName("addSentence_pb")
+        self.addSentence_pb.clicked.connect(self.goToAddSentence)
         self.addVLayout.addWidget(self.addSentence_pb)
         self.addQuestion_pb = QtWidgets.QPushButton("Add question", self.verticalLayoutWidget)
         self.addQuestion_pb.setObjectName("addQuestion_pb")
+        self.addQuestion_pb.clicked.connect(self.goToAddQuestion)
         self.addVLayout.addWidget(self.addQuestion_pb)
         self.back_pb = QtWidgets.QPushButton("< Back", self.centralwidget)
         self.back_pb.setGeometry(QtCore.QRect(510, 380, 106, 30))
@@ -119,6 +121,113 @@ class AddWindow(PageWindow):
     def goToMain(self):
         self.goto("main")
 
+    def goToAddSentence(self):
+        self.goto("addSentence")
+
+    def goToAddQuestion(self):
+        self.goto("addQuestion")
+
+
+class AddSentenceWindow(PageWindow):
+    def __init__(self):
+        super().__init__()
+        self.initUI()
+
+    def initUI(self):
+        self.setWindowTitle("Add sentence")
+        self.setObjectName("AddSentenceWindow")
+
+        self.centralwidget = QtWidgets.QWidget()
+        self.centralwidget.setObjectName("centralwidget")
+        self.add_pb = QtWidgets.QPushButton("Add", self.centralwidget)
+        self.add_pb.setGeometry(QtCore.QRect(650, 340, 106, 30))
+        self.add_pb.setObjectName("add_pb")
+        self.cancel_pb = QtWidgets.QPushButton("Cancel", self.centralwidget)
+        self.cancel_pb.setGeometry(QtCore.QRect(520, 340, 106, 30))
+        self.cancel_pb.setObjectName("cancel_pb")
+        self.cancel_pb.clicked.connect(self.goToAddMain)
+        self.mainLabel = QtWidgets.QLabel(self.centralwidget)
+        self.mainLabel.setGeometry(QtCore.QRect(200, 90, 401, 31))
+        self.mainLabel.setFocusPolicy(QtCore.Qt.WheelFocus)
+        self.mainLabel.setObjectName("mainLabel")
+        self.mainLabel.setText("<html><head/><body><p align=\"center\"><span style=\" font-size:12pt;\">Please enter a new sentence</span></p></body></html>")
+        self.sentence_lineEdit = QtWidgets.QLineEdit(self.centralwidget)
+        self.sentence_lineEdit.setGeometry(QtCore.QRect(60, 170, 461, 29))
+        self.sentence_lineEdit.setObjectName("sentence_lineEdit")
+        self.negative_checkBox = QtWidgets.QCheckBox("Negative sentence", self.centralwidget)
+        self.negative_checkBox.setGeometry(QtCore.QRect(550, 170, 181, 27))
+        self.negative_checkBox.setObjectName("negative_checkBox")
+        self.setCentralWidget(self.centralwidget)
+        self.menubar = QtWidgets.QMenuBar()
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 26))
+        self.menubar.setObjectName("menubar")
+        self.menuHelp = QtWidgets.QMenu("Help", self.menubar)
+        self.menuHelp.setObjectName("menuHelp")
+        self.setMenuBar(self.menubar)
+        self.statusbar = QtWidgets.QStatusBar()
+        self.statusbar.setObjectName("statusbar")
+        self.setStatusBar(self.statusbar)
+        self.menubar.addAction(self.menuHelp.menuAction())
+    
+        QtCore.QMetaObject.connectSlotsByName(self)
+
+    def goToAddMain(self):
+        self.goto("add")
+
+
+class AddQuestionWindow(PageWindow):
+    def __init__(self):
+        super().__init__()
+        self.initUI()
+
+    def initUI(self):
+        self.setWindowTitle("Add Question")
+        self.setObjectName("AddWQuestionWindow")
+
+        self.centralwidget = QtWidgets.QWidget()
+        self.centralwidget.setObjectName("centralwidget")
+        self.add_pb = QtWidgets.QPushButton("Add", self.centralwidget)
+        self.add_pb.setGeometry(QtCore.QRect(650, 340, 106, 30))
+        self.add_pb.setObjectName("add_pb")
+        self.cancel_pb = QtWidgets.QPushButton("Cancel", self.centralwidget)
+        self.cancel_pb.setGeometry(QtCore.QRect(520, 340, 106, 30))
+        self.cancel_pb.setObjectName("cancel_pb")
+        self.cancel_pb.clicked.connect(self.goToAddMain)
+        self.mainLabel = QtWidgets.QLabel(self.centralwidget)
+        self.mainLabel.setGeometry(QtCore.QRect(110, 50, 601, 21))
+        self.mainLabel.setObjectName("mainLabel")
+        self.mainLabel.setText("<html><head/><body><p align=\"center\">Please enter a question and its answer for the _____ class</p></body></html>")
+        self.questionLabel = QtWidgets.QLabel(self.centralwidget)
+        self.questionLabel.setGeometry(QtCore.QRect(30, 130, 141, 21))
+        self.questionLabel.setObjectName("questionLabel")
+        self.questionLabel.setText("<html><head/><body><p align=\"center\">Question:</p></body></html>")
+        self.answerLabel = QtWidgets.QLabel(self.centralwidget)
+        self.answerLabel.setGeometry(QtCore.QRect(30, 230, 141, 21))
+        self.answerLabel.setObjectName("answerLabel")
+        self.answerLabel.setText("<html><head/><body><p align=\"center\">Answer:</p></body></html>")
+        self.question_lineEdit = QtWidgets.QLineEdit(self.centralwidget)
+        self.question_lineEdit.setGeometry(QtCore.QRect(50, 170, 451, 29))
+        self.question_lineEdit.setObjectName("question_lineEdit")
+        self.answer_lineEdit = QtWidgets.QLineEdit(self.centralwidget)
+        self.answer_lineEdit.setGeometry(QtCore.QRect(50, 270, 451, 29))
+        self.answer_lineEdit.setObjectName("answer_lineEdit")
+        self.setCentralWidget(self.centralwidget)
+        self.menubar = QtWidgets.QMenuBar()
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 26))
+        self.menubar.setObjectName("menubar")
+        self.menuHelp = QtWidgets.QMenu("Help", self.menubar)
+        self.menuHelp.setObjectName("menuHelp")
+        self.setMenuBar(self.menubar)
+        self.statusbar = QtWidgets.QStatusBar()
+        self.statusbar.setObjectName("statusbar")
+        self.setStatusBar(self.statusbar)
+        self.menubar.addAction(self.menuHelp.menuAction())
+    
+        QtCore.QMetaObject.connectSlotsByName(self)
+
+    def goToAddMain(self):
+        self.goto("add")
+
 
 class Window(QtWidgets.QMainWindow):
     def __init__(self, parent=None):
@@ -137,7 +246,9 @@ class Window(QtWidgets.QMainWindow):
         self.m_pages = {}
 
         self.register(MainWindow(), "main")
-        self.register(AddWindow(), "add")
+        self.register(AddMainWindow(), "add")
+        self.register(AddSentenceWindow(), "addSentence")
+        self.register(AddQuestionWindow(), "addQuestion")
 
         self.goto("main")
 
