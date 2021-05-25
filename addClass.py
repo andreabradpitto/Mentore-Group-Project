@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'chooseClass.ui'
+# Form implementation generated from reading ui file 'addClass.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.4
 #
