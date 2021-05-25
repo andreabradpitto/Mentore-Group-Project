@@ -1,5 +1,4 @@
 from PyQt5 import QtCore, QtWidgets
-from mentorePalette import mentorePaletteSetter
 from pageWindow import PageWindow
 
 
