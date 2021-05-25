@@ -176,8 +176,9 @@ class AddSentenceWindow(PageWindow):
         QtCore.QMetaObject.connectSlotsByName(self)
 
     def goToAddMain(self):
-        self.goto("add")
+        self.sentence_lineEdit.clear()
         self.negative_checkBox.setCheckState(0)
+        self.goto("add")
 
 
 class AddQuestionWindow(PageWindow):
@@ -232,6 +233,8 @@ class AddQuestionWindow(PageWindow):
         QtCore.QMetaObject.connectSlotsByName(self)
 
     def goToAddMain(self):
+        self.question_lineEdit.clear()
+        self.answer_lineEdit.clear()
         self.goto("add")
 
 
