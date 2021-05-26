@@ -6,6 +6,7 @@ from mainWindow import MainWindow
 from addMainWindow import AddMainWindow
 from addSentenceWindow import AddSentenceWindow
 from addQuestionWindow import AddQuestionWindow
+from helpWindow import HelpWindow
 
 
 class Window(QtWidgets.QMainWindow):
@@ -41,8 +42,7 @@ class Window(QtWidgets.QMainWindow):
         self.menuHelp = QtWidgets.QMenu("Help", self.menubar)
         self.menuHelp.setObjectName("menuHelp")
         self.setMenuBar(self.menubar)
-        self.menubar.addAction(self.menuHelp.menuAction())
-        #self.menubar.addAction("Help", self.showHelp) TODO maybe better goToHelp
+        self.menubar.addAction("Help", self.goToHelp)
 
         self.statusbar = QtWidgets.QStatusBar()
         self.statusbar.setObjectName("statusbar")
@@ -78,9 +78,14 @@ class Window(QtWidgets.QMainWindow):
     @QtCore.pyqtSlot(str)
     def goto(self, name):
         if name in self.m_pages:
+            self.lastPage = name
             widget = self.m_pages[name]
             self.stacked_widget.setCurrentWidget(widget)
             self.setWindowTitle(widget.windowTitle())
+
+    def goToHelp(self):
+        self.register(HelpWindow(self.lastPage), "help")
+        self.goto("help")
 
 
 if __name__ == "__main__":
