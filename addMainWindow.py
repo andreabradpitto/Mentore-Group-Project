@@ -20,7 +20,7 @@ class AddMainWindow(PageWindow):
         self.mainLabel.setText(
             "<html><head/><body><p align=\"center\">Something goes here...</p></body></html>")
         self.verticalLayoutWidget = QtWidgets.QWidget(self.centralwidget)
-        self.verticalLayoutWidget.setGeometry(QtCore.QRect(250, 285, 160, 71))
+        self.verticalLayoutWidget.setGeometry(QtCore.QRect(320, 205, 160, 71))
         self.verticalLayoutWidget.setObjectName("verticalLayoutWidget")
         self.addVLayout = QtWidgets.QVBoxLayout(self.verticalLayoutWidget)
         self.addVLayout.setContentsMargins(0, 0, 0, 0)
@@ -36,7 +36,7 @@ class AddMainWindow(PageWindow):
         self.addQuestion_pb.clicked.connect(self.goToAddQuestion)
         self.addVLayout.addWidget(self.addQuestion_pb)
         self.back_pb = QtWidgets.QPushButton("< Back", self.centralwidget)
-        self.back_pb.setGeometry(QtCore.QRect(510, 380, 106, 30))
+        self.back_pb.setGeometry(QtCore.QRect(630, 370, 106, 30))
         self.back_pb.setObjectName("back_pb")
         self.back_pb.clicked.connect(self.goToMain)
         self.setCentralWidget(self.centralwidget)

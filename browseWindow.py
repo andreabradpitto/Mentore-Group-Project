@@ -15,7 +15,7 @@ class BrowseWindow(PageWindow):
         self.centralwidget = QtWidgets.QWidget()
         self.centralwidget.setObjectName("centralwidget")
         self.cancel_pb = QtWidgets.QPushButton("Cancel", self.centralwidget)
-        self.cancel_pb.setGeometry(QtCore.QRect(560, 370, 89, 25))
+        self.cancel_pb.setGeometry(QtCore.QRect(505, 370, 106, 30))
         self.cancel_pb.setObjectName("cancel_pb")
         self.cancel_pb.clicked.connect(self.goToMain)
         self.concept_lineEdit = QtWidgets.QLineEdit(self.centralwidget)
@@ -27,7 +27,7 @@ class BrowseWindow(PageWindow):
         self.mainLabel.setText("<html><head/><body><p align=\"center\">Enter the Class / "
                                "Subject you want to add</p></body></html>")
         self.ok_pb = QtWidgets.QPushButton("Ok", self.centralwidget)
-        self.ok_pb.setGeometry(QtCore.QRect(660, 370, 89, 25))
+        self.ok_pb.setGeometry(QtCore.QRect(630, 370, 106, 30))
         self.ok_pb.setObjectName("ok_pb")
         self.setCentralWidget(self.centralwidget)
 

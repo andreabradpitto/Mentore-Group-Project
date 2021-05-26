@@ -1,4 +1,4 @@
-from PyQt5 import QtCore, QtWidgets
+from PyQt5 import QtCore, QtGui, QtWidgets
 
 
 class PageWindow(QtWidgets.QMainWindow):
@@ -28,3 +28,9 @@ class PageWindow(QtWidgets.QMainWindow):
         self.statusbarLabel.setStyleSheet("border-top: 0px")
         self.setStatusBar(self.statusbar)
         self.menubar.addAction(self.menuHelp.menuAction())
+        logoLabel = QtWidgets.QLabel(self)
+        logoLabel.setGeometry(350, 330, 0, 0)
+        logoPixmap = QtGui.QPixmap('images/mentore_logo.svg')
+        logoPixmap = logoPixmap.scaled(100, 100, QtCore.Qt.KeepAspectRatio)
+        logoLabel.setPixmap(logoPixmap)
+        logoLabel.resize(logoPixmap.width(), logoPixmap.height())
