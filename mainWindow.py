@@ -5,10 +5,9 @@ from pageWindow import PageWindow
 class MainWindow(PageWindow):
     def __init__(self):
         super().__init__()
-        self.initBarUI()
-        self.initUI()
+        self.initPageUI()
 
-    def initUI(self):
+    def initPageUI(self):
         self.setWindowTitle("Mentore")
         self.setObjectName("MainWindow")
 

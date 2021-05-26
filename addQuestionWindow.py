@@ -5,10 +5,9 @@ from pageWindow import PageWindow
 class AddQuestionWindow(PageWindow):
     def __init__(self):
         super().__init__()
-        self.initBarUI()
-        self.initUI()
+        self.initPageUI()
 
-    def initUI(self):
+    def initPageUI(self):
         self.setWindowTitle("Add question")
         self.setObjectName("AddWQuestionWindow")
 
