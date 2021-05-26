@@ -79,3 +79,5 @@ But what if we want to edit existing concepts/sentences/etc. ? maybe it is out o
 what we are asked to do, but we should ask Carmine. If we do not implement that, we should prompt to the user, before
 they finish their job, an alert like "are you sure you want to save these edit(s)?" so that they avoid mistakes, hopefully.
 But I think that we should first just focus on the addition part, and then care about this if needed.
+
+appunto mio: prova = palette.brightText()
