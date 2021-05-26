@@ -5,6 +5,7 @@ from pageWindow import PageWindow
 class AddQuestionWindow(PageWindow):
     def __init__(self):
         super().__init__()
+        self.initBarUI()
         self.initUI()
 
     def initUI(self):
@@ -42,16 +43,6 @@ class AddQuestionWindow(PageWindow):
         self.answer_lineEdit.setGeometry(QtCore.QRect(50, 270, 451, 29))
         self.answer_lineEdit.setObjectName("answer_lineEdit")
         self.setCentralWidget(self.centralwidget)
-        self.menubar = QtWidgets.QMenuBar()
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 26))
-        self.menubar.setObjectName("menubar")
-        self.menuHelp = QtWidgets.QMenu("Help", self.menubar)
-        self.menuHelp.setObjectName("menuHelp")
-        self.setMenuBar(self.menubar)
-        self.statusbar = QtWidgets.QStatusBar()
-        self.statusbar.setObjectName("statusbar")
-        self.setStatusBar(self.statusbar)
-        self.menubar.addAction(self.menuHelp.menuAction())
 
         QtCore.QMetaObject.connectSlotsByName(self)
 

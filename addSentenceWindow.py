@@ -5,6 +5,7 @@ from pageWindow import PageWindow
 class AddSentenceWindow(PageWindow):
     def __init__(self):
         super().__init__()
+        self.initBarUI()
         self.initUI()
 
     def initUI(self):
@@ -34,16 +35,6 @@ class AddSentenceWindow(PageWindow):
         self.negative_checkBox.setGeometry(QtCore.QRect(550, 170, 181, 27))
         self.negative_checkBox.setObjectName("negative_checkBox")
         self.setCentralWidget(self.centralwidget)
-        self.menubar = QtWidgets.QMenuBar()
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 26))
-        self.menubar.setObjectName("menubar")
-        self.menuHelp = QtWidgets.QMenu("Help", self.menubar)
-        self.menuHelp.setObjectName("menuHelp")
-        self.setMenuBar(self.menubar)
-        self.statusbar = QtWidgets.QStatusBar()
-        self.statusbar.setObjectName("statusbar")
-        self.setStatusBar(self.statusbar)
-        self.menubar.addAction(self.menuHelp.menuAction())
 
         QtCore.QMetaObject.connectSlotsByName(self)
 

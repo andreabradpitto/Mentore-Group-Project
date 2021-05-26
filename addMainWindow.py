@@ -5,6 +5,7 @@ from pageWindow import PageWindow
 class AddMainWindow(PageWindow):
     def __init__(self):
         super().__init__()
+        self.initBarUI()
         self.initUI()
 
     def initUI(self):
@@ -39,16 +40,6 @@ class AddMainWindow(PageWindow):
         self.back_pb.setObjectName("back_pb")
         self.back_pb.clicked.connect(self.goToMain)
         self.setCentralWidget(self.centralwidget)
-        self.menubar = QtWidgets.QMenuBar()
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 640, 26))
-        self.menubar.setObjectName("menubar")
-        self.menuHelp = QtWidgets.QMenu("Help", self.menubar)
-        self.menuHelp.setObjectName("menuHelp")
-        self.setMenuBar(self.menubar)
-        self.statusbar = QtWidgets.QStatusBar()
-        self.statusbar.setObjectName("statusbar")
-        self.setStatusBar(self.statusbar)
-        self.menubar.addAction(self.menuHelp.menuAction())
 
         QtCore.QMetaObject.connectSlotsByName(self)
 
