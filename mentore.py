@@ -1,11 +1,13 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
-from mentorePalette import mentorePaletteSetter
+#from mentorePalette import mentorePaletteSetter
 from pageWindow import PageWindow
 from browseWindow import BrowseWindow
 from mainWindow import MainWindow
 from addMainWindow import AddMainWindow
 from addSentenceWindow import AddSentenceWindow
 from addQuestionWindow import AddQuestionWindow
+from addContQuestionWindow import AddContQuestionWindow
+from addGoalQuestionWindow import AddGoalQuestionWindow
 from helpWindow import HelpWindow
 
 
@@ -14,9 +16,9 @@ class Window(QtWidgets.QMainWindow):
         super().__init__(parent)
 
         self.resize(800, 480)
-        palette = QtGui.QPalette()
-        palette = mentorePaletteSetter(palette)
-        self.setPalette(palette)
+        #palette = QtGui.QPalette()
+        #palette = mentorePaletteSetter(palette)
+        #self.setPalette(palette)
 
         self.setWindowIcon(QtGui.QIcon('images/mentore_logo.svg'))
 
@@ -31,6 +33,8 @@ class Window(QtWidgets.QMainWindow):
         self.register(AddMainWindow(), "add")
         self.register(AddSentenceWindow(), "addSentence")
         self.register(AddQuestionWindow(), "addQuestion")
+        self.register(AddContQuestionWindow(), "addContQuestion")
+        self.register(AddGoalQuestionWindow(), "addGoalQuestion")
         self.register(BrowseWindow(), "browse")
 
         self.goto("main")
@@ -50,7 +54,7 @@ class Window(QtWidgets.QMainWindow):
         self.statusbar.setStyleSheet("border-top: 1px solid")
         self.statusbarLabelIntro = QtWidgets.QLabel()
         self.statusbar.addPermanentWidget(self.statusbarLabelIntro)
-        self.statusbarLabelIntro.setText("Selected Class:")
+        self.statusbarLabelIntro.setText("Selected Topic:")
         self.statusbarLabelIntro.setStyleSheet("border-top: 0px")
         self.statusbarLabel = QtWidgets.QLabel()
         self.statusbar.addPermanentWidget(self.statusbarLabel)

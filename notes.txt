@@ -81,3 +81,9 @@ they finish their job, an alert like "are you sure you want to save these edit(s
 But I think that we should first just focus on the addition part, and then care about this if needed.
 
 appunto mio: prova = palette.brightText()
+
+Post-Carmine meeting important points:
+- we access the single .owl file directly
+- our schoolSubject subclasse is created/accessed at start. We cannot go outside of this topic
+- we should implement subclasses of classes inside schoolSubject
+- provide "remove concept" feature (not a priority but nice)

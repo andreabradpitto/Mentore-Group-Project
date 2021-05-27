@@ -17,12 +17,12 @@ class MainWindow(PageWindow):
         self.mainLabel.setGeometry(QtCore.QRect(150, 50, 351, 81))
         self.mainLabel.setObjectName("mainLabel")
         self.mainLabel.setText(
-            "<html><head/><body><p align=\"center\">Select the class/subject to edit</p></body></html>")
+            "<html><head/><body><p align=\"center\">Select the topic/subject to edit</p></body></html>")
         self.recentLabel = QtWidgets.QLabel(self.centralwidget)
         self.recentLabel.setGeometry(QtCore.QRect(50, 250, 171, 51))
         self.recentLabel.setObjectName("recentLabel")
         self.recentLabel.setText(
-            "<html><head/><body><p align=\"center\">Recently used Classes</p></body></html>")
+            "<html><head/><body><p align=\"center\">Recently used topics</p></body></html>")
         self.verticalLayoutWidget = QtWidgets.QWidget(self.centralwidget)
         self.verticalLayoutWidget.setGeometry(QtCore.QRect(55, 300, 160, 106))
         self.verticalLayoutWidget.setObjectName("verticalLayoutWidget")

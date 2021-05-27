@@ -2,14 +2,14 @@ from PyQt5 import QtCore, QtWidgets
 from pageWindow import PageWindow
 
 
-class AddQuestionWindow(PageWindow):
+class AddGoalQuestionWindow(PageWindow):
     def __init__(self):
         super().__init__()
         self.initPageUI()
 
     def initPageUI(self):
-        self.setWindowTitle("Add question")
-        self.setObjectName("AddQuestionWindow")
+        self.setWindowTitle("Add goal question")
+        self.setObjectName("AddGoalQuestionWindow")
 
         self.centralwidget = QtWidgets.QWidget()
         self.centralwidget.setObjectName("centralwidget")
@@ -26,10 +26,10 @@ class AddQuestionWindow(PageWindow):
         self.mainLabel.setText("<html><head/><body><p align=\"center\"><span style=\" font-size:12pt;\">"
                                "Please enter a question and its answer for the _____ topic</span></p></body></html>")
         self.questionLabel = QtWidgets.QLabel(self.centralwidget)
-        self.questionLabel.setGeometry(QtCore.QRect(20, 170, 141, 21))
+        self.questionLabel.setGeometry(QtCore.QRect(38, 170, 141, 21))
         self.questionLabel.setObjectName("questionLabel")
         self.questionLabel.setText(
-            "<html><head/><body><p align=\"center\">Question:</p></body></html>")
+            "<html><head/><body><p align=\"center\">Goal question:</p></body></html>")
         self.question_lineEdit = QtWidgets.QLineEdit(self.centralwidget)
         self.question_lineEdit.setGeometry(QtCore.QRect(50, 200, 500, 29))
         self.question_lineEdit.setObjectName("question_lineEdit")

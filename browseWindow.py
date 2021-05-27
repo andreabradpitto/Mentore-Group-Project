@@ -8,7 +8,7 @@ class BrowseWindow(PageWindow):
         self.initPageUI()
 
     def initPageUI(self):
-        self.setWindowTitle("Select Class")
+        self.setWindowTitle("Select topic")
         self.setObjectName("BrowseWindow")
 
         self.centralwidget = QtWidgets.QWidget()
@@ -23,7 +23,7 @@ class BrowseWindow(PageWindow):
         self.mainLabel = QtWidgets.QLabel(self.centralwidget)
         self.mainLabel.setGeometry(QtCore.QRect(180, 120, 381, 21))
         self.mainLabel.setObjectName("mainLabel")
-        self.mainLabel.setText("<html><head/><body><p align=\"center\">Enter the Class / "
+        self.mainLabel.setText("<html><head/><body><p align=\"center\">Enter the topic / "
                                "Subject you want to add</p></body></html>")
         self.ok_pb = QtWidgets.QPushButton("Ok", self.centralwidget)
         self.ok_pb.setGeometry(QtCore.QRect(630, 370, 106, 30))
