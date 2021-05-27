@@ -84,7 +84,8 @@ class Window(QtWidgets.QMainWindow):
             self.setWindowTitle(widget.windowTitle())
 
     def goToHelp(self):
-        self.register(HelpWindow(self.lastPage), "help")
+        if self.lastPage != "help":
+            self.register(HelpWindow(self.lastPage), "help")
         self.goto("help")
 
 
