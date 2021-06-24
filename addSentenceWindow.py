@@ -25,7 +25,7 @@ class AddSentenceWindow(PageWindow):
         self.mainLabel.setFocusPolicy(QtCore.Qt.WheelFocus)
         self.mainLabel.setObjectName("mainLabel")
         self.mainLabel.setText("<html><head/><body><p align=\"center\"><span style=\" font-size:12pt;\">"
-                               "Please enter a new sentence</span></p></body></html>")
+                               "Please enter a new positive sentence</span></p></body></html>")
         self.sentence_lineEdit = QtWidgets.QLineEdit(self.centralwidget)
         self.sentence_lineEdit.setGeometry(QtCore.QRect(60, 170, 461, 29))
         self.sentence_lineEdit.setObjectName("sentence_lineEdit")
@@ -52,18 +52,23 @@ class AddSentenceWindow(PageWindow):
     def resetNegWait(self):
         self.negative_checkBox.setChecked(0)
         self.wait_checkBox.setChecked(0)
+        self.mainLabel.setText("<html><head/><body><p align=\"center\"><span style=\" font-size:12pt;\">"
+                               "Please enter a new positive sentence</span></p></body></html>")
 
     def resetPosWait(self):
         self.positive_checkBox.setChecked(0)
         self.wait_checkBox.setChecked(0)
+        self.mainLabel.setText("<html><head/><body><p align=\"center\"><span style=\" font-size:12pt;\">"
+                               "Please enter a new negative sentence</span></p></body></html>")
 
     def resetPosNeg(self):
         self.positive_checkBox.setChecked(0)
         self.negative_checkBox.setChecked(0)
+        self.mainLabel.setText("<html><head/><body><p align=\"center\"><span style=\" font-size:12pt;\">"
+                               "Please enter a new wait sentence</span></p></body></html>")
 
     def goToAddMain(self):
         self.sentence_lineEdit.clear()
         self.positive_checkBox.setChecked(1)
-        self.negative_checkBox.setChecked(0)
-        self.wait_checkBox.setChecked(0)
+        self.resetNegWait()
         self.goto("add")

@@ -6,8 +6,6 @@ from mainWindow import MainWindow
 from addMainWindow import AddMainWindow
 from addSentenceWindow import AddSentenceWindow
 from addQuestionWindow import AddQuestionWindow
-from addContQuestionWindow import AddContQuestionWindow
-from addGoalQuestionWindow import AddGoalQuestionWindow
 from helpWindow import HelpWindow
 
 
@@ -33,8 +31,6 @@ class Window(QtWidgets.QMainWindow):
         self.register(AddMainWindow(), "add")
         self.register(AddSentenceWindow(), "addSentence")
         self.register(AddQuestionWindow(), "addQuestion")
-        self.register(AddContQuestionWindow(), "addContQuestion")
-        self.register(AddGoalQuestionWindow(), "addGoalQuestion")
         self.register(BrowseWindow(), "browse")
 
         self.goto("main")
