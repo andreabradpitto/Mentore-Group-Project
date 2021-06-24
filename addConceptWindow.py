@@ -24,8 +24,10 @@ class AddConceptWindow(PageWindow):
         self.mainLabel.setGeometry(QtCore.QRect(200, 90, 401, 31))
         self.mainLabel.setFocusPolicy(QtCore.Qt.WheelFocus)
         self.mainLabel.setObjectName("mainLabel")
-        self.mainLabel.setText("<html><head/><body><p align=\"center\"><span style=\" font-size:12pt;\">"
-                               "Please enter a new concept name</span></p></body></html>")
+        labelString = "<html><head/><body><p align=\"center\"><span style=\" font-size:12pt;\">Please enter a new </span> \
+                       <span style=\" font-size:12pt; color:#ffffff\" > concept </span> <span style=\" font-size:12pt;\"> \
+                       name</span></p></body></html>"
+        self.mainLabel.setText(labelString)
         self.concept_lineEdit = QtWidgets.QLineEdit(self.centralwidget)
         self.concept_lineEdit.setGeometry(QtCore.QRect(60, 170, 461, 29))
         self.concept_lineEdit.setObjectName("concept_lineEdit")

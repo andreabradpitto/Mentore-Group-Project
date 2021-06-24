@@ -24,8 +24,7 @@ class AddSentenceWindow(PageWindow):
         self.mainLabel.setGeometry(QtCore.QRect(200, 90, 401, 31))
         self.mainLabel.setFocusPolicy(QtCore.Qt.WheelFocus)
         self.mainLabel.setObjectName("mainLabel")
-        self.mainLabel.setText("<html><head/><body><p align=\"center\"><span style=\" font-size:12pt;\">"
-                               "Please enter a new positive sentence</span></p></body></html>")
+        self.mainLabelUpdater("positive")
         self.sentence_lineEdit = QtWidgets.QLineEdit(self.centralwidget)
         self.sentence_lineEdit.setGeometry(QtCore.QRect(60, 170, 461, 29))
         self.sentence_lineEdit.setObjectName("sentence_lineEdit")
@@ -49,23 +48,26 @@ class AddSentenceWindow(PageWindow):
 
         QtCore.QMetaObject.connectSlotsByName(self)
 
+    def mainLabelUpdater(self, word: str):
+        labelString = "<html><head/><body><p align=\"center\"><span style=\" font-size:12pt;\">Please enter a new </span> \
+                       <span style=\" font-size:12pt; color:#ffffff\" >" + word + "</span> <span style=\" font-size:12pt;\"> \
+                       sentence</span></p></body></html>"
+        self.mainLabel.setText(labelString)
+
     def resetNegWait(self):
         self.negative_checkBox.setChecked(0)
         self.wait_checkBox.setChecked(0)
-        self.mainLabel.setText("<html><head/><body><p align=\"center\"><span style=\" font-size:12pt;\">"
-                               "Please enter a new positive sentence</span></p></body></html>")
+        self.mainLabelUpdater("positive")
 
     def resetPosWait(self):
         self.positive_checkBox.setChecked(0)
         self.wait_checkBox.setChecked(0)
-        self.mainLabel.setText("<html><head/><body><p align=\"center\"><span style=\" font-size:12pt;\">"
-                               "Please enter a new negative sentence</span></p></body></html>")
+        self.mainLabelUpdater("negative")
 
     def resetPosNeg(self):
         self.positive_checkBox.setChecked(0)
         self.negative_checkBox.setChecked(0)
-        self.mainLabel.setText("<html><head/><body><p align=\"center\"><span style=\" font-size:12pt;\">"
-                               "Please enter a new wait sentence</span></p></body></html>")
+        self.mainLabelUpdater("wait")
 
     def goToAddMain(self):
         self.sentence_lineEdit.clear()

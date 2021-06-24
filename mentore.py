@@ -1,5 +1,5 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
-#from mentorePalette import mentorePaletteSetter
+from mentorePalette import mentorePaletteSetter
 from pageWindow import PageWindow
 from browseWindow import BrowseWindow
 from mainWindow import MainWindow
@@ -15,9 +15,9 @@ class Window(QtWidgets.QMainWindow):
         super().__init__(parent)
 
         self.resize(800, 480)
-        #palette = QtGui.QPalette()
-        #palette = mentorePaletteSetter(palette)
-        #self.setPalette(palette)
+        palette = QtGui.QPalette()
+        palette = mentorePaletteSetter(palette)
+        self.setPalette(palette)
 
         self.setWindowIcon(QtGui.QIcon('images/mentore_logo.svg'))
 
@@ -52,11 +52,12 @@ class Window(QtWidgets.QMainWindow):
         self.statusbar.setStyleSheet("border-top: 1px solid")
         self.statusbarLabelIntro = QtWidgets.QLabel()
         self.statusbar.addPermanentWidget(self.statusbarLabelIntro)
-        self.statusbarLabelIntro.setText("Selected Topic:")
+        self.statusbarLabelIntro.setText("Selected concept:")
         self.statusbarLabelIntro.setStyleSheet("border-top: 0px")
         self.statusbarLabel = QtWidgets.QLabel()
         self.statusbar.addPermanentWidget(self.statusbarLabel)
-        self.statusbarLabel.setText("none")
+        self.statusbarLabel.setText("<html><head/><body><p span style=\"color:#ffffff\">none</span> \
+                                    </p></body></html>")
         self.statusbarLabel.setStyleSheet("border-top: 0px")
         self.statusbarLabelOutro = QtWidgets.QLabel()
         self.statusbar.addPermanentWidget(self.statusbarLabelOutro)

@@ -24,8 +24,7 @@ class AddQuestionWindow(PageWindow):
         self.mainLabel.setGeometry(QtCore.QRect(40, 90, 701, 31))
         self.mainLabel.setFocusPolicy(QtCore.Qt.WheelFocus)
         self.mainLabel.setObjectName("mainLabel")
-        self.mainLabel.setText("<html><head/><body><p align=\"center\"><span style=\" font-size:12pt;\">"
-                               "Please enter a new plain question</span></p></body></html>")
+        self.mainLabelUpdater("plain")
         self.questionLabel = QtWidgets.QLabel(self.centralwidget)
         self.questionLabel.setGeometry(QtCore.QRect(42, 140, 181, 21))
         self.questionLabel.setObjectName("questionLabel")
@@ -55,6 +54,12 @@ class AddQuestionWindow(PageWindow):
 
         QtCore.QMetaObject.connectSlotsByName(self)
 
+    def mainLabelUpdater(self, word: str):
+        labelString = "<html><head/><body><p align=\"center\"><span style=\" font-size:12pt;\">Please enter a new </span> \
+                       <span style=\" font-size:12pt; color:#ffffff\" >" + word + "</span> <span style=\" font-size:12pt;\"> \
+                       question</span></p></body></html>"
+        self.mainLabel.setText(labelString)
+
     def resetGoalCont(self):
         self.goal_checkBox.setChecked(0)
         self.contextual_checkBox.setChecked(0)
@@ -62,8 +67,7 @@ class AddQuestionWindow(PageWindow):
             self.answerLabel.hide()
             self.answer_lineEdit.hide()
             self.answer_present = 0
-        self.mainLabel.setText("<html><head/><body><p align=\"center\"><span style=\" font-size:12pt;\">"
-                               "Please enter a new plain question</span></p></body></html>")
+        self.mainLabelUpdater("plain")
 
     def resetPlainCont(self):
         self.plain_checkBox.setChecked(0)
@@ -72,8 +76,7 @@ class AddQuestionWindow(PageWindow):
             self.answerLabel.hide()
             self.answer_lineEdit.hide()
             self.answer_present = 0
-        self.mainLabel.setText("<html><head/><body><p align=\"center\"><span style=\" font-size:12pt;\">"
-                               "Please enter a new goal question</span></p></body></html>")
+        self.mainLabelUpdater("goal")
 
     def resetPlainGoal(self):
         self.plain_checkBox.setChecked(0)
@@ -89,8 +92,7 @@ class AddQuestionWindow(PageWindow):
         self.answerLabel.show()
         self.answer_lineEdit.show()
         self.answer_present = 1
-        self.mainLabel.setText("<html><head/><body><p align=\"center\"><span style=\" font-size:12pt;\">"
-                               "Please enter a new contextual question and its answer</span></p></body></html>")
+        self.mainLabelUpdater("contextual")
 
     def goToAddMain(self):
         self.question_lineEdit.clear()
