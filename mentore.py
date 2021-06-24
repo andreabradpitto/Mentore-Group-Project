@@ -4,6 +4,7 @@ from pageWindow import PageWindow
 from browseWindow import BrowseWindow
 from mainWindow import MainWindow
 from addMainWindow import AddMainWindow
+from addConceptWindow import AddConceptWindow
 from addSentenceWindow import AddSentenceWindow
 from addQuestionWindow import AddQuestionWindow
 from helpWindow import HelpWindow
@@ -29,6 +30,7 @@ class Window(QtWidgets.QMainWindow):
 
         self.register(MainWindow(), "main")
         self.register(AddMainWindow(), "add")
+        self.register(AddConceptWindow(), "addConcept")
         self.register(AddSentenceWindow(), "addSentence")
         self.register(AddQuestionWindow(), "addQuestion")
         self.register(BrowseWindow(), "browse")

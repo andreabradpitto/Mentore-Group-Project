@@ -18,6 +18,11 @@ class AddMainWindow(PageWindow):
         self.mainLabel.setObjectName("mainLabel")
         self.mainLabel.setText(
             "<html><head/><body><p align=\"center\">Something goes here...</p></body></html>")
+        self.addConcept_pb = QtWidgets.QPushButton(
+            "Add concept", self.centralwidget)
+        self.addConcept_pb.setGeometry(QtCore.QRect(320, 145, 160, 27))
+        self.addConcept_pb.setObjectName("addConcept_pb")
+        self.addConcept_pb.clicked.connect(self.goToAddConcept)
         self.addSentence_pb = QtWidgets.QPushButton(
             "Add sentence", self.centralwidget)
         self.addSentence_pb.setGeometry(QtCore.QRect(320, 190, 160, 27))
@@ -38,6 +43,9 @@ class AddMainWindow(PageWindow):
 
     def goToMain(self):
         self.goto("main")
+
+    def goToAddConcept(self):
+        self.goto("addConcept")
 
     def goToAddSentence(self):
         self.goto("addSentence")
