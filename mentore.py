@@ -56,8 +56,7 @@ class Window(QtWidgets.QMainWindow):
         self.statusbarLabelIntro.setStyleSheet("border-top: 0px")
         self.statusbarLabel = QtWidgets.QLabel()
         self.statusbar.addPermanentWidget(self.statusbarLabel)
-        self.statusbarLabel.setText("<html><head/><body><p span style=\"color:#ffffff\">none</span> \
-                                    </p></body></html>")
+        self.statusBarUpdater("none")
         self.statusbarLabel.setStyleSheet("border-top: 0px")
         self.statusbarLabelOutro = QtWidgets.QLabel()
         self.statusbar.addPermanentWidget(self.statusbarLabelOutro)
@@ -71,6 +70,11 @@ class Window(QtWidgets.QMainWindow):
         logoPixmap = logoPixmap.scaled(100, 100, QtCore.Qt.KeepAspectRatio)
         logoLabel.setPixmap(logoPixmap)
         logoLabel.resize(logoPixmap.width(), logoPixmap.height())
+
+    def statusBarUpdater(self, concept: str):
+        statusString = "<html><head/><body><p> <b>" + concept + "</b> \
+                        </p></body></html>"
+        self.statusbarLabel.setText(statusString)
 
     def register(self, widget, name):
         self.m_pages[name] = widget

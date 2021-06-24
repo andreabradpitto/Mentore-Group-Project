@@ -13,11 +13,6 @@ class AddMainWindow(PageWindow):
 
         self.centralwidget = QtWidgets.QWidget()
         self.centralwidget.setObjectName("centralwidget")
-        self.mainLabel = QtWidgets.QLabel(self.centralwidget)
-        self.mainLabel.setGeometry(QtCore.QRect(150, 50, 351, 81))
-        self.mainLabel.setObjectName("mainLabel")
-        self.mainLabel.setText(
-            "<html><head/><body><p align=\"center\">Something goes here...</p></body></html>")
         self.addConcept_pb = QtWidgets.QPushButton(
             "Add concept", self.centralwidget)
         self.addConcept_pb.setGeometry(QtCore.QRect(320, 145, 160, 27))

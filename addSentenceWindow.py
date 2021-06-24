@@ -49,8 +49,8 @@ class AddSentenceWindow(PageWindow):
         QtCore.QMetaObject.connectSlotsByName(self)
 
     def mainLabelUpdater(self, word: str):
-        labelString = "<html><head/><body><p align=\"center\"><span style=\" font-size:12pt;\">Please enter a new </span> \
-                       <span style=\" font-size:12pt; color:#ffffff\" >" + word + "</span> <span style=\" font-size:12pt;\"> \
+        labelString = "<html><head/><body><p align=\"center\"><span style=\"font-size:12pt\">Please enter a new </span> \
+                       <span style=\"font-size:12pt; font-weight:bold\">" + word + "</span> <span style=\"font-size:12pt\"> \
                        sentence</span></p></body></html>"
         self.mainLabel.setText(labelString)
 
