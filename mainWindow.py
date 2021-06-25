@@ -14,10 +14,15 @@ class MainWindow(PageWindow):
         self.centralwidget = QtWidgets.QWidget()
         self.centralwidget.setObjectName("centralwidget")
         self.mainLabel = QtWidgets.QLabel(self.centralwidget)
-        self.mainLabel.setGeometry(QtCore.QRect(150, 50, 351, 81))
+        self.mainLabel.setGeometry(QtCore.QRect(0, 0, 800, 240))
         self.mainLabel.setObjectName("mainLabel")
         self.mainLabel.setText(
-            "<html><head/><body><p align=\"center\">Select the topic/subject to edit</p></body></html>")
+            "<html><head/><body><p align=\"center\"><span style=\"font-size:12pt\">Welcome to Mentore! \
+             <br>To begin, </span><span style=\"font-size:12pt; font-weight:bold\">Browse</span> \
+             <span style=\"font-size:12pt\"> for an existing concept or </span> \
+             <span style=\"font-size:12pt; font-weight:bold\">Add</span><span style=\"font-size:12pt\"> something \
+             <br>Press the </span><span style=\"font-size:12pt; font-weight:bold\">Help</span> \
+             <span style=\"font-size:12pt\"> button at any time if you need assistance</span></p></body></html>")
         self.recentLabel = QtWidgets.QLabel(self.centralwidget)
         self.recentLabel.setGeometry(QtCore.QRect(50, 250, 171, 51))
         self.recentLabel.setObjectName("recentLabel")

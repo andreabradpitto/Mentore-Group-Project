@@ -21,27 +21,32 @@ class AddSentenceWindow(PageWindow):
         self.cancel_pb.setObjectName("cancel_pb")
         self.cancel_pb.clicked.connect(self.goToAddMain)
         self.mainLabel = QtWidgets.QLabel(self.centralwidget)
-        self.mainLabel.setGeometry(QtCore.QRect(200, 90, 401, 31))
+        self.mainLabel.setGeometry(QtCore.QRect(0, 0, 800, 180))
         self.mainLabel.setFocusPolicy(QtCore.Qt.WheelFocus)
         self.mainLabel.setObjectName("mainLabel")
         self.mainLabelUpdater("positive")
+        self.sentenceLabel = QtWidgets.QLabel(self.centralwidget)
+        self.sentenceLabel.setGeometry(QtCore.QRect(100, 145, 181, 21))
+        self.sentenceLabel.setObjectName("sentenceLabel")
+        self.sentenceLabel.setText(
+            "<html><head/><body><p align=\"left\">Insert a sentence:</p></body></html>")
         self.sentence_lineEdit = QtWidgets.QLineEdit(self.centralwidget)
-        self.sentence_lineEdit.setGeometry(QtCore.QRect(60, 170, 461, 29))
+        self.sentence_lineEdit.setGeometry(QtCore.QRect(100, 170, 600, 30))
         self.sentence_lineEdit.setObjectName("sentence_lineEdit")
         self.positive_checkBox = QtWidgets.QCheckBox(
             "Positive sentence", self.centralwidget)
-        self.positive_checkBox.setGeometry(QtCore.QRect(560, 170, 181, 27))
+        self.positive_checkBox.setGeometry(QtCore.QRect(80, 330, 181, 27))
         self.positive_checkBox.setObjectName("positive_checkBox")
         self.positive_checkBox.setChecked(1)
         self.positive_checkBox.clicked.connect(self.resetNegWait)
         self.negative_checkBox = QtWidgets.QCheckBox(
             "Negative sentence", self.centralwidget)
-        self.negative_checkBox.setGeometry(QtCore.QRect(560, 190, 181, 27))
+        self.negative_checkBox.setGeometry(QtCore.QRect(80, 350, 181, 27))
         self.negative_checkBox.setObjectName("negative_checkBox")
         self.negative_checkBox.clicked.connect(self.resetPosWait)
         self.wait_checkBox = QtWidgets.QCheckBox(
             "Wait sentence", self.centralwidget)
-        self.wait_checkBox.setGeometry(QtCore.QRect(560, 210, 181, 27))
+        self.wait_checkBox.setGeometry(QtCore.QRect(80, 370, 181, 27))
         self.wait_checkBox.setObjectName("wait_checkBox")
         self.wait_checkBox.clicked.connect(self.resetPosNeg)
         self.setCentralWidget(self.centralwidget)
@@ -49,7 +54,7 @@ class AddSentenceWindow(PageWindow):
         QtCore.QMetaObject.connectSlotsByName(self)
 
     def mainLabelUpdater(self, word: str):
-        labelString = "<html><head/><body><p align=\"center\"><span style=\"font-size:12pt\">Please enter a new </span> \
+        labelString = "<html><head/><body><p align=\"center\"><span style=\"font-size:12pt\">You are about to enter a new </span> \
                        <span style=\"font-size:12pt; font-weight:bold\">" + word + "</span> <span style=\"font-size:12pt\"> \
                        sentence</span></p></body></html>"
         self.mainLabel.setText(labelString)
