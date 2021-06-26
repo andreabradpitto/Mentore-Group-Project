@@ -20,6 +20,8 @@ class Window(QtWidgets.QMainWindow):
         self.setPalette(palette)
 
         self.setWindowIcon(QtGui.QIcon('images/mentore_logo.svg'))
+        #ontology = get_ontology("ontology/pizza.owl")
+        #ontology.load()
 
         self.initPagesUI()
 
