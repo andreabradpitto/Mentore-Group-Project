@@ -21,7 +21,7 @@ class AddMainWindow(PageWindow):
                        <span style=\"font-size:12pt\">Choose which element you want to add to the ontology</span></p></body></html>"
         self.mainLabel.setText(labelString)
         self.addConcept_pb = QtWidgets.QPushButton(
-            "Add concept", self.centralwidget)
+            "Add subject", self.centralwidget)
         self.addConcept_pb.setGeometry(QtCore.QRect(320, 150, 160, 27))
         self.addConcept_pb.setObjectName("addConcept_pb")
         self.addConcept_pb.clicked.connect(self.goToAddConcept)

@@ -1,30 +1,79 @@
-<html><head><style>body {
-   color: black;
-}
-</style></head><body><h1 id="sample-markdown">Sample Markdown</h1>
-<p>This is some basic, sample markdown.</p>
-<h2 id="second-heading">Second Heading</h2>
-<ul>
-<li>Unordered lists, and:<ol>
-<li>One</li>
-<li>Two</li>
-<li>Three</li>
-</ol>
-</li>
-<li>More</li>
-</ul>
-<blockquote>
-<p>Blockquote</p>
-</blockquote>
-<p>And <strong>bold</strong>, <em>italics</em>, and even <em>italics and later <strong>bold</strong></em>. Even <del>strikethrough</del>. <a href="https://markdowntohtml.com">A link</a> to somewhere.</p>
-<p>And code highlighting:</p>
-<pre><code class="lang-js"><span class="hljs-keyword">var</span> foo = <span class="hljs-string">'bar'</span>;
+<html>
 
-<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">baz</span><span class="hljs-params">(s)</span> </span>{
-   <span class="hljs-keyword">return</span> foo + <span class="hljs-string">':'</span> + s;
-}
-</code></pre>
-<p>Or inline code like <code>var foo = &#39;bar&#39;;</code>.</p>
-<p>Or an image of bears</p>
-<p>The end ...</p>
-</body></html>
+<head>
+   <style>
+      body {
+         color: black;
+      }
+   </style>
+</head>
+
+<body>
+   <h1 id="title" style="text-align:center">Help page</h1>
+   <p style="text-align:center">Here you will find a quick aid for all the features of the Mentore GUI</p>
+   <h2 id="second-heading" style="text-align:center">Pages list</h2>
+   <ul style="text-align:center">
+      <li>Main page</li>
+      <li>Browse page</li>
+      <li>Main add page</li>
+      <li>Add subject page</li>
+      <li>Add sentence page</li>
+      <li>Add question page</li>
+      <li>Help page</li>
+      </li>
+   </ul>
+   <blockquote>
+      <p style="text-align:center">Blockquote</p>
+   </blockquote>
+   <p style="text-align:center">Work in progress!
+   </p>
+
+   <title>Pages List</title>
+   <style type="text/css">
+      #wrapper {
+         margin: auto;
+         width: 500px;
+         border: solid 1px #ffffff;
+      }
+
+      #header {
+         text-align: center;
+         font-size: 200%;
+      }
+
+      #content {
+         text-align: center;
+      }
+
+      #content ul {
+         text-align: left;
+         font-size: 150%;
+         list-style-type: none;
+         margin: 20px auto;
+         padding: 0px;
+         border: solid 1px #ffffff;
+      }
+   </style>
+   </head>
+
+   <body>
+      <div id="wrapper">
+         <div id="header">
+            Shrinkwrapped List
+         </div>
+         <div id="content">
+            <ul>
+               <li>Main page</li>
+               <li>Browse page</li>
+               <li>Main add page</li>
+               <li>Add subject page</li>
+               <li>Add sentence page</li>
+               <li>Add question page</li>
+               <li>Help page</li>
+            </ul>
+         </div>
+      </div>
+
+   </body>
+
+</html>
