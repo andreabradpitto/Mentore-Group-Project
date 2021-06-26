@@ -24,10 +24,10 @@ class MainWindow(PageWindow):
              <br>Press the </span><span style=\"font-size:12pt; font-weight:bold\">Help</span> \
              <span style=\"font-size:12pt\"> button at any time if you need assistance</span></p></body></html>")
         self.recentLabel = QtWidgets.QLabel(self.centralwidget)
-        self.recentLabel.setGeometry(QtCore.QRect(50, 250, 171, 51))
+        self.recentLabel.setGeometry(QtCore.QRect(45, 260, 180, 51))
         self.recentLabel.setObjectName("recentLabel")
         self.recentLabel.setText(
-            "<html><head/><body><p align=\"center\">Recently used topics</p></body></html>")
+            "<html><head/><body><p align=\"center\">Recently used subjects</p></body></html>")
         self.verticalLayoutWidget = QtWidgets.QWidget(self.centralwidget)
         self.verticalLayoutWidget.setGeometry(QtCore.QRect(55, 300, 160, 106))
         self.verticalLayoutWidget.setObjectName("verticalLayoutWidget")

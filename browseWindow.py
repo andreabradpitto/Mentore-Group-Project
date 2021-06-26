@@ -21,10 +21,13 @@ class BrowseWindow(PageWindow):
         self.concept_lineEdit.setGeometry(QtCore.QRect(200, 210, 231, 25))
         self.concept_lineEdit.setObjectName("concept_lineEdit")
         self.mainLabel = QtWidgets.QLabel(self.centralwidget)
-        self.mainLabel.setGeometry(QtCore.QRect(180, 120, 381, 21))
+        self.mainLabel.setGeometry(QtCore.QRect(0, 0, 800, 180))
+        self.mainLabel.setFocusPolicy(QtCore.Qt.WheelFocus)
         self.mainLabel.setObjectName("mainLabel")
-        self.mainLabel.setText("<html><head/><body><p align=\"center\">Enter the topic / "
-                               "Subject you want to add</p></body></html>")
+        labelString = "<html><head/><body><p align=\"center\"><span style=\"font-size:12pt\">You are </span> \
+                       <span style=\"font-size:12pt; font-weight:bold\"> selecting </span> <span style=\"font-size:12pt\"> \
+                       a subject</span></p></body></html>"
+        self.mainLabel.setText(labelString)
         self.ok_pb = QtWidgets.QPushButton("Ok", self.centralwidget)
         self.ok_pb.setGeometry(QtCore.QRect(630, 370, 106, 30))
         self.ok_pb.setObjectName("ok_pb")

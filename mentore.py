@@ -52,7 +52,7 @@ class Window(QtWidgets.QMainWindow):
         self.statusbar.setStyleSheet("border-top: 1px solid")
         self.statusbarLabelIntro = QtWidgets.QLabel()
         self.statusbar.addPermanentWidget(self.statusbarLabelIntro)
-        self.statusbarLabelIntro.setText("Selected concept:")
+        self.statusbarLabelIntro.setText("Selected subject:")
         self.statusbarLabelIntro.setStyleSheet("border-top: 0px")
         self.statusbarLabel = QtWidgets.QLabel()
         self.statusbar.addPermanentWidget(self.statusbarLabel)
