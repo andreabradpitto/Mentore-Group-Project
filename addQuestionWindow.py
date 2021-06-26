@@ -68,6 +68,7 @@ class AddQuestionWindow(PageWindow):
             self.answer_lineEdit.hide()
             self.answer_present = 0
         self.mainLabelUpdater("plain")
+        self.plain_checkBox.setChecked(1)
 
     def resetPlainCont(self):
         self.plain_checkBox.setChecked(0)
@@ -77,6 +78,7 @@ class AddQuestionWindow(PageWindow):
             self.answer_lineEdit.hide()
             self.answer_present = 0
         self.mainLabelUpdater("goal")
+        self.goal_checkBox.setChecked(1)
 
     def resetPlainGoal(self):
         self.plain_checkBox.setChecked(0)
@@ -94,6 +96,7 @@ class AddQuestionWindow(PageWindow):
         self.answer_lineEdit.show()
         self.answer_present = 1
         self.mainLabelUpdater("contextual")
+        self.contextual_checkBox.setChecked(1)
 
     def goToAddMain(self):
         self.question_lineEdit.clear()

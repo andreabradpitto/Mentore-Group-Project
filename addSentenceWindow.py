@@ -63,16 +63,19 @@ class AddSentenceWindow(PageWindow):
         self.negative_checkBox.setChecked(0)
         self.wait_checkBox.setChecked(0)
         self.mainLabelUpdater("positive")
+        self.positive_checkBox.setChecked(1)
 
     def resetPosWait(self):
         self.positive_checkBox.setChecked(0)
         self.wait_checkBox.setChecked(0)
         self.mainLabelUpdater("negative")
+        self.negative_checkBox.setChecked(1)
 
     def resetPosNeg(self):
         self.positive_checkBox.setChecked(0)
         self.negative_checkBox.setChecked(0)
         self.mainLabelUpdater("wait")
+        self.wait_checkBox.setChecked(1)
 
     def goToAddMain(self):
         self.sentence_lineEdit.clear()
