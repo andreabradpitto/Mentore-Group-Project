@@ -1,6 +1,5 @@
 __pycache__/*
 .qt_for_python/*
-.qt_for_python/uic/*
 *.pyc
 
 #*.csv
