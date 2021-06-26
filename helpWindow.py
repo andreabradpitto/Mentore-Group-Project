@@ -18,10 +18,6 @@ class HelpWindow(PageWindow):
         self.back_pb.setGeometry(QtCore.QRect(630, 370, 106, 30))
         self.back_pb.setObjectName("back_pb")
         self.back_pb.clicked.connect(self.goToPreviousPage)
-        #self.mdText = QtWidgets.QTextBrowser(self.centralwidget)
-        #self.mdText.setMarkdown(open('help.md', encoding="utf8").read())  # encoding needed?
-        #self.mdText.setGeometry(QtCore.QRect(0, 0, 800, 290))
-        #self.mdText.setObjectName("mdText")
         self.htmlText = QtWidgets.QTextBrowser(self.centralwidget)
         self.htmlText.setHtml(open('help.html', encoding="utf8").read())
         self.htmlText.setGeometry(QtCore.QRect(0, 0, 800, 290))
