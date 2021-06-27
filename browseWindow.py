@@ -8,7 +8,7 @@ class BrowseWindow(PageWindow):
         self.initPageUI()
 
     def initPageUI(self):
-        self.setWindowTitle("Select topic")
+        self.setWindowTitle("Select subject")
         self.setObjectName("BrowseWindow")
 
         self.centralwidget = QtWidgets.QWidget()

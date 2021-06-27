@@ -8,7 +8,7 @@ class AddConceptWindow(PageWindow):
         self.initPageUI()
 
     def initPageUI(self):
-        self.setWindowTitle("Add Concept")
+        self.setWindowTitle("Add subject")
         self.setObjectName("AddConceptWindow")
 
         self.centralwidget = QtWidgets.QWidget()
