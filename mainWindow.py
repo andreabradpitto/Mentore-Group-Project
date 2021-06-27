@@ -17,11 +17,11 @@ class MainWindow(PageWindow):
         self.mainLabel.setGeometry(QtCore.QRect(0, 0, 800, 240))
         self.mainLabel.setObjectName("mainLabel")
         self.mainLabel.setText(
-            "<html><head/><body><p align=\"center\"><span style=\"font-size:12pt\">Welcome to Mentore! \
-             <br>To begin, </span><span style=\"font-size:12pt; font-weight:bold\">Browse</span> \
-             <span style=\"font-size:12pt\"> for an existing concept or </span> \
-             <span style=\"font-size:12pt; font-weight:bold\">Add</span><span style=\"font-size:12pt\"> something \
-             <br>Press the </span><span style=\"font-size:12pt; font-weight:bold\">Help</span> \
+            "<html><head/><body><p align=\"center\"><span style=\"font-size:12pt\">Welcome to Mentore!<br>\
+             To begin, </span><span style=\"font-size:12pt; font-weight:bold\">Browse</span> \
+             <span style=\"font-size:12pt\"> for an existing subject or </span> \
+             <span style=\"font-size:12pt; font-weight:bold\">Add</span><span style=\"font-size:12pt\"> something<br>\
+             Press the </span><span style=\"font-size:12pt; font-weight:bold\">Help</span> \
              <span style=\"font-size:12pt\"> button at any time if you need assistance</span></p></body></html>")
         self.recentLabel = QtWidgets.QLabel(self.centralwidget)
         self.recentLabel.setGeometry(QtCore.QRect(54, 260, 180, 51))

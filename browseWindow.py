@@ -22,7 +22,7 @@ class BrowseWindow(PageWindow):
         self.mainLabel.setFocusPolicy(QtCore.Qt.WheelFocus)
         self.mainLabel.setObjectName("mainLabel")
         labelString = "<html><head/><body><p align=\"center\"><span style=\"font-size:12pt\">You are </span> \
-                       <span style=\"font-size:12pt; font-weight:bold\"> selecting </span> <span style=\"font-size:12pt\"> \
+                       <span style=\"font-size:12pt; font-weight:bold\"> selecting </span> <span style=\"font-size:12pt\">\
                        a subject</span></p></body></html>"
         self.mainLabel.setText(labelString)
 
