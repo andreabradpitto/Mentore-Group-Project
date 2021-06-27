@@ -27,7 +27,7 @@ class MainWindow(PageWindow):
         self.recentLabel.setGeometry(QtCore.QRect(54, 260, 180, 51))
         self.recentLabel.setObjectName("recentLabel")
         self.recentLabel.setText(
-            "<html><head/><body><p align=\"right\">Recently used subjects</p></body></html>")
+            "<html><head/><body><p align=\"center\">Recently used subjects</p></body></html>")
         self.verticalLayoutWidget = QtWidgets.QWidget(self.centralwidget)
         self.verticalLayoutWidget.setGeometry(QtCore.QRect(64, 300, 160, 106))
         self.verticalLayoutWidget.setObjectName("verticalLayoutWidget")
