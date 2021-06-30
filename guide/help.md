@@ -78,6 +78,7 @@ For this reason and due to time constraints, some desiderable features have not 
 
 - The ability of deleting subjects, sentences and questions from the ontology
 - A feeature that checks whether user-inputted data is already present in the ontology in the same form
+- At the moment **mentore** is designed to handle a single sub-level of concepts present under *schoolSubject*
 
 ---
 
