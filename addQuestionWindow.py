@@ -3,6 +3,9 @@ from pageWindow import PageWindow
 
 
 class AddQuestionWindow(PageWindow):
+
+    questionSignal = QtCore.pyqtSignal(str, str, int)    
+
     def __init__(self):
         super().__init__()
         self.initPageUI()
@@ -16,6 +19,7 @@ class AddQuestionWindow(PageWindow):
         self.add_pb = QtWidgets.QPushButton("Add", self.centralwidget)
         self.add_pb.setGeometry(QtCore.QRect(630, 370, 106, 30))
         self.add_pb.setObjectName("add_pb")
+        self.add_pb.clicked.connect(self.saveQuestion)
         self.cancel_pb = QtWidgets.QPushButton("Cancel", self.centralwidget)
         self.cancel_pb.setGeometry(QtCore.QRect(505, 370, 106, 30))
         self.cancel_pb.setObjectName("cancel_pb")
@@ -98,8 +102,20 @@ class AddQuestionWindow(PageWindow):
         self.mainLabelUpdater("contextual")
         self.contextual_checkBox.setChecked(1)
 
+    def saveQuestion(self):
+        question = self.question_lineEdit.text()
+        if self.plain_checkBox.isChecked() == 1:
+            self.questionSignal.emit(question, "NULL", 0)
+        elif self.goal_checkBox.isChecked() == 1:
+            self.questionSignal.emit(question, "NULL", 1)
+        else:
+            answer = self.answer_lineEdit.text()
+            self.questionSignal.emit(question, answer, 2)
+        self.question_lineEdit.clear()
+        self.resetGoalCont()
+        self.goto("main")
+
     def goToAddMain(self):
         self.question_lineEdit.clear()
-        self.plain_checkBox.setChecked(1)
         self.resetGoalCont()
         self.goto("add")

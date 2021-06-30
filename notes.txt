@@ -58,7 +58,7 @@ Andrea's updates:
 
 bug list:
 - at the moment page2 "overwrites" mentore (mainWindow), it should be another window in foreground.
-Current implementation also does not work when getting beck to the main window.
+Current implementation also does not work when getting back to the main window.
 Also, moved main windows "warp" back to the predefined location
 - consider creating a style sheet
 - fonts too big/unreadable (does it happen also on your laptops? We should check if this is machine-dependant)
@@ -87,3 +87,13 @@ Post-Carmine meeting important points:
 - our schoolSubject subclass is created/accessed at start. We cannot go outside of this topic
 - we should implement subclasses of classes inside schoolSubject
 - provide "remove concept" feature (not a priority but nice)
+
+
+altro stub:
+We have two routes:
+1 - hide the buttons for the add sentence & question until selected subject is "none"
+2 - delete the "none" completely: we read from the owl the subject and auto assing
+at stratup one of them, e.g. the last used (from the recent file) or the first in alphabetical
+order or whatever. With this solution i think we can avoid creating signal connections in pages
+other than mentore.py, as we do not need to read info from the status bar while adding
+sentences/questions

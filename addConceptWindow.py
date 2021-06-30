@@ -3,6 +3,9 @@ from pageWindow import PageWindow
 
 
 class AddConceptWindow(PageWindow):
+
+    conceptNameSignal = QtCore.pyqtSignal(str)
+
     def __init__(self):
         super().__init__()
         self.initPageUI()
@@ -16,6 +19,7 @@ class AddConceptWindow(PageWindow):
         self.add_pb = QtWidgets.QPushButton("Add", self.centralwidget)
         self.add_pb.setGeometry(QtCore.QRect(630, 370, 106, 30))
         self.add_pb.setObjectName("add_pb")
+        self.add_pb.clicked.connect(self.saveConcept)
         self.cancel_pb = QtWidgets.QPushButton("Cancel", self.centralwidget)
         self.cancel_pb.setGeometry(QtCore.QRect(505, 370, 106, 30))
         self.cancel_pb.setObjectName("cancel_pb")
@@ -39,6 +43,12 @@ class AddConceptWindow(PageWindow):
         self.setCentralWidget(self.centralwidget)
 
         QtCore.QMetaObject.connectSlotsByName(self)
+
+    def saveConcept(self):
+        conceptName = self.concept_lineEdit.text()
+        self.conceptNameSignal.emit(conceptName)
+        self.concept_lineEdit.clear()
+        self.goto("main")
 
     def goToAddMain(self):
         self.concept_lineEdit.clear()

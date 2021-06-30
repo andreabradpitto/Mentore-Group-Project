@@ -3,6 +3,9 @@ from pageWindow import PageWindow
 
 
 class AddSentenceWindow(PageWindow):
+
+    sentenceSignal = QtCore.pyqtSignal(str, int)
+
     def __init__(self):
         super().__init__()
         self.initPageUI()
@@ -16,6 +19,7 @@ class AddSentenceWindow(PageWindow):
         self.add_pb = QtWidgets.QPushButton("Add", self.centralwidget)
         self.add_pb.setGeometry(QtCore.QRect(630, 370, 106, 30))
         self.add_pb.setObjectName("add_pb")
+        self.add_pb.clicked.connect(self.saveSentence)
         self.cancel_pb = QtWidgets.QPushButton("Cancel", self.centralwidget)
         self.cancel_pb.setGeometry(QtCore.QRect(505, 370, 106, 30))
         self.cancel_pb.setObjectName("cancel_pb")
@@ -77,8 +81,19 @@ class AddSentenceWindow(PageWindow):
         self.mainLabelUpdater("wait")
         self.wait_checkBox.setChecked(1)
 
+    def saveSentence(self):
+        sentence = self.sentence_lineEdit.text()
+        if self.positive_checkBox.isChecked() == 1:
+            self.sentenceSignal.emit(sentence, 0)
+        elif self.negative_checkBox.isChecked() == 1:
+            self.sentenceSignal.emit(sentence, 1)
+        else:
+            self.sentenceSignal.emit(sentence, 2)
+        self.sentence_lineEdit.clear()
+        self.resetNegWait()
+        self.goto("main")
+
     def goToAddMain(self):
         self.sentence_lineEdit.clear()
-        self.positive_checkBox.setChecked(1)
         self.resetNegWait()
         self.goto("add")

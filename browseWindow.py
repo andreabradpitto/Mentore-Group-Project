@@ -3,6 +3,9 @@ from pageWindow import PageWindow
 
 
 class BrowseWindow(PageWindow):
+
+    selectedConceptSignal = QtCore.pyqtSignal(str)
+
     def __init__(self):
         super().__init__()
         self.initPageUI()
@@ -78,6 +81,7 @@ class BrowseWindow(PageWindow):
         self.ok_pb = QtWidgets.QPushButton("Ok", self.centralwidget)
         self.ok_pb.setGeometry(QtCore.QRect(630, 370, 106, 30))
         self.ok_pb.setObjectName("ok_pb")
+        self.ok_pb.clicked.connect(self.selectConcept)
         self.setCentralWidget(self.centralwidget)
 
         QtCore.QMetaObject.connectSlotsByName(self)
@@ -86,6 +90,13 @@ class BrowseWindow(PageWindow):
         for idx in range(self.listWidget.count()):
             item = self.listWidget.item(idx)
             item.setSelected(False)
+
+    def selectConcept(self):
+        concept = self.listWidget.currentItem()
+        conceptName = concept.text()
+        self.selectedConceptSignal.emit(conceptName)
+        self.clearSelection()
+        self.goto("main")
 
     def goToMain(self):
         self.clearSelection()
