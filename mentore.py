@@ -7,6 +7,8 @@ from addConceptWindow import AddConceptWindow
 from addSentenceWindow import AddSentenceWindow
 from addQuestionWindow import AddQuestionWindow
 from helpWindow import HelpWindow
+from owlready2 import *
+import ontologyInterface as ontoInt
 
 
 class Window(QtWidgets.QMainWindow):
@@ -19,7 +21,8 @@ class Window(QtWidgets.QMainWindow):
         self.setPalette(palette)
 
         self.setWindowIcon(QtGui.QIcon('images/mentore_logo.svg'))
-        #self.ontologyInterface("ontology/pizza.owl")
+
+        self.ontologyInit("ontology/Caresses.owl", "Hour")
 
         self.initPagesUI()
 
@@ -81,7 +84,7 @@ class Window(QtWidgets.QMainWindow):
     def register(self, widget, name):
         self.m_pages[name] = widget
         self.stacked_widget.addWidget(widget)
-        if isinstance(widget, BrowseWindow):
+        if (isinstance(widget, BrowseWindow) or isinstance(widget, MainWindow)):
             widget.selectedConceptSignal.connect(self.selectedConceptName)
             widget.gotoSignal.connect(self.goto)
         elif isinstance(widget, AddConceptWindow):
@@ -103,6 +106,11 @@ class Window(QtWidgets.QMainWindow):
             widget = self.m_pages[name]
             self.stacked_widget.setCurrentWidget(widget)
             self.setWindowTitle(widget.windowTitle())
+            if name == "browse":
+                widget.createItemList(self.subjectsList)
+            elif name == "main":
+                if self.currentConcept != "none":
+                    widget.recentChecker(self.currentConcept)
 
     def goToHelp(self):
         if self.lastPage != "help":
@@ -112,19 +120,22 @@ class Window(QtWidgets.QMainWindow):
     @QtCore.pyqtSlot(str)
     def selectedConceptName(self, name):
         self.statusBarUpdater(name)
-        print(name)  # to be deleted
 
     @QtCore.pyqtSlot(str)
     def catchConceptName(self, name):
         self.statusBarUpdater(name)
         #add the subject to the owl file itself
-        #add the subject to the list of ones got from the owl file - ontologyUpdater?
+        #add the subject to the list to be sent to browsePage
+
+        #call add_class_to_ontology
+        #self.subjectsList.insert(0, name)
+        #self.statusBarUpdater(name)
         print(name)  # to be deleted
 
     @QtCore.pyqtSlot(str, int)
     def catchSentence(self, sentence, type):
         #read the current subject (get string from status bar; use self.currentConcept)
-        #add the sentence (care about its type!) to the owl file
+        #add the sentence (care about its type!) to the owl file: call add_individual_to_ontology (?!)
         print(f"{sentence}, {type}")  # to be deleted
 
     @QtCore.pyqtSlot(str, str, int)
@@ -133,21 +144,11 @@ class Window(QtWidgets.QMainWindow):
         #add the question and possibly the answer (care about its type!) to the owl file
         print(f"{sentence}, {answer}, {type}")  # to be deleted
 
-    #def ontologyInterface(self, ontologyPath: str)
-        #ontology = get_ontology(ontologyPath)
-        #ontology.load()
-        #find schoolSubject
-        #read all the concepts inside schoolSubject
-        #create a tuple or whatever comprising all the current subjects
-        #call ontologyLoader() - this may be useless as we have ontology.load()
-
-    #def ontologyUpdater(self, data_from_signals, data_type) #this should be called at start and at the end of every catch
-        #if data_type == something, just create the subjects list (this is used at start), otherwise add the data then update the list
-        #this in the end may be used just by the catches and not by the "first" run routine...
-        #save the subjects in memory in the owl file
-        #send a signal to browsePage to read the listing of subjects. NO!!! - i do not think it is ok:
-        #instead also browsePage should read from the owl file (but not write to it)
-        #we can recycle part of the code written here and use it in browsePage
+    def ontologyInit(self, ontologyPath: str, startClassName: str):
+        ontology = get_ontology(ontologyPath)
+        ontology.load()
+        self.subjectsList = ontoInt.retrieve_subclasses(ontology, startClassName)
+        print(self.subjectsList)  # to be deleted
 
 
 if __name__ == "__main__":

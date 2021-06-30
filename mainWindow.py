@@ -3,6 +3,9 @@ from pageWindow import PageWindow
 
 
 class MainWindow(PageWindow):
+
+    selectedConceptSignal = QtCore.pyqtSignal(str)
+
     def __init__(self):
         super().__init__()
         self.initPageUI()
@@ -34,18 +37,28 @@ class MainWindow(PageWindow):
         self.recentVLayout = QtWidgets.QVBoxLayout(self.verticalLayoutWidget)
         self.recentVLayout.setContentsMargins(0, 0, 0, 0)
         self.recentVLayout.setObjectName("recentVLayout")
+
         self.recent1_pb = QtWidgets.QPushButton(
             "recent 1", self.verticalLayoutWidget)
         self.recent1_pb.setObjectName("recent1_pb")
+        self.recent1_pb.setDisabled(1)
+        self.recent1_pb.clicked.connect(self.selectRecent1)
         self.recentVLayout.addWidget(self.recent1_pb)
+
         self.recent2_pb = QtWidgets.QPushButton(
             "recent 2", self.verticalLayoutWidget)
         self.recent2_pb.setObjectName("recent2_pb")
+        self.recent2_pb.setDisabled(1)
+        self.recent2_pb.clicked.connect(self.selectRecent2)
         self.recentVLayout.addWidget(self.recent2_pb)
+
         self.recent3_pb = QtWidgets.QPushButton(
             "recent 3", self.verticalLayoutWidget)
         self.recent3_pb.setObjectName("recent3_pb")
+        self.recent3_pb.setDisabled(1)
+        self.recent3_pb.clicked.connect(self.selectRecent3)
         self.recentVLayout.addWidget(self.recent3_pb)
+
         self.browse_pb = QtWidgets.QPushButton("Browse", self.centralwidget)
         self.browse_pb.setGeometry(QtCore.QRect(630, 325, 106, 30))
         self.browse_pb.setObjectName("browse_pb")
@@ -57,6 +70,35 @@ class MainWindow(PageWindow):
         self.setCentralWidget(self.centralwidget)
 
         QtCore.QMetaObject.connectSlotsByName(self)
+
+    def recentChecker(self, concept: str):
+        if concept != self.recent1_pb.text() and concept != self.recent2_pb.text() \
+                                             and concept != self.recent3_pb.text():
+            if self.recent1_pb.text() == "recent 1":
+                self.recent1_pb.setText(concept)
+                self.recent1_pb.setDisabled(0)
+            elif self.recent2_pb.text() == "recent 2":
+                self.recent2_pb.setText(concept)
+                self.recent2_pb.setDisabled(0)
+            elif self.recent3_pb.text() == "recent 3":
+                self.recent3_pb.setText(concept)
+                self.recent3_pb.setDisabled(0)
+            else:
+                self.recent3_pb.setText(self.recent2_pb.text())
+                self.recent2_pb.setText(self.recent1_pb.text())
+                self.recent1_pb.setText(concept)
+
+    def selectRecent1(self):
+        conceptName = self.recent1_pb.text()
+        self.selectedConceptSignal.emit(conceptName)
+
+    def selectRecent2(self):
+        conceptName = self.recent2_pb.text()
+        self.selectedConceptSignal.emit(conceptName)
+
+    def selectRecent3(self):
+        conceptName = self.recent3_pb.text()
+        self.selectedConceptSignal.emit(conceptName)
 
     def make_handleButton(self, button):
         def handleButton():

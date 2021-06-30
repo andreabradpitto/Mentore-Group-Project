@@ -6,6 +6,8 @@ class BrowseWindow(PageWindow):
 
     selectedConceptSignal = QtCore.pyqtSignal(str)
 
+    browseSubjectsList = []
+
     def __init__(self):
         super().__init__()
         self.initPageUI()
@@ -36,47 +38,8 @@ class BrowseWindow(PageWindow):
         font.setPointSize(12)
         self.listWidget.setFont(font)
         self.listWidget.setVerticalScrollMode(QtWidgets.QAbstractItemView.ScrollPerPixel)
-        
-        item = QtWidgets.QListWidgetItem()
-        self.listWidget.addItem(item)
-        #item = self.listWidget.item(0)
-        item.setTextAlignment(QtCore.Qt.AlignCenter)
-        item.setText("mate")
-        item = QtWidgets.QListWidgetItem()
-        self.listWidget.addItem(item)
-        #item = self.listWidget.item(1)
-        item.setTextAlignment(QtCore.Qt.AlignCenter)
-        item.setText("fisi")
-        item = QtWidgets.QListWidgetItem()
-        self.listWidget.addItem(item)
-        #item = self.listWidget.item(2)
-        item.setTextAlignment(QtCore.Qt.AlignCenter)
-        item.setText("scienze")
-        item = QtWidgets.QListWidgetItem()
-        self.listWidget.addItem(item)
-        #item = self.listWidget.item(3)
-        item.setTextAlignment(QtCore.Qt.AlignCenter)
-        item.setText("italiano")
-        item = QtWidgets.QListWidgetItem()
-        self.listWidget.addItem(item)
-        #item = self.listWidget.item(4)
-        item.setTextAlignment(QtCore.Qt.AlignCenter)
-        item.setText("geo")
-        item = QtWidgets.QListWidgetItem()
-        self.listWidget.addItem(item)
-        #item = self.listWidget.item(5)
-        item.setTextAlignment(QtCore.Qt.AlignCenter)
-        item.setText("gatti")
-        item = QtWidgets.QListWidgetItem()
-        self.listWidget.addItem(item)
-        #item = self.listWidget.item(6)
-        item.setTextAlignment(QtCore.Qt.AlignCenter)
-        item.setText("magia")
-        item = QtWidgets.QListWidgetItem()
-        self.listWidget.addItem(item)
-        #item = self.listWidget.item(7)
-        item.setTextAlignment(QtCore.Qt.AlignCenter)
-        item.setText("inglese")
+
+        self.createItemList(self.browseSubjectsList)
 
         self.ok_pb = QtWidgets.QPushButton("Ok", self.centralwidget)
         self.ok_pb.setGeometry(QtCore.QRect(630, 370, 106, 30))
@@ -85,6 +48,13 @@ class BrowseWindow(PageWindow):
         self.setCentralWidget(self.centralwidget)
 
         QtCore.QMetaObject.connectSlotsByName(self)
+
+    def createItemList(self, subjectsList: list):
+        for elem in subjectsList:
+            item = QtWidgets.QListWidgetItem()
+            self.listWidget.addItem(item)
+            item.setTextAlignment(QtCore.Qt.AlignCenter)
+            item.setText(elem)
 
     def clearSelection(self):
         for idx in range(self.listWidget.count()):
@@ -95,9 +65,11 @@ class BrowseWindow(PageWindow):
         concept = self.listWidget.currentItem()
         conceptName = concept.text()
         self.selectedConceptSignal.emit(conceptName)
-        self.clearSelection()
+        #self.clearSelection()
+        self.listWidget.clear()
         self.goto("main")
 
     def goToMain(self):
-        self.clearSelection()
+        #self.clearSelection()
+        self.listWidget.clear()
         self.goto("main")

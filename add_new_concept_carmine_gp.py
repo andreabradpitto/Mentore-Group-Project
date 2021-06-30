@@ -1,5 +1,5 @@
 # Carmine: here a python script with some methods for modifying the Ontology:
-# in particular, give a look to add_class_to_ontology and add_individual_to_ontology
+# in particular, give a look to add_class_to_ontology (76) and add_individual_to_ontology (98)
 
 # This script looks for fulfilment text and entities contained in the user sentence, taken as parameter.
 # If there are entities (even better if the entities are contained in the fulfilment text), an insertion procedure
