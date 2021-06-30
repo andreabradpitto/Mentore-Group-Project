@@ -2,22 +2,19 @@
 
 This is the readme of the brach devoted to the GUI development.
 
-## Roadmap
+    ![The logo of **mentore**](/images/mentore_logo.svg)
 
-### Prerequisites
-Understanding the principles of Ontology and owlapi
+## Software reuirements
 
-### Develop a tool with a GUI for manually inserting in/updating the Ontology* with school subjects
-- New Concepts as Subclasses of the Class SchoolSubject
-- Sentences for each topic
-- Questions and Answers
+- PyQt5
+- owlready2
 
-*It maybe either a new Ontology, or the existing Ontology Caresses.owl, with a new Class (SchoolSubject)
+## Instructions
 
-### Optional
-- Evaluate the possibility of recording some audio files with the GUI which may be uploaded online and linked in the Ontology
+A simple guide on how to use the GUI can be found in the Help page of **mentore**.
 
-## Developers:
-Muhammad Raza Rizvi - s4853521@studenti.unige.it <br/>
-Laiba Zahid - s4853477@studenti.unige.it <br/>
+## Developers
+
+Syed Muhammad Raza Rizvi - s4853521@studenti.unige.it  
+Laiba Zahid - s4853477@studenti.unige.it  
 Andrea Pitto - s3942710@studenti.unige.it
