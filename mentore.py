@@ -96,7 +96,8 @@ class Window(QtWidgets.QMainWindow):
         elif isinstance(widget, AddQuestionWindow):
             widget.questionSignal.connect(self.catchQuestion)
             widget.gotoSignal.connect(self.goto)
-        else:  # this is the case for all the other children of PageWindow
+        else:
+            # this is the case for all the other children of PageWindow (currently just the Help page)
             widget.gotoSignal.connect(self.goto)
 
     @QtCore.pyqtSlot(str)
@@ -111,6 +112,9 @@ class Window(QtWidgets.QMainWindow):
             elif name == "main":
                 if self.currentConcept != "none":
                     widget.recentChecker(self.currentConcept)
+            elif name == "add":
+                if self.currentConcept != "none":
+                    widget.buttonsEnabler()
 
     def goToHelp(self):
         if self.lastPage != "help":

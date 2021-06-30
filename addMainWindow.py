@@ -30,11 +30,13 @@ class AddMainWindow(PageWindow):
         self.addSentence_pb.setGeometry(QtCore.QRect(320, 195, 160, 27))
         self.addSentence_pb.setObjectName("addSentence_pb")
         self.addSentence_pb.clicked.connect(self.goToAddSentence)
+        self.addSentence_pb.setDisabled(1)
         self.addQuestion_pb = QtWidgets.QPushButton(
             "Add question", self.centralwidget)
         self.addQuestion_pb.setGeometry(QtCore.QRect(320, 240, 160, 27))
         self.addQuestion_pb.setObjectName("addQuestion_pb")
         self.addQuestion_pb.clicked.connect(self.goToAddQuestion)
+        self.addQuestion_pb.setDisabled(1)
         self.back_pb = QtWidgets.QPushButton("< Back", self.centralwidget)
         self.back_pb.setGeometry(QtCore.QRect(630, 370, 106, 30))
         self.back_pb.setObjectName("back_pb")
@@ -42,6 +44,10 @@ class AddMainWindow(PageWindow):
         self.setCentralWidget(self.centralwidget)
 
         QtCore.QMetaObject.connectSlotsByName(self)
+
+    def buttonsEnabler(self):
+        self.addSentence_pb.setDisabled(0)
+        self.addQuestion_pb.setDisabled(0)
 
     def goToMain(self):
         self.goto("main")
