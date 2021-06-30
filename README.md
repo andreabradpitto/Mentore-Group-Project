@@ -2,7 +2,9 @@
 
 This is the readme of the brach devoted to the GUI development.
 
-    ![The logo of **mentore**](/images/mentore_logo.svg)
+<div align="center">
+  <img src="https://github.com/andreabradpitto/Mentore-Group-Project/blob/GUI/images/mentore_logo.svg">
+</div>
 
 ## Software requirements
 
@@ -13,13 +15,13 @@ This is the readme of the brach devoted to the GUI development.
 
 In order to install the [Qt library](https://www.qt.io/) for Python, run (Python 3.6+ required):
 
-```
+```bash
 pip install pyqt5
 ```
 
 Install the [Owlready2](https://pypi.org/project/Owlready2/) module for ontology-oriented programming with:
 
-```
+```bash
 pip install Owlready2
 ```
 
