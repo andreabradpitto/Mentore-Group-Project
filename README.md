@@ -1,10 +1,10 @@
-# Mentore-Group-Project GUI readme
-
-This is the readme for the brach devoted to the GUI development.
-
 <div align="center">
   <img src="https://github.com/andreabradpitto/Mentore-Group-Project/blob/GUI/images/mentore_logo.svg">
 </div>
+
+# Mentore-Group-Project GUI readme
+
+This is the readme for the brach devoted to the GUI development.
 
 ## :exclamation: Software requirements
 
@@ -27,7 +27,8 @@ pip install Owlready2
 
 ## :information_source: Instructions
 
-A simple guide on how to use the GUI can be found directly in the Help page of **mentore**.
+A simple guide on how to use the GUI can be found directly in the Help page of **mentore**.  
+That said, the Markdown source of the page can be read [here](https://github.com/andreabradpitto/Mentore-Group-Project/blob/GUI/guide/help.md).
 
 ## 📰 Additional information
 
@@ -36,6 +37,6 @@ Head over to the [doc folder](https://github.com/andreabradpitto/Mentore-Group-P
 
 ## :suspect: Developers
 
-Syed Muhammad Raza Rizvi - :e-mail: s4853521@studenti.unige.it  
+Andrea Pitto - :e-mail: s3942710@studenti.unige.it  
 Laiba Zahid - :e-mail: s4853477@studenti.unige.it  
-Andrea Pitto - :e-mail: s3942710@studenti.unige.it
+Syed Muhammad Raza Rizvi - s4853521@studenti.unige.it
