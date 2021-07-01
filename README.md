@@ -37,6 +37,6 @@ Head over to the [doc folder](https://github.com/andreabradpitto/Mentore-Group-P
 
 ## :suspect: Developers
 
-Andrea Pitto - :e-mail: s3942710@studenti.unige.it  
-Laiba Zahid - :e-mail: s4853477@studenti.unige.it  
+Andrea Pitto - s3942710@studenti.unige.it  
+Laiba Zahid - s4853477@studenti.unige.it  
 Syed Muhammad Raza Rizvi - s4853521@studenti.unige.it
