@@ -142,14 +142,14 @@ class Window(QtWidgets.QMainWindow):
 
     @QtCore.pyqtSlot(str, int)
     def catchSentence(self, sentence: str, data_type: int) -> None:
-        ontoInterface.add_hasSentece_data_property(self.ontology, self.ontologyPath, self.ontologyParentClass,
-                                                   self.currentConcept, sentence, data_type, 0)
+        ontoInterface.add_hasSentece_data_property(self.ontology, self.ontologyPath, self.currentConcept,
+                                                   sentence, data_type, 0)
         print(f"{sentence}, {data_type}")  # to be deleted
 
     @QtCore.pyqtSlot(str, str, int)
     def catchQuestion(self, sentence: str, answer: str, data_type: int) -> None:
-        ontoInterface.add_hasSentece_data_property(self.ontology, self.ontologyPath, self.ontologyParentClass,
-                                                   self.currentConcept, sentence, data_type, 1, answer)
+        ontoInterface.add_hasSentece_data_property(self.ontology, self.ontologyPath, self.currentConcept,
+                                                   sentence, data_type, 1, answer)
         print(f"{sentence}, {answer}, {data_type}")  # to be deleted
 
 

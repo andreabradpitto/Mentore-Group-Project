@@ -10,12 +10,10 @@ def retrieve_subclasses(ontology: Ontology, parent_class: str) -> list:
     return subcls
 
 
-def retrieve_class(ontology: Ontology, parent_class: str, class_name: str):
+def retrieve_class(ontology: Ontology, class_name: str):
     for cls in list(ontology.classes()):
-        if cls.name == parent_class:
-            for subclass in list(cls.subclasses()):
-                if cls.name == class_name:
-                    return subclass
+        if cls.name == class_name:
+            return cls
 
 
 # Adds the concept to the ontology as son of the parent class
@@ -26,14 +24,15 @@ def add_class_to_ontology(ontology: Ontology, ontologyPath: str, concept: str, p
         concept = concept.title().replace(' ', '')
     with ontology:
         types.new_class(concept, (ontology[parent_class],))
+        # Here we need to create hasSentence and all the 6 subclasses needed
     ontology.save(file=ontologyPath, format="rdfxml")
 
 
-def add_hasSentece_data_property(ontology: Ontology, ontologyPath: str, ontologyParentClass: str, active_class_name: str,
-                                 sentence: str, data_type: int, questionFlag: int, answer: str = "NULL") -> None:
+def add_hasSentece_data_property(ontology: Ontology, ontologyPath: str, active_class_name: str, sentence: str,
+                                 data_type: int, questionFlag: int, answer: str = "NULL") -> None:
     with ontology:
         active_class = retrieve_class(
-            ontology, ontologyParentClass, active_class_name)
+            ontology, active_class_name)
 
         if questionFlag == 0:
             if data_type == 0:
