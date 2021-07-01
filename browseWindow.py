@@ -18,10 +18,12 @@ class BrowseWindow(PageWindow):
 
         self.centralwidget = QtWidgets.QWidget()
         self.centralwidget.setObjectName("centralwidget")
+
         self.cancel_pb = QtWidgets.QPushButton("Cancel", self.centralwidget)
         self.cancel_pb.setGeometry(QtCore.QRect(505, 370, 106, 30))
         self.cancel_pb.setObjectName("cancel_pb")
         self.cancel_pb.clicked.connect(self.goToMain)
+
         self.mainLabel = QtWidgets.QLabel(self.centralwidget)
         self.mainLabel.setGeometry(QtCore.QRect(0, 0, 800, 180))
         self.mainLabel.setFocusPolicy(QtCore.Qt.WheelFocus)
@@ -37,7 +39,9 @@ class BrowseWindow(PageWindow):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.listWidget.setFont(font)
-        self.listWidget.setVerticalScrollMode(QtWidgets.QAbstractItemView.ScrollPerPixel)
+        self.listWidget.setVerticalScrollMode(
+            QtWidgets.QAbstractItemView.ScrollPerPixel)
+        self.listWidget.itemSelectionChanged.connect(self.disableButton)
 
         self.createItemList(self.browseSubjectsList)
 
@@ -45,10 +49,9 @@ class BrowseWindow(PageWindow):
         self.ok_pb.setGeometry(QtCore.QRect(630, 370, 106, 30))
         self.ok_pb.setObjectName("ok_pb")
         self.ok_pb.clicked.connect(self.selectConcept)
-        self.setCentralWidget(self.centralwidget)
-
         self.ok_pb.setDisabled(1)
-        self.listWidget.itemSelectionChanged.connect(self.disableButton)
+
+        self.setCentralWidget(self.centralwidget)
 
         QtCore.QMetaObject.connectSlotsByName(self)
 
@@ -74,11 +77,11 @@ class BrowseWindow(PageWindow):
         concept = self.listWidget.currentItem()
         conceptName = concept.text()
         self.selectedConceptSignal.emit(conceptName)
-        #self.clearSelection()
+        # self.clearSelection()
         self.listWidget.clear()
         self.goto("main")
 
     def goToMain(self):
-        #self.clearSelection()
+        # self.clearSelection()
         self.listWidget.clear()
         self.goto("main")

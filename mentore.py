@@ -13,7 +13,7 @@ import ontologyInterface as ontoInt
 
 
 class Window(QtWidgets.QMainWindow):
-    def __init__(self, parent = None):
+    def __init__(self, parent=None):
         super().__init__(parent)
 
         self.resize(800, 480)
@@ -27,7 +27,8 @@ class Window(QtWidgets.QMainWindow):
 
         self.ontology = get_ontology(self.ontologyPath)
         self.ontology.load()
-        self.subjectsList = ontoInt.retrieve_subclasses(self.ontology, self.ontologyParentClass)
+        self.subjectsList = ontoInt.retrieve_subclasses(
+            self.ontology, self.ontologyParentClass)
 
         self.initPagesUI()
 
@@ -66,8 +67,8 @@ class Window(QtWidgets.QMainWindow):
         self.statusbarLabelIntro.setStyleSheet("border-top: 0px")
         self.statusbarLabel = QtWidgets.QLabel()
         self.statusbar.addPermanentWidget(self.statusbarLabel)
-        self.statusBarUpdater("none")
         self.currentConcept = "none"
+        self.statusBarUpdater(self.currentConcept)
         self.statusbarLabel.setStyleSheet("border-top: 0px")
         self.statusbarLabelOutro = QtWidgets.QLabel()
         self.statusbar.addPermanentWidget(self.statusbarLabelOutro)
@@ -135,18 +136,19 @@ class Window(QtWidgets.QMainWindow):
     @QtCore.pyqtSlot(str)
     def catchConceptName(self, name: str) -> None:
         self.statusBarUpdater(name)
-        ontoInt.add_class_to_ontology(self.ontology, self.ontologyPath, name, self.ontologyParentClass)
+        ontoInt.add_class_to_ontology(
+            self.ontology, self.ontologyPath, name, self.ontologyParentClass)
         self.subjectsList.insert(0, name)
         print(name)  # to be deleted
 
     @QtCore.pyqtSlot(str, int)
-    def catchSentence(self, sentence:str, type: int) -> None:
-        #ontoInt.add_hasSentece_child_data_property(self.ontology, self.ontologyPath, self.currentConcept ?!, sentence, type, 0)
+    def catchSentence(self, sentence: str, type: int) -> None:
+        # ontoInt.add_hasSentece_child_data_property(self.ontology, self.ontologyPath, self.currentConcept ?!, sentence, type, 0)
         print(f"{sentence}, {type}")  # to be deleted
 
     @QtCore.pyqtSlot(str, str, int)
     def catchQuestion(self, sentence: str, answer: str, type: int) -> None:
-        #ontoInt.add_hasSentece_child_data_property(self.ontology, self.ontologyPath, self.currentConcept ?!, sentence, type, 1, answer)
+        # ontoInt.add_hasSentece_child_data_property(self.ontology, self.ontologyPath, self.currentConcept ?!, sentence, type, 1, answer)
         print(f"{sentence}, {answer}, {type}")  # to be deleted
 
 

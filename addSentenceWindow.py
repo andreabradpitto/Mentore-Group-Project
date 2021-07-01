@@ -16,47 +16,55 @@ class AddSentenceWindow(PageWindow):
 
         self.centralwidget = QtWidgets.QWidget()
         self.centralwidget.setObjectName("centralwidget")
+
         self.add_pb = QtWidgets.QPushButton("Add", self.centralwidget)
         self.add_pb.setGeometry(QtCore.QRect(630, 370, 106, 30))
         self.add_pb.setObjectName("add_pb")
         self.add_pb.clicked.connect(self.saveSentence)
+        self.add_pb.setDisabled(1)
+
         self.cancel_pb = QtWidgets.QPushButton("Cancel", self.centralwidget)
         self.cancel_pb.setGeometry(QtCore.QRect(505, 370, 106, 30))
         self.cancel_pb.setObjectName("cancel_pb")
         self.cancel_pb.clicked.connect(self.goToAddMain)
+
         self.mainLabel = QtWidgets.QLabel(self.centralwidget)
         self.mainLabel.setGeometry(QtCore.QRect(0, 0, 800, 180))
         self.mainLabel.setFocusPolicy(QtCore.Qt.WheelFocus)
         self.mainLabel.setObjectName("mainLabel")
         self.mainLabelUpdater("positive")
+
         self.sentenceLabel = QtWidgets.QLabel(self.centralwidget)
         self.sentenceLabel.setGeometry(QtCore.QRect(100, 145, 181, 21))
         self.sentenceLabel.setObjectName("sentenceLabel")
         self.sentenceLabel.setText(
             "<html><head/><body><p align=\"left\">Insert a sentence:</p></body></html>")
+
         self.sentence_lineEdit = QtWidgets.QLineEdit(self.centralwidget)
         self.sentence_lineEdit.setGeometry(QtCore.QRect(100, 170, 600, 30))
         self.sentence_lineEdit.setObjectName("sentence_lineEdit")
+        self.sentence_lineEdit.textChanged.connect(self.disableButton)
+
         self.positive_checkBox = QtWidgets.QCheckBox(
             "Positive sentence", self.centralwidget)
         self.positive_checkBox.setGeometry(QtCore.QRect(80, 330, 181, 27))
         self.positive_checkBox.setObjectName("positive_checkBox")
         self.positive_checkBox.setChecked(1)
         self.positive_checkBox.clicked.connect(self.resetNegWait)
+
         self.negative_checkBox = QtWidgets.QCheckBox(
             "Negative sentence", self.centralwidget)
         self.negative_checkBox.setGeometry(QtCore.QRect(80, 350, 181, 27))
         self.negative_checkBox.setObjectName("negative_checkBox")
         self.negative_checkBox.clicked.connect(self.resetPosWait)
+
         self.wait_checkBox = QtWidgets.QCheckBox(
             "Wait sentence", self.centralwidget)
         self.wait_checkBox.setGeometry(QtCore.QRect(80, 370, 181, 27))
         self.wait_checkBox.setObjectName("wait_checkBox")
         self.wait_checkBox.clicked.connect(self.resetPosNeg)
-        self.setCentralWidget(self.centralwidget)
 
-        self.add_pb.setDisabled(1)
-        self.sentence_lineEdit.textChanged.connect(self.disableButton)
+        self.setCentralWidget(self.centralwidget)
 
         QtCore.QMetaObject.connectSlotsByName(self)
 

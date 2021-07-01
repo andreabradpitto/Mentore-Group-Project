@@ -41,7 +41,8 @@ def mentorePaletteSetter(palette: QtGui.QPalette) -> QtGui.QPalette:
     palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.Shadow, brush)
     brush = QtGui.QBrush(QtGui.QColor(184, 207, 231))
     brush.setStyle(QtCore.Qt.SolidPattern)
-    palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.AlternateBase, brush)
+    palette.setBrush(QtGui.QPalette.Active,
+                     QtGui.QPalette.AlternateBase, brush)
     brush = QtGui.QBrush(QtGui.QColor(255, 255, 220))
     brush.setStyle(QtCore.Qt.SolidPattern)
     palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.ToolTipBase, brush)
@@ -49,7 +50,7 @@ def mentorePaletteSetter(palette: QtGui.QPalette) -> QtGui.QPalette:
     brush.setStyle(QtCore.Qt.SolidPattern)
     palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.ToolTipText, brush)
     #brush = QtGui.QBrush(QtGui.QColor(0, 0, 0, 128))
-    #brush.setStyle(QtCore.Qt.SolidPattern)
+    # brush.setStyle(QtCore.Qt.SolidPattern)
     #palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.PlaceholderText, brush)
     brush = QtGui.QBrush(QtGui.QColor(0, 0, 0))
     brush.setStyle(QtCore.Qt.SolidPattern)
@@ -89,15 +90,18 @@ def mentorePaletteSetter(palette: QtGui.QPalette) -> QtGui.QPalette:
     palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.Shadow, brush)
     brush = QtGui.QBrush(QtGui.QColor(184, 207, 231))
     brush.setStyle(QtCore.Qt.SolidPattern)
-    palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.AlternateBase, brush)
+    palette.setBrush(QtGui.QPalette.Inactive,
+                     QtGui.QPalette.AlternateBase, brush)
     brush = QtGui.QBrush(QtGui.QColor(255, 255, 220))
     brush.setStyle(QtCore.Qt.SolidPattern)
-    palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.ToolTipBase, brush)
+    palette.setBrush(QtGui.QPalette.Inactive,
+                     QtGui.QPalette.ToolTipBase, brush)
     brush = QtGui.QBrush(QtGui.QColor(0, 0, 0))
     brush.setStyle(QtCore.Qt.SolidPattern)
-    palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.ToolTipText, brush)
+    palette.setBrush(QtGui.QPalette.Inactive,
+                     QtGui.QPalette.ToolTipText, brush)
     #brush = QtGui.QBrush(QtGui.QColor(0, 0, 0, 128))
-    #brush.setStyle(QtCore.Qt.SolidPattern)
+    # brush.setStyle(QtCore.Qt.SolidPattern)
     #palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.PlaceholderText, brush)
     brush = QtGui.QBrush(QtGui.QColor(57, 79, 103))
     brush.setStyle(QtCore.Qt.SolidPattern)
@@ -137,15 +141,18 @@ def mentorePaletteSetter(palette: QtGui.QPalette) -> QtGui.QPalette:
     palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.Shadow, brush)
     brush = QtGui.QBrush(QtGui.QColor(114, 159, 207))
     brush.setStyle(QtCore.Qt.SolidPattern)
-    palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.AlternateBase, brush)
+    palette.setBrush(QtGui.QPalette.Disabled,
+                     QtGui.QPalette.AlternateBase, brush)
     brush = QtGui.QBrush(QtGui.QColor(255, 255, 220))
     brush.setStyle(QtCore.Qt.SolidPattern)
-    palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.ToolTipBase, brush)
+    palette.setBrush(QtGui.QPalette.Disabled,
+                     QtGui.QPalette.ToolTipBase, brush)
     brush = QtGui.QBrush(QtGui.QColor(0, 0, 0))
     brush.setStyle(QtCore.Qt.SolidPattern)
-    palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.ToolTipText, brush)
+    palette.setBrush(QtGui.QPalette.Disabled,
+                     QtGui.QPalette.ToolTipText, brush)
     #brush = QtGui.QBrush(QtGui.QColor(0, 0, 0, 128))
-    #brush.setStyle(QtCore.Qt.SolidPattern)
+    # brush.setStyle(QtCore.Qt.SolidPattern)
     #palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.PlaceholderText, brush)
 
     return palette

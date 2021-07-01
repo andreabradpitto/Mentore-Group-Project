@@ -4,7 +4,7 @@ from pageWindow import PageWindow
 
 class AddQuestionWindow(PageWindow):
 
-    questionSignal = QtCore.pyqtSignal(str, str, int)    
+    questionSignal = QtCore.pyqtSignal(str, str, int)
 
     def __init__(self):
         super().__init__()
@@ -16,48 +16,56 @@ class AddQuestionWindow(PageWindow):
 
         self.centralwidget = QtWidgets.QWidget()
         self.centralwidget.setObjectName("centralwidget")
+
         self.add_pb = QtWidgets.QPushButton("Add", self.centralwidget)
         self.add_pb.setGeometry(QtCore.QRect(630, 370, 106, 30))
         self.add_pb.setObjectName("add_pb")
         self.add_pb.clicked.connect(self.saveQuestion)
+        self.add_pb.setDisabled(1)
+
         self.cancel_pb = QtWidgets.QPushButton("Cancel", self.centralwidget)
         self.cancel_pb.setGeometry(QtCore.QRect(505, 370, 106, 30))
         self.cancel_pb.setObjectName("cancel_pb")
         self.cancel_pb.clicked.connect(self.goToAddMain)
+
         self.mainLabel = QtWidgets.QLabel(self.centralwidget)
         self.mainLabel.setGeometry(QtCore.QRect(0, 0, 800, 180))
         self.mainLabel.setFocusPolicy(QtCore.Qt.WheelFocus)
         self.mainLabel.setObjectName("mainLabel")
         self.mainLabelUpdater("plain")
+
         self.questionLabel = QtWidgets.QLabel(self.centralwidget)
         self.questionLabel.setGeometry(QtCore.QRect(100, 145, 181, 21))
         self.questionLabel.setObjectName("questionLabel")
         self.questionLabel.setText(
             "<html><head/><body><p align=\"left\">Insert a question:</p></body></html>")
+
         self.question_lineEdit = QtWidgets.QLineEdit(self.centralwidget)
         self.question_lineEdit.setGeometry(QtCore.QRect(100, 170, 600, 30))
         self.question_lineEdit.setObjectName("question_lineEdit")
+        self.question_lineEdit.textChanged.connect(self.disableButton)
         self.answer_present = 0
+
         self.plain_checkBox = QtWidgets.QCheckBox(
             "Plain question", self.centralwidget)
         self.plain_checkBox.setGeometry(QtCore.QRect(80, 330, 181, 27))
         self.plain_checkBox.setObjectName("plain_checkBox")
         self.plain_checkBox.setChecked(1)
         self.plain_checkBox.clicked.connect(self.resetGoalCont)
+
         self.goal_checkBox = QtWidgets.QCheckBox(
             "Goal question", self.centralwidget)
         self.goal_checkBox.setGeometry(QtCore.QRect(80, 350, 181, 27))
         self.goal_checkBox.setObjectName("goal_checkBox")
         self.goal_checkBox.clicked.connect(self.resetPlainCont)
+
         self.contextual_checkBox = QtWidgets.QCheckBox(
             "Contextual question", self.centralwidget)
         self.contextual_checkBox.setGeometry(QtCore.QRect(80, 370, 181, 27))
         self.contextual_checkBox.setObjectName("contextual_checkBox")
         self.contextual_checkBox.clicked.connect(self.resetPlainGoal)
-        self.setCentralWidget(self.centralwidget)
 
-        self.add_pb.setDisabled(1)
-        self.question_lineEdit.textChanged.connect(self.disableButton)
+        self.setCentralWidget(self.centralwidget)
 
         QtCore.QMetaObject.connectSlotsByName(self)
 
@@ -87,6 +95,8 @@ class AddQuestionWindow(PageWindow):
             self.answerLabel.hide()
             self.answer_lineEdit.hide()
             self.answer_present = 0
+            if len(self.question_lineEdit.text()) > 0:
+                self.add_pb.setDisabled(0)
         self.mainLabelUpdater("plain")
         self.plain_checkBox.setChecked(1)
 
@@ -97,6 +107,8 @@ class AddQuestionWindow(PageWindow):
             self.answerLabel.hide()
             self.answer_lineEdit.hide()
             self.answer_present = 0
+            if len(self.question_lineEdit.text()) > 0:
+                self.add_pb.setDisabled(0)
         self.mainLabelUpdater("goal")
         self.goal_checkBox.setChecked(1)
 
