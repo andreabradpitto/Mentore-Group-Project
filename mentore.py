@@ -13,6 +13,10 @@ import ontologyInterface as ontoInterface
 
 
 class Window(QtWidgets.QMainWindow):
+
+    ontologyPath = "ontology/Caresses.owl"
+    ontologyParentClass = "Hour"
+
     def __init__(self, parent=None):
         super().__init__(parent)
 
@@ -21,9 +25,6 @@ class Window(QtWidgets.QMainWindow):
         palette = mentorePaletteSetter(palette)
         self.setPalette(palette)
         self.setWindowIcon(QtGui.QIcon('images/mentore_logo.svg'))
-
-        self.ontologyPath = "ontology/Caresses.owl"
-        self.ontologyParentClass = "Hour"
 
         self.ontology = get_ontology(self.ontologyPath)
         self.ontology.load()
