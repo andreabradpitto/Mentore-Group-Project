@@ -1,6 +1,7 @@
 from owlready2 import *
 
 
+# Returns all the subclasses of a given parent class
 def retrieve_subclasses(ontology: Ontology, parent_class: str) -> list:
     subcls = []
     for cls in list(ontology.classes()):
@@ -10,6 +11,7 @@ def retrieve_subclasses(ontology: Ontology, parent_class: str) -> list:
     return subcls
 
 
+# Returns the class with the corresponding inputted name
 def retrieve_class(ontology: Ontology, class_name: str):
     for cls in list(ontology.classes()):
         if cls.name == class_name:
@@ -24,10 +26,10 @@ def add_class_to_ontology(ontology: Ontology, ontologyPath: str, concept: str, p
         concept = concept.title().replace(' ', '')
     with ontology:
         types.new_class(concept, (ontology[parent_class],))
-        # Here we need to create hasSentence and all the 6 subclasses needed
     ontology.save(file=ontologyPath, format="rdfxml")
 
 
+# Adds a sentence or a question to the hasSentence data property of the class whose name matches the inputted string
 def add_hasSentece_data_property(ontology: Ontology, ontologyPath: str, active_class_name: str, sentence: str,
                                  data_type: int, questionFlag: int, answer: str = "NULL") -> None:
     with ontology:
@@ -54,5 +56,6 @@ def add_hasSentece_data_property(ontology: Ontology, ontologyPath: str, active_c
             else:
                 active_class.hasQuestionContextual.append(
                     locstr(sentence.rstrip(), lang="en"))
-                # Where do we put the answer ?!
+                active_class.hasQuestionContextualReply.append(
+                    locstr(answer.rstrip(), lang="en"))
     ontology.save(file=ontologyPath, format="rdfxml")
