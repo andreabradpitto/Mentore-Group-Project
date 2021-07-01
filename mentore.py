@@ -139,7 +139,6 @@ class Window(QtWidgets.QMainWindow):
         ontoInt.add_class_to_ontology(
             self.ontology, self.ontologyPath, name, self.ontologyParentClass)
         self.subjectsList.insert(0, name)
-        print(name)  # to be deleted
 
     @QtCore.pyqtSlot(str, int)
     def catchSentence(self, sentence: str, data_type: int) -> None:
