@@ -14,8 +14,8 @@ import ontologyInterface as ontoInterface
 
 class Window(QtWidgets.QMainWindow):
 
-    ontologyPath = "ontology/Caresses.owl"
-    ontologyParentClass = "Hour"
+    ontologyPath = "ontology/CKB.owl"
+    ontologyParentClass = "SchoolSubject"
 
     def __init__(self, parent=None):
         super().__init__(parent)
