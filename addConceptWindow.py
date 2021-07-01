@@ -33,15 +33,14 @@ class AddConceptWindow(PageWindow):
         self.mainLabel.setFocusPolicy(QtCore.Qt.WheelFocus)
         self.mainLabel.setObjectName("mainLabel")
         labelString = "<html><head/><body><p align=\"center\"><span style=\"font-size:12pt\">You are about to enter a new </span> \
-                       <span style=\"font-size:12pt; font-weight:bold\"> subject </span> <span style=\"font-size:12pt\">\
-                       name</span></p></body></html>"
+                       <span style=\"font-size:12pt; font-weight:bold\"> subject</span></p></body></html>"
         self.mainLabel.setText(labelString)
 
         self.conceptLabel = QtWidgets.QLabel(self.centralwidget)
         self.conceptLabel.setGeometry(QtCore.QRect(240, 145, 320, 21))
         self.conceptLabel.setObjectName("conceptLabel")
         self.conceptLabel.setText(
-            "<html><head/><body><p align=\"center\">Insert a new subject:</p></body></html>")
+            "<html><head/><body><p align=\"center\">Insert new subject name:</p></body></html>")
 
         self.concept_lineEdit = QtWidgets.QLineEdit(self.centralwidget)
         self.concept_lineEdit.setGeometry(QtCore.QRect(240, 170, 320, 30))

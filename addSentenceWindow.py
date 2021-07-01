@@ -38,7 +38,7 @@ class AddSentenceWindow(PageWindow):
         self.sentenceLabel.setGeometry(QtCore.QRect(100, 145, 181, 21))
         self.sentenceLabel.setObjectName("sentenceLabel")
         self.sentenceLabel.setText(
-            "<html><head/><body><p align=\"left\">Insert a sentence:</p></body></html>")
+            "<html><head/><body><p align=\"left\">Insert sentence:</p></body></html>")
 
         self.sentence_lineEdit = QtWidgets.QLineEdit(self.centralwidget)
         self.sentence_lineEdit.setGeometry(QtCore.QRect(100, 170, 600, 30))

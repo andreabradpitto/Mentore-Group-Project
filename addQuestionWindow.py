@@ -38,7 +38,7 @@ class AddQuestionWindow(PageWindow):
         self.questionLabel.setGeometry(QtCore.QRect(100, 145, 181, 21))
         self.questionLabel.setObjectName("questionLabel")
         self.questionLabel.setText(
-            "<html><head/><body><p align=\"left\">Insert a question:</p></body></html>")
+            "<html><head/><body><p align=\"left\">Insert question:</p></body></html>")
 
         self.question_lineEdit = QtWidgets.QLineEdit(self.centralwidget)
         self.question_lineEdit.setGeometry(QtCore.QRect(100, 170, 600, 30))
@@ -119,7 +119,7 @@ class AddQuestionWindow(PageWindow):
         self.answerLabel.setGeometry(QtCore.QRect(100, 230, 181, 21))
         self.answerLabel.setObjectName("answerLabel")
         self.answerLabel.setText(
-            "<html><head/><body><p align=\"left\">Insert an answer:</p></body></html>")
+            "<html><head/><body><p align=\"left\">Insert answer:</p></body></html>")
         self.answer_lineEdit = QtWidgets.QLineEdit(self.centralwidget)
         self.answer_lineEdit.setGeometry(QtCore.QRect(100, 255, 600, 30))
         self.answer_lineEdit.setObjectName("answer_lineEdit")
