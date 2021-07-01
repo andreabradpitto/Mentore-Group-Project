@@ -19,10 +19,15 @@ class Window(QtWidgets.QMainWindow):
         palette = QtGui.QPalette()
         palette = mentorePaletteSetter(palette)
         self.setPalette(palette)
-
         self.setWindowIcon(QtGui.QIcon('images/mentore_logo.svg'))
 
-        self.ontologyInit("ontology/Caresses.owl", "Hour")
+        self.ontologyPath = "ontology/Caresses.owl"
+        self.ontologyParentClass = "Hour"
+
+        self.ontology = get_ontology(self.ontologyPath)
+        self.ontology.load()
+        self.subjectsList = ontoInt.retrieve_subclasses(self.ontology, self.ontologyParentClass)
+        print(self.subjectsList)  # to be deleted
 
         self.initPagesUI()
 
@@ -97,7 +102,7 @@ class Window(QtWidgets.QMainWindow):
             widget.questionSignal.connect(self.catchQuestion)
             widget.gotoSignal.connect(self.goto)
         else:
-            # this is the case for all the other children of PageWindow (currently just the Help page)
+            # this is the case for all the other children of PageWindow (currently, just the Help page)
             widget.gotoSignal.connect(self.goto)
 
     @QtCore.pyqtSlot(str)
@@ -128,12 +133,8 @@ class Window(QtWidgets.QMainWindow):
     @QtCore.pyqtSlot(str)
     def catchConceptName(self, name):
         self.statusBarUpdater(name)
-        #add the subject to the owl file itself
-        #add the subject to the list to be sent to browsePage
-
-        #call add_class_to_ontology
-        #self.subjectsList.insert(0, name)
-        #self.statusBarUpdater(name)
+        ontoInt.add_class_to_ontology(self.ontology, self.ontologyPath, name, self.ontologyParentClass)
+        self.subjectsList.insert(0, name)
         print(name)  # to be deleted
 
     @QtCore.pyqtSlot(str, int)
@@ -147,12 +148,6 @@ class Window(QtWidgets.QMainWindow):
         #read the current subject (get string from status bar; use self.currentConcept)
         #add the question and possibly the answer (care about its type!) to the owl file
         print(f"{sentence}, {answer}, {type}")  # to be deleted
-
-    def ontologyInit(self, ontologyPath: str, startClassName: str):
-        ontology = get_ontology(ontologyPath)
-        ontology.load()
-        self.subjectsList = ontoInt.retrieve_subclasses(ontology, startClassName)
-        print(self.subjectsList)  # to be deleted
 
 
 if __name__ == "__main__":

@@ -1,7 +1,8 @@
+from os import listxattr
 from owlready2 import *
 
 
-def retrieve_subclasses(ontology, parent_class):
+def retrieve_subclasses(ontology: Ontology, parent_class: str) -> list:
     subcls = []
     for cls in list(ontology.classes()):
         if cls.name == parent_class:
@@ -11,25 +12,14 @@ def retrieve_subclasses(ontology, parent_class):
 
 
 # Adds the concept to the ontology as son of the parent class
-def add_class_to_ontology(ontology, concept, parent_class):
-    non_existing_parent_class = False
+def add_class_to_ontology(ontology: Ontology, ontologyPath: str, concept: str, parent_class: str) -> None:
     if ' ' in parent_class or parent_class[0].islower():
         parent_class = parent_class.title().replace(' ', '')
     if ' ' in concept or concept[0].islower():
         concept = concept.title().replace(' ', '')
     with ontology:
-        try:
-            NewClass = types.new_class(concept, (ontology[parent_class],))
-        except:
-            non_existing_parent_class = True
-    if non_existing_parent_class:
-        print("...non existing parent class, switch to brutal method")
-        brutal_method(parent_class, sock)
-    else:
-        ontology.save(file="ontology/CKB_new.owl", format="rdfxml")
-        print("...added", concept, "as son of", parent_class)
-        send_sentence("Got it! From now on I will remember what " + concept + " is!", sock)
-        return NewClass
+        types.new_class(concept, (ontology[parent_class],))
+    ontology.save(file=ontologyPath, format="rdfxml")
 
 
 # This function creates and returns the individual belonging to the class passed as parameter
