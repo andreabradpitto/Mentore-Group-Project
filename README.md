@@ -33,7 +33,8 @@ That said, the Markdown source of the page can be read [here](https://github.com
 ## 📰 Additional information
 
 **Mentore** has been coded with Ubuntu 20.04, but it has also been tested on Windows 10 and no issues were found.  
-Head over to the [doc folder](https://github.com/andreabradpitto/Mentore-Group-Project/tree/GUI/doc) to check the [Group Project Proposal](https://github.com/andreabradpitto/Mentore-Group-Project/tree/GUI/doc/Group%20Project%20proposal.docx), the [papers](https://github.com/andreabradpitto/Mentore-Group-Project/tree/GUI/doc/papers) on which our work is based, and some other useful resources.
+Head over to the [doc folder](https://github.com/andreabradpitto/Mentore-Group-Project/tree/GUI/doc) to check the [Group Project Proposal](https://github.com/andreabradpitto/Mentore-Group-Project/tree/GUI/doc/Group%20Project%20proposal.docx), the [papers](https://github.com/andreabradpitto/Mentore-Group-Project/tree/GUI/doc/papers) on which our work is based, and some other useful resources.  
+For a list of features that are planned in future releases, please check **mentore**'s[Help page]((https://github.com/andreabradpitto/Mentore-Group-Project/blob/GUI/guide/help.md)).
 
 ## :suspect: Developers
 
