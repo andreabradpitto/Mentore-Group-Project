@@ -10,6 +10,14 @@ def retrieve_subclasses(ontology: Ontology, parent_class: str) -> list:
     return subcls
 
 
+def retrieve_class(ontology: Ontology, parent_class: str, class_name: str):
+    for cls in list(ontology.classes()):
+        if cls.name == parent_class:
+            for subclass in list(cls.subclasses()):
+                if cls.name == class_name:
+                    return subclass
+
+
 # Adds the concept to the ontology as son of the parent class
 def add_class_to_ontology(ontology: Ontology, ontologyPath: str, concept: str, parent_class: str) -> None:
     if ' ' in parent_class or parent_class[0].islower():
@@ -21,23 +29,31 @@ def add_class_to_ontology(ontology: Ontology, ontologyPath: str, concept: str, p
     ontology.save(file=ontologyPath, format="rdfxml")
 
 
-def add_hasSentece_child_data_property(ontology: Ontology, ontologyPath: str, instance, sentence: str, \
-                                       type: int, questionFlag: int, answer: str = "NULL") -> None:
-    print("...adding additional info to", instance)  # to be deleted
+def add_hasSentece_data_property(ontology: Ontology, ontologyPath: str, ontologyParentClass: str, active_class_name: str,
+                                 sentence: str, data_type: int, questionFlag: int, answer: str = "NULL") -> None:
     with ontology:
+        active_class = retrieve_class(
+            ontology, ontologyParentClass, active_class_name)
+
         if questionFlag == 0:
-            if type == 0:
-                instance.hasPositiveSentence.append(locstr(sentence.rstrip(), lang="en"))
-            elif type == 1:
-                instance.hasNegativeSentence.append(locstr(sentence.rstrip(), lang="en"))
+            if data_type == 0:
+                active_class.hasPositiveSentence.append(
+                    locstr(sentence.rstrip(), lang="en"))
+            elif data_type == 1:
+                active_class.hasNegativeSentence.append(
+                    locstr(sentence.rstrip(), lang="en"))
             else:
-                instance.hasPositiveAndWait.append(locstr(sentence.rstrip(), lang="en"))
+                active_class.hasPositiveAndWait.append(
+                    locstr(sentence.rstrip(), lang="en"))
         else:
-            if type == 0:
-                instance.hasQuestion.append(locstr(sentence.rstrip(), lang="en"))
-            elif type == 1:
-                instance.hasQuestionGoal.append(locstr(sentence.rstrip(), lang="en"))
+            if data_type == 0:
+                active_class.hasQuestion.append(
+                    locstr(sentence.rstrip(), lang="en"))
+            elif data_type == 1:
+                active_class.hasQuestionGoal.append(
+                    locstr(sentence.rstrip(), lang="en"))
             else:
-                instance.hasQuestionContextual.append(locstr(sentence.rstrip(), lang="en"))
-                #remember the answer here
+                active_class.hasQuestionContextual.append(
+                    locstr(sentence.rstrip(), lang="en"))
+                # Where do we put the answer ?!
     ontology.save(file=ontologyPath, format="rdfxml")
