@@ -1,4 +1,3 @@
-from os import listxattr
 from owlready2 import *
 
 
@@ -22,32 +21,22 @@ def add_class_to_ontology(ontology: Ontology, ontologyPath: str, concept: str, p
     ontology.save(file=ontologyPath, format="rdfxml")
 
 
-# This function creates and returns the individual belonging to the class passed as parameter
-def add_individual_to_ontology(concept, new_class):
-    indiv = "SEN_" + concept.upper().replace(' ', '')
-    print(indiv)
-    # Create the instance of the individual of that class
-    instance = new_class(indiv)
-    # Add the isNew property to recognize new individuals
-    instance.isNew = [True]
-    # Add keyword1 and keyword2 properties - keyword 2 is always *
-    print("...adding properties hasKeyword1 and hasKeyword2")
-    print (keyword1)
-    print (instance.hasKeyword1)
-    instance.hasKeyword1=instance.hasKeyword1+keyword1
-    instance.hasKeyword2 = [locstr("*", lang="en")]
-    instance.hasQuestion.append(locstr(("Do you like "+ instance.hasKeyword1[0] + "?"), lang="en"))
-    # Initialize a variable needed to stop the iteration when SEN_GEN individual is found
-    found = False
-    for cls in list(ontology.classes()):
-        if found:
-            break
-        for ind in cls.instances():
-            if found:
-                break
-            # When SEN_GEN individual is found, add the property hasTopic with value the name of the new individual
-            if ind.name == "SEN_GEN":
-                ind.hasTopic.append(instance)
-                print("...added hasTopic property with value: ", instance.name)
-                found = True
-    ontology.save(file="ontology/CKB_new.owl", format="rdfxml")
+def add_additional_info(ontology: Ontology, ontologyPath: str, instance, sentence: str, answer: str, type: int, questionFlag: int) -> None:
+    print("...adding additional info to", instance)  # to be deleted
+    with ontology:
+        if questionFlag == 0:
+            if type == 0:
+                instance.hasPositiveSentence.append(locstr(sentence.rstrip(), lang="en"))
+            elif type == 1:
+                instance.hasNegativeSentence.append(locstr(sentence.rstrip(), lang="en"))
+            else:
+                pass
+        else:
+            if type == 0:
+                instance.hasPositiveSentence.append(locstr(sentence.rstrip(), lang="en"))
+            elif type == 1:
+                instance.hasNegativeSentence.append(locstr(sentence.rstrip(), lang="en"))
+            else:
+                pass
+
+    ontology.save(file=ontologyPath, format="rdfxml")
