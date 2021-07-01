@@ -30,7 +30,7 @@ pip install Owlready2
 To run **mentore**, open a terminal, move to the folder where this repository is located, and then run:
 
 ```bash
-pytyon mentore.py
+python mentore.py
 ```
 
 A simple guide on how to use the GUI can be found directly in the Help page of **mentore**.  
