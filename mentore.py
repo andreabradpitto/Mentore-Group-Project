@@ -9,7 +9,7 @@ from addSentenceWindow import AddSentenceWindow
 from addQuestionWindow import AddQuestionWindow
 from helpWindow import HelpWindow
 from owlready2 import *
-import ontologyInterface as ontoInt
+import ontologyInterface as ontoInterface
 
 
 class Window(QtWidgets.QMainWindow):
@@ -27,7 +27,7 @@ class Window(QtWidgets.QMainWindow):
 
         self.ontology = get_ontology(self.ontologyPath)
         self.ontology.load()
-        self.subjectsList = ontoInt.retrieve_subclasses(
+        self.subjectsList = ontoInterface.retrieve_subclasses(
             self.ontology, self.ontologyParentClass)
 
         self.initPagesUI()
@@ -105,7 +105,6 @@ class Window(QtWidgets.QMainWindow):
             widget.questionSignal.connect(self.catchQuestion)
             widget.gotoSignal.connect(self.goto)
         else:
-            # this is the case for all the other children of PageWindow (currently, just the Help page)
             widget.gotoSignal.connect(self.goto)
 
     @QtCore.pyqtSlot(str)
@@ -136,20 +135,20 @@ class Window(QtWidgets.QMainWindow):
     @QtCore.pyqtSlot(str)
     def catchConceptName(self, name: str) -> None:
         self.statusBarUpdater(name)
-        ontoInt.add_class_to_ontology(
+        ontoInterface.add_class_to_ontology(
             self.ontology, self.ontologyPath, name, self.ontologyParentClass)
         self.subjectsList.insert(0, name)
 
     @QtCore.pyqtSlot(str, int)
     def catchSentence(self, sentence: str, data_type: int) -> None:
-        ontoInt.add_hasSentece_data_property(self.ontology, self.ontologyPath, self.ontologyParentClass,
-                                             self.currentConcept, sentence, data_type, 0)
+        ontoInterface.add_hasSentece_data_property(self.ontology, self.ontologyPath, self.ontologyParentClass,
+                                                   self.currentConcept, sentence, data_type, 0)
         print(f"{sentence}, {data_type}")  # to be deleted
 
     @QtCore.pyqtSlot(str, str, int)
     def catchQuestion(self, sentence: str, answer: str, data_type: int) -> None:
-        ontoInt.add_hasSentece_data_property(self.ontology, self.ontologyPath, self.ontologyParentClass,
-                                             self.currentConcept, sentence, data_type, 1, answer)
+        ontoInterface.add_hasSentece_data_property(self.ontology, self.ontologyPath, self.ontologyParentClass,
+                                                   self.currentConcept, sentence, data_type, 1, answer)
         print(f"{sentence}, {answer}, {data_type}")  # to be deleted
 
 
