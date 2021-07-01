@@ -27,7 +27,7 @@ pip install Owlready2
 
 ## :information_source: Instructions
 
-A simple guide on how to use the GUI can be found in the Help page of **mentore**.
+A simple guide on how to use the GUI can be found directly in the Help page of **mentore**.
 
 ## 📰 Additional information
 
