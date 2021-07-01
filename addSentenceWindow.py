@@ -55,6 +55,9 @@ class AddSentenceWindow(PageWindow):
         self.wait_checkBox.clicked.connect(self.resetPosNeg)
         self.setCentralWidget(self.centralwidget)
 
+        self.add_pb.setDisabled(1)
+        self.sentence_lineEdit.textChanged.connect(self.disableButton)
+
         QtCore.QMetaObject.connectSlotsByName(self)
 
     def mainLabelUpdater(self, word: str):
@@ -62,6 +65,12 @@ class AddSentenceWindow(PageWindow):
                        <span style=\"font-size:12pt; font-weight:bold\">" + word + "</span> <span style=\"font-size:12pt\">\
                        sentence</span></p></body></html>"
         self.mainLabel.setText(labelString)
+
+    def disableButton(self):
+        if len(self.sentence_lineEdit.text()) > 0:
+            self.add_pb.setDisabled(0)
+        else:
+            self.add_pb.setDisabled(1)
 
     def resetNegWait(self):
         self.negative_checkBox.setChecked(0)

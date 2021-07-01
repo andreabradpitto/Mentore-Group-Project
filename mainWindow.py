@@ -100,7 +100,7 @@ class MainWindow(PageWindow):
         conceptName = self.recent3_pb.text()
         self.selectedConceptSignal.emit(conceptName)
 
-    def make_handleButton(self, button):
+    def make_handleButton(self, button: str):
         def handleButton():
             if button == "add_pb":
                 self.goto("add")

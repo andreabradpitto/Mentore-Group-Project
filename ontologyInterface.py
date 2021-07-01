@@ -21,7 +21,8 @@ def add_class_to_ontology(ontology: Ontology, ontologyPath: str, concept: str, p
     ontology.save(file=ontologyPath, format="rdfxml")
 
 
-def add_additional_info(ontology: Ontology, ontologyPath: str, instance, sentence: str, answer: str, type: int, questionFlag: int) -> None:
+def add_hasSentece_child_data_property(ontology: Ontology, ontologyPath: str, instance, sentence: str, \
+                                       type: int, questionFlag: int, answer: str = "NULL") -> None:
     print("...adding additional info to", instance)  # to be deleted
     with ontology:
         if questionFlag == 0:
@@ -30,13 +31,13 @@ def add_additional_info(ontology: Ontology, ontologyPath: str, instance, sentenc
             elif type == 1:
                 instance.hasNegativeSentence.append(locstr(sentence.rstrip(), lang="en"))
             else:
-                pass
+                instance.hasPositiveAndWait.append(locstr(sentence.rstrip(), lang="en"))
         else:
             if type == 0:
-                instance.hasPositiveSentence.append(locstr(sentence.rstrip(), lang="en"))
+                instance.hasQuestion.append(locstr(sentence.rstrip(), lang="en"))
             elif type == 1:
-                instance.hasNegativeSentence.append(locstr(sentence.rstrip(), lang="en"))
+                instance.hasQuestionGoal.append(locstr(sentence.rstrip(), lang="en"))
             else:
-                pass
-
+                instance.hasQuestionContextual.append(locstr(sentence.rstrip(), lang="en"))
+                #remember the answer here
     ontology.save(file=ontologyPath, format="rdfxml")

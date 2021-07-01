@@ -47,6 +47,9 @@ class BrowseWindow(PageWindow):
         self.ok_pb.clicked.connect(self.selectConcept)
         self.setCentralWidget(self.centralwidget)
 
+        self.ok_pb.setDisabled(1)
+        self.listWidget.itemSelectionChanged.connect(self.disableButton)
+
         QtCore.QMetaObject.connectSlotsByName(self)
 
     def createItemList(self, subjectsList: list):
@@ -55,6 +58,12 @@ class BrowseWindow(PageWindow):
             self.listWidget.addItem(item)
             item.setTextAlignment(QtCore.Qt.AlignCenter)
             item.setText(elem)
+
+    def disableButton(self):
+        if len(self.listWidget.selectedItems()) != 0:
+            self.ok_pb.setDisabled(0)
+        else:
+            self.ok_pb.setDisabled(1)
 
     def clearSelection(self):
         for idx in range(self.listWidget.count()):

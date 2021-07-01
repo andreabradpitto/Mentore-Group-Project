@@ -1,3 +1,4 @@
+from pageWindow import PageWindow
 from PyQt5 import QtCore, QtGui, QtWidgets
 from mentorePalette import mentorePaletteSetter
 from browseWindow import BrowseWindow
@@ -12,7 +13,7 @@ import ontologyInterface as ontoInt
 
 
 class Window(QtWidgets.QMainWindow):
-    def __init__(self, parent=None):
+    def __init__(self, parent = None):
         super().__init__(parent)
 
         self.resize(800, 480)
@@ -34,6 +35,7 @@ class Window(QtWidgets.QMainWindow):
         self.setCentralWidget(self.stacked_widget)
 
         self.m_pages = {}
+        self.lastPage = "main"
 
         self.register(MainWindow(), "main")
         self.register(AddMainWindow(), "add")
@@ -41,6 +43,7 @@ class Window(QtWidgets.QMainWindow):
         self.register(AddSentenceWindow(), "addSentence")
         self.register(AddQuestionWindow(), "addQuestion")
         self.register(BrowseWindow(), "browse")
+        self.register(HelpWindow(self.lastPage), "help")
 
         self.goto("main")
 
@@ -79,13 +82,13 @@ class Window(QtWidgets.QMainWindow):
         logoLabel.setPixmap(logoPixmap)
         logoLabel.resize(logoPixmap.width(), logoPixmap.height())
 
-    def statusBarUpdater(self, concept: str):
+    def statusBarUpdater(self, concept: str) -> None:
         statusString = "<html><head/><body><p> <b>" + concept + "</b> \
                         </p></body></html>"
         self.statusbarLabel.setText(statusString)
         self.currentConcept = concept
 
-    def register(self, widget, name):
+    def register(self, widget: PageWindow, name: str) -> None:
         self.m_pages[name] = widget
         self.stacked_widget.addWidget(widget)
         if (isinstance(widget, BrowseWindow) or isinstance(widget, MainWindow)):
@@ -105,7 +108,7 @@ class Window(QtWidgets.QMainWindow):
             widget.gotoSignal.connect(self.goto)
 
     @QtCore.pyqtSlot(str)
-    def goto(self, name):
+    def goto(self, name: str):
         if name in self.m_pages:
             self.lastPage = name
             widget = self.m_pages[name]
@@ -122,30 +125,28 @@ class Window(QtWidgets.QMainWindow):
 
     def goToHelp(self):
         if self.lastPage != "help":
-            self.register(HelpWindow(self.lastPage), "help")
+            self.m_pages["help"].lastPage = self.lastPage
         self.goto("help")
 
     @QtCore.pyqtSlot(str)
-    def selectedConceptName(self, name):
+    def selectedConceptName(self, name: str) -> None:
         self.statusBarUpdater(name)
 
     @QtCore.pyqtSlot(str)
-    def catchConceptName(self, name):
+    def catchConceptName(self, name: str) -> None:
         self.statusBarUpdater(name)
         ontoInt.add_class_to_ontology(self.ontology, self.ontologyPath, name, self.ontologyParentClass)
         self.subjectsList.insert(0, name)
         print(name)  # to be deleted
 
     @QtCore.pyqtSlot(str, int)
-    def catchSentence(self, sentence, type):
-        #read the current subject (get string from status bar; use self.currentConcept)
-        #add the sentence (care about its type!) to the owl file: call add_individual_to_ontology (?!)
+    def catchSentence(self, sentence:str, type: int) -> None:
+        #ontoInt.add_hasSentece_child_data_property(self.ontology, self.ontologyPath, self.currentConcept ?!, sentence, type, 0)
         print(f"{sentence}, {type}")  # to be deleted
 
     @QtCore.pyqtSlot(str, str, int)
-    def catchQuestion(self, sentence, answer, type):
-        #read the current subject (get string from status bar; use self.currentConcept)
-        #add the question and possibly the answer (care about its type!) to the owl file
+    def catchQuestion(self, sentence: str, answer: str, type: int) -> None:
+        #ontoInt.add_hasSentece_child_data_property(self.ontology, self.ontologyPath, self.currentConcept ?!, sentence, type, 1, answer)
         print(f"{sentence}, {answer}, {type}")  # to be deleted
 
 

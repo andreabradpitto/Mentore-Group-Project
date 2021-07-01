@@ -56,6 +56,9 @@ class AddQuestionWindow(PageWindow):
         self.contextual_checkBox.clicked.connect(self.resetPlainGoal)
         self.setCentralWidget(self.centralwidget)
 
+        self.add_pb.setDisabled(1)
+        self.question_lineEdit.textChanged.connect(self.disableButton)
+
         QtCore.QMetaObject.connectSlotsByName(self)
 
     def mainLabelUpdater(self, word: str):
@@ -63,6 +66,19 @@ class AddQuestionWindow(PageWindow):
                        <span style=\"font-size:12pt; font-weight:bold\">" + word + "</span> <span style=\"font-size:12pt\">\
                        question</span></p></body></html>"
         self.mainLabel.setText(labelString)
+
+    def disableButton(self):
+        try:
+            self.answer_lineEdit.maxLength()
+            if (len(self.question_lineEdit.text()) > 0 and len(self.answer_lineEdit.text()) > 0):
+                self.add_pb.setDisabled(0)
+            else:
+                self.add_pb.setDisabled(1)
+        except:
+            if len(self.question_lineEdit.text()) > 0:
+                self.add_pb.setDisabled(0)
+            else:
+                self.add_pb.setDisabled(1)
 
     def resetGoalCont(self):
         self.goal_checkBox.setChecked(0)
@@ -95,7 +111,8 @@ class AddQuestionWindow(PageWindow):
         self.answer_lineEdit = QtWidgets.QLineEdit(self.centralwidget)
         self.answer_lineEdit.setGeometry(QtCore.QRect(100, 255, 600, 30))
         self.answer_lineEdit.setObjectName("answer_lineEdit")
-        self.answer_lineEdit.clear()
+        self.answer_lineEdit.textChanged.connect(self.disableButton)
+        self.add_pb.setDisabled(1)
         self.answerLabel.show()
         self.answer_lineEdit.show()
         self.answer_present = 1

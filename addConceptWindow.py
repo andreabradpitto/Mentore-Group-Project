@@ -40,9 +40,19 @@ class AddConceptWindow(PageWindow):
         self.concept_lineEdit = QtWidgets.QLineEdit(self.centralwidget)
         self.concept_lineEdit.setGeometry(QtCore.QRect(240, 170, 320, 30))
         self.concept_lineEdit.setObjectName("concept_lineEdit")
+
+        self.add_pb.setDisabled(1)
+        self.concept_lineEdit.textChanged.connect(self.disableButton)
+
         self.setCentralWidget(self.centralwidget)
 
         QtCore.QMetaObject.connectSlotsByName(self)
+
+    def disableButton(self):
+        if len(self.concept_lineEdit.text()) > 0:
+            self.add_pb.setDisabled(0)
+        else:
+            self.add_pb.setDisabled(1)
 
     def saveConcept(self):
         conceptName = self.concept_lineEdit.text()
