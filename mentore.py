@@ -27,7 +27,6 @@ class Window(QtWidgets.QMainWindow):
         self.ontology = get_ontology(self.ontologyPath)
         self.ontology.load()
         self.subjectsList = ontoInt.retrieve_subclasses(self.ontology, self.ontologyParentClass)
-        print(self.subjectsList)  # to be deleted
 
         self.initPagesUI()
 
