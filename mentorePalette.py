@@ -49,9 +49,9 @@ def mentorePaletteSetter(palette: QtGui.QPalette) -> QtGui.QPalette:
     brush = QtGui.QBrush(QtGui.QColor(0, 0, 0))
     brush.setStyle(QtCore.Qt.SolidPattern)
     palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.ToolTipText, brush)
-    #brush = QtGui.QBrush(QtGui.QColor(0, 0, 0, 128))
-    # brush.setStyle(QtCore.Qt.SolidPattern)
-    #palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.PlaceholderText, brush)
+    brush = QtGui.QBrush(QtGui.QColor(0, 0, 0, 128))
+    brush.setStyle(QtCore.Qt.SolidPattern)
+    palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.PlaceholderText, brush)
     brush = QtGui.QBrush(QtGui.QColor(0, 0, 0))
     brush.setStyle(QtCore.Qt.SolidPattern)
     palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.WindowText, brush)
@@ -100,9 +100,9 @@ def mentorePaletteSetter(palette: QtGui.QPalette) -> QtGui.QPalette:
     brush.setStyle(QtCore.Qt.SolidPattern)
     palette.setBrush(QtGui.QPalette.Inactive,
                      QtGui.QPalette.ToolTipText, brush)
-    #brush = QtGui.QBrush(QtGui.QColor(0, 0, 0, 128))
-    # brush.setStyle(QtCore.Qt.SolidPattern)
-    #palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.PlaceholderText, brush)
+    brush = QtGui.QBrush(QtGui.QColor(0, 0, 0, 128))
+    brush.setStyle(QtCore.Qt.SolidPattern)
+    palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.PlaceholderText, brush)
     brush = QtGui.QBrush(QtGui.QColor(57, 79, 103))
     brush.setStyle(QtCore.Qt.SolidPattern)
     palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.WindowText, brush)
@@ -151,8 +151,8 @@ def mentorePaletteSetter(palette: QtGui.QPalette) -> QtGui.QPalette:
     brush.setStyle(QtCore.Qt.SolidPattern)
     palette.setBrush(QtGui.QPalette.Disabled,
                      QtGui.QPalette.ToolTipText, brush)
-    #brush = QtGui.QBrush(QtGui.QColor(0, 0, 0, 128))
-    # brush.setStyle(QtCore.Qt.SolidPattern)
-    #palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.PlaceholderText, brush)
+    brush = QtGui.QBrush(QtGui.QColor(0, 0, 0, 128))
+    brush.setStyle(QtCore.Qt.SolidPattern)
+    palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.PlaceholderText, brush)
 
     return palette
