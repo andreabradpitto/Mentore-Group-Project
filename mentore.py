@@ -30,6 +30,7 @@ class Window(QtWidgets.QMainWindow):
         self.ontology.load()
         self.subjectsList = ontoInterface.retrieve_subclasses(
             self.ontology, self.ontologyParentClass)
+        self.subjectsList = sorted(self.subjectsList)
 
         self.initPagesUI()
 
@@ -135,10 +136,13 @@ class Window(QtWidgets.QMainWindow):
 
     @QtCore.pyqtSlot(str)
     def catchConceptName(self, name: str) -> None:
+        if ' ' in name or name[0].islower():
+            name = name.title().replace(' ', '')
         self.statusBarUpdater(name)
         ontoInterface.add_class_to_ontology(
             self.ontology, self.ontologyPath, name, self.ontologyParentClass)
-        self.subjectsList.insert(0, name)
+        self.subjectsList.append(name)
+        self.subjectsList = sorted(self.subjectsList)
 
     @QtCore.pyqtSlot(str, int)
     def catchSentence(self, sentence: str, data_type: int) -> None:
