@@ -44,7 +44,7 @@ def add_hasSentece_data_property(ontology: Ontology, ontologyPath: str, active_c
                 active_class.hasNegativeSentence.append(
                     locstr(sentence.rstrip(), lang="en"))
             else:
-                active_class.hasPositiveSentenceAndWait.append(
+                active_class.hasPositiveAndWait.append(
                     locstr(sentence.rstrip(), lang="en"))
         else:
             if data_type == 0:
