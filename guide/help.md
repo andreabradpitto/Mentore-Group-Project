@@ -2,8 +2,8 @@
 
 **Mentore** is a Graphical User Interface (**GUI**) which lets you easily add subjects, sentences and questions to your ontology.  
 Here you will find a quick aid for all the main capabilities of the GUI.  
-**Mentore** is supposed to work with the *CKB.owl* ontology, and it only operates inside the *schoolSubject* concept.  
-However, the code can be easily adjusted in order let **mentore** handle different ontologies and concepts.
+**Mentore** is supposed to work with the *CKB.owl* ontology, and to operate inside the *schoolSubject* concept: the capabilities of the GUI, and its design, are specifically tailored around them.  
+However, the code can be easily adjusted in order let **mentore** handle different ontologies and concepts, but some features may be unavailable.
 
 ---
 
