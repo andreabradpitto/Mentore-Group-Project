@@ -8,7 +8,7 @@ This is the readme for the brach devoted to the GUI development.
 
 ## :exclamation: Software requirements
 
-- PyQt5
+- PyQt5 version 5.14.0
 - owlready2
 
 ## :white_check_mark: Software installation
@@ -16,13 +16,13 @@ This is the readme for the brach devoted to the GUI development.
 In order to install the [Qt library](https://www.qt.io/) for Python, run (Python 3.6+ required):
 
 ```bash
-pip install pyqt5
+pip3 install pyqt5
 ```
 
 Install the [Owlready2](https://pypi.org/project/Owlready2/) module for ontology-oriented programming with:
 
 ```bash
-pip install Owlready2
+pip3 install Owlready2
 ```
 
 ## :information_source: Instructions
