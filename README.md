@@ -38,9 +38,13 @@ That said, the Markdown source of that page can be read [here](https://github.co
 
 ## 📰 Additional information
 
-**Mentore** has been coded with Ubuntu 20.04, but it has also been tested on Windows 10 and no issues were found.  
+**Mentore** has been coded with Ubuntu 20.04, but it has also been tested on Windows 10, and no issues were found.  
+   
+The window size of **mentore** is set by default to 800×480, in order to match the screen resolution of the robot used in the overall project, *A Motivational And Entertaining Ontology-based Robotic System For Education*.  
+   
 Head over to the [doc folder](https://github.com/andreabradpitto/Mentore-Group-Project/tree/GUI/doc) to check the [Group Project Proposal](https://github.com/andreabradpitto/Mentore-Group-Project/tree/GUI/doc/Group%20Project%20proposal.docx), the [papers](https://github.com/andreabradpitto/Mentore-Group-Project/tree/GUI/doc/papers) on which our work is based, and some other useful resources.  
-For a list of features that are planned in future releases, please check **mentore**'s [Help page](https://github.com/andreabradpitto/Mentore-Group-Project/blob/GUI/guide/help.md).
+  
+For a list of features that are planned in future releases, please check **mentore**'s [Help page](https://github.com/andreabradpitto/Mentore-Group-Project/blob/GUI/guide/help.md) dedicated section.
 
 ## :suspect: Developers
 
