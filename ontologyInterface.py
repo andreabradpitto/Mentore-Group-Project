@@ -12,35 +12,34 @@ def retrieve_subclasses(ontology: Ontology, parent_class: str) -> list:
 
 
 # This function creates and returns the individual belonging to the class passed as parameter
-#def add_individual_to_ontology(concept, new_class):
-#    indiv = "SIN_" + concept.upper().replace(' ', '')
-#    print(indiv)
-#    # Create the instance of the individual of that class
-#    instance = new_class(indiv)
-#    # Add the isNew property to recognize new individuals
-#    instance.isNew = [True]
-#    # Add keyword1 and keyword2 properties - keyword 2 is always *
-#    print("...adding properties hasKeyword1 and hasKeyword2")
-#    print (keyword1)
-#    print (instance.hasKeyword1)
-#    instance.hasKeyword1=instance.hasKeyword1+keyword1
-#    instance.hasKeyword2 = [locstr("*", lang="en")]
-#    instance.hasQuestion.append(locstr(("Do you like "+ instance.hasKeyword1[0] + "?"), lang="en"))
-#    # Initialize a variable needed to stop the iteration when SEN_GEN individual is found
-#    found = False
-#    for cls in list(onto.classes()):
-#        if found:
-#            break
-#        for ind in cls.instances():
-#            if found:
-#                break
-#            # When SEN_GEN individual is found, add the property hasTopic with value the name of the new individual
-#            if ind.name == "SIN_GEN":
-#                ind.hasTopic.append(instance)
-#                print("...added hasTopic property with value: ", instance.name)
-#                found = True
-#    onto.save(file="ontology/CKB_new.owl", format="rdfxml")
-
+def add_individual_to_ontology(ontology: Ontology, ontologyPath: str, concept, new_class):
+    indiv = "SIN_" + concept.upper().replace(' ', '')
+    print(indiv)  # to be deleted
+    # Create the instance of the individual of that class
+    instance = new_class(indiv)
+    # Add the isNew property to recognize new individuals
+    instance.isNew = [True]
+    # Add keyword1 and keyword2 properties - keyword 2 is always *
+    print("...adding properties hasKeyword1 and hasKeyword2")  # to be deleted
+    print (keyword1)  # to be deleted
+    print (instance.hasKeyword1)  # to be deleted
+    instance.hasKeyword1 = instance.hasKeyword1 + keyword1
+    instance.hasKeyword2 = [locstr("*", lang="en")]
+    instance.hasQuestion.append(locstr(("Do you like "+ instance.hasKeyword1[0] + "?"), lang="en"))
+    # Initialize a variable needed to stop the iteration when SIN_GEN individual is found
+    found = False
+    for cls in list(ontology.classes()):
+       if found:
+            break
+       for ind in cls.instances():
+           if found:
+                break
+           # When SIN_GEN individual is found, add the property hasTopic with value the name of the new individual
+           if ind.name == "SIN_GEN":
+                ind.hasTopic.append(instance)
+                print("...added hasTopic property with value: ", instance.name)  # to be deleted
+                found = True
+    ontology.save(file=ontologyPath, format="rdfxml")
     return instance
 
 
