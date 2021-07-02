@@ -77,7 +77,7 @@ The **mentore GUI** has been developed as part of a broader project, *A Motivati
 For this reason and due to time constraints, some desiderable features have not been implemented yet:
 
 - The ability of deleting subjects, sentences and questions from the ontology
-- A feeature that checks whether user-inputted data is already present in the ontology in the same form
+- A feature that checks whether user-inputted sentences and questions are already present in the ontology in the very same form. This may be tackled with 6 new list attributes that keep track of all the current child data properties of hasSentence for the currently selected subject. This is what is already being done for the list of subjects in *SchoolSubject*.
 
 ---
 

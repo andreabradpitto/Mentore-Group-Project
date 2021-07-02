@@ -139,10 +139,11 @@ class Window(QtWidgets.QMainWindow):
         if ' ' in name or name[0].islower():
             name = name.title().replace(' ', '')
         self.statusBarUpdater(name)
-        ontoInterface.add_class_to_ontology(
-            self.ontology, self.ontologyPath, name, self.ontologyParentClass)
-        self.subjectsList.append(name)
-        self.subjectsList = sorted(self.subjectsList)
+        if name not in self.subjectsList:
+            ontoInterface.add_class_to_ontology(
+                self.ontology, self.ontologyPath, name, self.ontologyParentClass)
+            self.subjectsList.append(name)
+            self.subjectsList = sorted(self.subjectsList)
 
     @QtCore.pyqtSlot(str, int)
     def catchSentence(self, sentence: str, data_type: int) -> None:
