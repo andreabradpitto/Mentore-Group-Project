@@ -4,7 +4,7 @@
 
 # Mentore-Group-Project GUI readme
 
-This is the readme for the brach devoted to the GUI development.
+This is the readme for the brach devoted to the **mentore** Graphical User Interface (**GUI**) development.
 
 ## :exclamation: Software requirements
 
