@@ -24,7 +24,7 @@ def add_individual_to_ontology(ontology: Ontology, ontologyPath: str, concept: s
     instance.hasKeyword1 = [
         locstr(concept.lower().replace(' ', ''), lang="en")]
     instance.hasKeyword2 = [locstr("*", lang="en")]
-    randomLikeliness = random.randint(0, 10) / 10
+    randomLikeliness = random.randint(1, 9) / 10
     instance.hasLikeliness.append(randomLikeliness)
     instance.hasQuestion.append(
         locstr(("Do you like " + instance.hasKeyword1[0] + "?"), lang="en"))
