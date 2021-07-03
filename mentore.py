@@ -140,10 +140,12 @@ class Window(QtWidgets.QMainWindow):
             name = name.title().replace(' ', '')
         self.statusBarUpdater(name)
         if name not in self.subjectsList:
-            ontoInterface.add_class_to_ontology(
+            new_class = ontoInterface.add_class_to_ontology(
                 self.ontology, self.ontologyPath, name, self.ontologyParentClass)
             self.subjectsList.append(name)
             self.subjectsList = sorted(self.subjectsList)
+            ontoInterface.add_individual_to_ontology(
+                self.ontology, self.ontologyPath, name, new_class)
 
     @QtCore.pyqtSlot(str, int)
     def catchSentence(self, sentence: str, data_type: int) -> None:
