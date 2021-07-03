@@ -47,6 +47,10 @@ Head over to the [doc folder](https://github.com/andreabradpitto/Mentore-Group-P
   
 For a list of features that are planned in future releases, please check **mentore**'s [Help page](https://github.com/andreabradpitto/Mentore-Group-Project/blob/GUI/guide/help.md) dedicated section.
 
+<div align="center">
+  <img src="https://github.com/andreabradpitto/Mentore-Group-Project/blob/GUI/images/mentore.gif">
+</div>
+
 ## :suspect: Developers
 
 Andrea Pitto - s3942710@studenti.unige.it  
