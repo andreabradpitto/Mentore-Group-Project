@@ -60,7 +60,8 @@ def add_class_to_ontology(ontology: Ontology, ontologyPath: str, concept: str, p
     return NewClass
 
 
-# Adds a sentence or a question as a child of the hasSentence data property of the class whose name matches the inputted string
+# Adds a sentence or a question as a child of the hasSentence data property
+# of the class and individual whose names match the inputted string
 def add_hasSentece_data_property(ontology: Ontology, ontologyPath: str, active_class_name: str, sentence: str,
                                  data_type: int, questionFlag: int, answer: str = "NULL") -> None:
     with ontology:
