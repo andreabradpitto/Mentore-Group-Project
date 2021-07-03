@@ -10,7 +10,7 @@ This is the readme for the brach devoted to the GUI development.
 
 - Python 3.6 (or above)
 - PyQt5 5.14.0 (or above)
-- owlready2
+- Owlready2
 
 ## :white_check_mark: Software installation
 
