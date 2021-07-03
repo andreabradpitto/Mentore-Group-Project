@@ -25,17 +25,15 @@ def add_individual_to_ontology(ontology: Ontology, ontologyPath: str, concept: s
     instance.hasQuestion.append(
         locstr(("Do you like " + instance.hasKeyword1[0] + "?"), lang="en"))
     # Initialize a variable needed to stop the iteration when SIN_GEN individual is found
-    found = False
     for cls in list(ontology.classes()):
-        if found:
-            break
         for ind in cls.instances():
-            if found:
-                break
             # When SIN_GEN individual is found, add the property hasTopic with value the name of the new individual
             if ind.name == "SIN_GEN":
                 ind.hasTopic.append(instance)
-                found = True
+                break
+        else:
+            continue
+        break
     ontology.save(file=ontologyPath, format="rdfxml")
     return instance
 
