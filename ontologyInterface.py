@@ -23,9 +23,9 @@ def add_individual_to_ontology(ontology: Ontology, ontologyPath: str, concept: s
     instance.hasKeyword1 = [
         locstr(concept.lower().replace(' ', ''), lang="en")]
     instance.hasKeyword2 = [locstr("*", lang="en")]
-    instance.hasPositiveSentence.append(
+    instance.hasPositiveSentence_4.append(
         locstr(("Let's talk about " + instance.hasKeyword1[0] + "!"), lang="en"))
-    instance.hasQuestion.append(
+    instance.hasQuestion_4.append(
         locstr(("Do you want to talk about " + instance.hasKeyword1[0] + "?"), lang="en"))
     # Initialize a variable needed to stop the iteration when SIN_GEN individual is found
     for cls in list(ontology.classes()):
