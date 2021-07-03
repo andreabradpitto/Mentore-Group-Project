@@ -49,7 +49,7 @@ The window size of **mentore** is set by default to 800×480, in order to match 
    
 Head over to the [doc folder](https://github.com/andreabradpitto/Mentore-Group-Project/tree/GUI/doc) to check the [Group Project Proposal](https://github.com/andreabradpitto/Mentore-Group-Project/tree/GUI/doc/Group%20Project%20proposal.docx), the [papers](https://github.com/andreabradpitto/Mentore-Group-Project/tree/GUI/doc/papers) on which our work is based, and some other useful resources.  
   
-For a list of features that are planned in future releases, please check **mentore**'s [Help page](https://github.com/andreabradpitto/Mentore-Group-Project/blob/GUI/guide/help.md) dedicated section.
+For a list of features that are planned in future releases, please check **mentore**'s Help page [dedicated section](https://github.com/andreabradpitto/Mentore-Group-Project/blob/GUI/guide/help.md#features-that-will-be-supported-in-the-future).
 
 ## :suspect: Developers
 
