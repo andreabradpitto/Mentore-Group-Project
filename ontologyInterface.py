@@ -12,7 +12,8 @@ def retrieve_subclasses(ontology: Ontology, parent_class: str) -> list:
 
 
 # This function creates and returns the individual belonging to the class passed as parameter
-# and adds a generic question via the hasQuestion data property, and a random hasLikeliness data property value to it
+# and adds a generic sentence via the hasPositiveSentence data property
+# as weel as a generic question via the hasQuestion data property
 def add_individual_to_ontology(ontology: Ontology, ontologyPath: str, concept: str, new_class):
     indiv = "SIN_" + concept.upper().replace(' ', '')
     # Create the instance of the individual of that class
