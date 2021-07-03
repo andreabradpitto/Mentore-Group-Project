@@ -12,13 +12,13 @@ This is the readme for the brach devoted to the **mentore** Graphical User Inter
 
 ## :exclamation: Software requirements
 
-- Python 3.6 (or above)
-- PyQt5 5.14.0 (or above)
+- Python (version >= 3.6)
+- PyQt5 (version >= 5.14.0)
 - Owlready2
 
 ## :white_check_mark: Software installation
 
-In order to install the [Qt library](https://pypi.org/project/PyQt5/) (the documentation can be found [here](https://www.qt.io/)) for Python, run (requires Python >= 3.6):
+In order to install the [Qt library](https://pypi.org/project/PyQt5/) (the documentation can be found [here](https://www.qt.io/)) for Python, run:
 
 ```bash
 pip install PyQt5
