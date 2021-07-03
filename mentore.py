@@ -151,19 +151,11 @@ class Window(QtWidgets.QMainWindow):
     def catchSentence(self, sentence: str, data_type: int) -> None:
         ontoInterface.add_hasSentece_data_property(self.ontology, self.ontologyPath, self.currentConcept,
                                                    sentence, data_type, 0)
-        curr_class = ontoInterface.retrieve_class(
-            self.ontology, self.currentConcept)
-        ontoInterface.add_individual_to_ontology(
-            self.ontology, self.ontologyPath, self.currentConcept, curr_class)
 
     @QtCore.pyqtSlot(str, str, int)
     def catchQuestion(self, sentence: str, answer: str, data_type: int) -> None:
         ontoInterface.add_hasSentece_data_property(self.ontology, self.ontologyPath, self.currentConcept,
                                                    sentence, data_type, 1, answer)
-        curr_class = ontoInterface.retrieve_class(
-            self.ontology, self.currentConcept)
-        ontoInterface.add_individual_to_ontology(
-            self.ontology, self.ontologyPath, self.currentConcept, curr_class)
 
 
 if __name__ == "__main__":

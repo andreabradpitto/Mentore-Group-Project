@@ -68,26 +68,57 @@ def add_hasSentece_data_property(ontology: Ontology, ontologyPath: str, active_c
         active_class = retrieve_class(
             ontology, active_class_name)
 
+        for cls in list(ontology.classes()):
+            for ind in cls.instances():
+                if ind.name == "SIN_" + active_class_name.upper():
+                    active_individual = ind
+                    break
+            else:
+                continue
+            break
+
         if questionFlag == 0:
+
             if data_type == 0:
                 active_class.hasPositiveSentence_4.append(
                     locstr(sentence.rstrip(), lang="en"))
+                active_individual.hasPositiveSentence_4.append(
+                    locstr(sentence.rstrip(), lang="en"))
+
             elif data_type == 1:
                 active_class.hasNegativeSentence_4.append(
                     locstr(sentence.rstrip(), lang="en"))
+                active_individual.hasNegativeSentence_4.append(
+                    locstr(sentence.rstrip(), lang="en"))
+
             else:
                 active_class.hasPositiveAndWait_4.append(
                     locstr(sentence.rstrip(), lang="en"))
+                active_individual.hasPositiveAndWait_4.append(
+                    locstr(sentence.rstrip(), lang="en"))
+
         else:
+
             if data_type == 0:
                 active_class.hasQuestion_4.append(
                     locstr(sentence.rstrip(), lang="en"))
+                active_individual.hasQuestion_4.append(
+                    locstr(sentence.rstrip(), lang="en"))
+
             elif data_type == 1:
                 active_class.hasQuestionGoal_4.append(
                     locstr(sentence.rstrip(), lang="en"))
+                active_individual.hasQuestionGoal_4.append(
+                    locstr(sentence.rstrip(), lang="en"))
+
             else:
                 active_class.hasQuestionContextual_4.append(
                     locstr(sentence.rstrip(), lang="en"))
                 active_class.hasQuestionContextualReply_4.append(
                     locstr(answer.rstrip(), lang="en"))
+                active_individual.hasQuestionContextual_4.append(
+                    locstr(sentence.rstrip(), lang="en"))
+                active_individual.hasQuestionContextualReply_4.append(
+                    locstr(answer.rstrip(), lang="en"))
+
     ontology.save(file=ontologyPath, format="rdfxml")
