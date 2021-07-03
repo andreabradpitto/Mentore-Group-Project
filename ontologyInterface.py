@@ -1,4 +1,5 @@
 from owlready2 import *
+import random
 
 
 # Returns all the subclasses of a given parent class
@@ -12,6 +13,7 @@ def retrieve_subclasses(ontology: Ontology, parent_class: str) -> list:
 
 
 # This function creates and returns the individual belonging to the class passed as parameter
+# and adds a generic question via the hasQuestion data property, and a random hasLikeliness data property value to it
 def add_individual_to_ontology(ontology: Ontology, ontologyPath: str, concept: str, new_class):
     indiv = "SIN_" + concept.upper().replace(' ', '')
     # Create the instance of the individual of that class
@@ -19,9 +21,11 @@ def add_individual_to_ontology(ontology: Ontology, ontologyPath: str, concept: s
     # Add the isNew property to recognize new individuals
     instance.isNew = [True]
     # Add keyword1 and keyword2 properties - keyword 2 is always *
-    instance.hasKeyword1 = instance.hasKeyword1 + \
-        [concept.lower().replace(' ', '')]
+    instance.hasKeyword1 = [
+        locstr(concept.lower().replace(' ', ''), lang="en")]
     instance.hasKeyword2 = [locstr("*", lang="en")]
+    randomLikeliness = random.randint(0, 10) / 10
+    instance.hasLikeliness.append(randomLikeliness)
     instance.hasQuestion.append(
         locstr(("Do you like " + instance.hasKeyword1[0] + "?"), lang="en"))
     # Initialize a variable needed to stop the iteration when SIN_GEN individual is found
@@ -56,9 +60,8 @@ def add_class_to_ontology(ontology: Ontology, ontologyPath: str, concept: str, p
     ontology.save(file=ontologyPath, format="rdfxml")
     return NewClass
 
-# Adds a sentence or a question to the hasSentence data property of the class whose name matches the inputted string
 
-
+# Adds a sentence or a question as a child of the hasSentence data property of the class whose name matches the inputted string
 def add_hasSentece_data_property(ontology: Ontology, ontologyPath: str, active_class_name: str, sentence: str,
                                  data_type: int, questionFlag: int, answer: str = "NULL") -> None:
     with ontology:
