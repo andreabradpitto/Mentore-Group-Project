@@ -3,7 +3,7 @@
 **Mentore** is a Graphical User Interface (**GUI**) which lets you easily add subjects, sentences and questions to your ontology.  
 Here you will find a quick aid for all the main capabilities of the GUI.  
 **Mentore** is supposed to work with the *CKB.owl* ontology, and to operate inside the *schoolSubject* concept: the capabilities of the GUI, and its design, are specifically tailored around them.  
-However, the code can be easily adjusted in order let **mentore** handle different ontologies and concepts, but some features may be unavailable.
+However, the code can be easily adjusted in order let **Mentore** handle different ontologies and concepts, but some features may be unavailable.
 
 ---
 
@@ -26,7 +26,7 @@ Also, all the pages feature a status bar at the bottom, which shows the currentl
 
 ### Main page (1/7)
 
-This is the first page you see when first launching mentore.  
+This is the first page you see when first launching Mentore.  
 Use this page to access all the functionalities of this tool.  
 You will be albe to use the **Recently used subjects** feature once you have selected some of them.
 
@@ -73,16 +73,17 @@ This is where you are now :)
 
 ## Features that will be supported in the future
 
-The **mentore GUI** has been developed as part of a broader project, *A Motivational And Entertaining Ontology-based Robotic System For Education*.  
+The **Mentore GUI** has been developed as part of a broader project, *A Motivational And Entertaining Ontology-based Robotic System For Education*.  
 For this reason and due to time constraints, some desiderable features have not been implemented yet:
 
 - The ability of deleting subjects, sentences and questions from the ontology
-- A feature that checks whether user-inputted sentences and questions are already present in the ontology in the very same form. This may be tackled with 6 new list attributes that keep track of all the current child data properties of hasSentence for the currently selected subject. This is what is already being done for the list of subjects in *SchoolSubject*.
+- A feature that checks whether user-inputted sentences and questions are already present in the ontology in the very same form. This may be tackled with 6 new list attributes that keep track of all the current child data properties of hasSentence for the currently selected subject. This is what is already being done for the list of subjects in *SchoolSubject*
+- The possibility of recording some audio files with the GUI, which then may be uploaded online and linked in the ontology
 
 ---
 
 ## Developers
 
+Andrea Pitto - `s3942710@studenti.unige.it`  
 Syed Muhammad Raza Rizvi - `s4853521@studenti.unige.it`  
-Laiba Zahid - `s4853477@studenti.unige.it`  
-Andrea Pitto - `s3942710@studenti.unige.it`
+Laiba Zahid - `s4853477@studenti.unige.it`
