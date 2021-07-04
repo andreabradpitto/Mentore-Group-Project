@@ -8,12 +8,12 @@ Please check each branch in order to inspect every sub-group's work.
 
 Online branches:
 - [GUI](https://github.com/andreabradpitto/Mentore-Group-Project/tree/GUI)
-  - Developers: Andrea Pitto, Syed Muhammad Raza Rizvi, Laiba Zahid
+  - Developers: [Andrea Pitto](https://github.com/andreabradpitto), [Syed Muhammad Raza Rizvi](https://github.com/SMRazaRizvi96), [Laiba Zahid](https://github.com/laibazahid26)
 - [Protocols](https://github.com/andreabradpitto/Mentore-Group-Project/tree/Protocols)
-  - Developers: Gabriele Reverberi, Sandeep Soleti, Srinivasan
+  - Developers: [Gabriele Reverberi](https://github.com/gaxrever), [Sandeep Soleti](https://github.com/sandeepsoleti), [Srinivasan](https://github.com/srini0613)
 
 Offline branches:
 - Ontology
-  - Developers: Aliya Arystanbek, Daulet Babakhan, Chetan Chand Chilakapati, Vishruth
+  - Developers: [Aliya Arystanbek](https://github.com/AliyaArystanbek), [Daulet Babakhan](https://github.com/DauletBabakhan), [Chetan Chand Chilakapati](https://github.com/chetanchandc), [Vishruth](https://github.com/Vish214)
 
 ---
