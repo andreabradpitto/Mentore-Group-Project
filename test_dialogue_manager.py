@@ -65,7 +65,7 @@ def main():
                 texta = r.recognize_google(audio)
                 print("You said : {}".format(texta))
             except:
-                print("")
+                print("did not understand, please repeat!")
         #sentence = input("U: ")
         sentence = texta
         sentence = sentence.replace(" ", "_")
