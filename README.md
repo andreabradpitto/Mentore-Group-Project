@@ -63,7 +63,7 @@ The positive and negative user answers to get a positive and negative replies of
 * **"No", "no"**  – In this case, robot replies with negative sentence.
 * Click **ctrl+c** to end the conversation.
 
-(Note: When you end the convo and start again, make sure to delete credentials.txt and clients\0  in (Flask_Caresses) folder, and then follow the same procedure as above [Go to Instructions(#Instructions)
+(Note: When you end the convo and start again, make sure to delete credentials.txt and clients\0  in (Flask_Caresses) folder, and then follow the same procedure as above [Go to Instructions](#Instructions)
 
 ## 📰 Additional information
 A small video is attached here just for an idea of how to run.(soon to be done)
