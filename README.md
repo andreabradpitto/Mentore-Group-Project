@@ -1,15 +1,13 @@
-# Mentore-Group-Project ONTOLOGY  readme
+# Mentore-Group-Project Ontology readme
 
-This is the readme for the branch devoted to the **Mentore** **Ontology** development.
-
-## :exclamation: Software requirements
+## Software requirements
 
 * Java 1.8 older version
 *	Protégé 5.5
 *	Python(version >= 3.6)
 
 
-## :white_check_mark: Software installation
+## Installing Packages
 
 In order to install some of the packages in Python, run:
 
@@ -25,7 +23,7 @@ pip install re
 ```
 
 
-## :information_source: Instructions
+## Instructions
 
 To run ontology and start the conversation , open a terminal, move to the folder(Flask_CARESSES\dialogue_tree), and then run: 
 
@@ -79,12 +77,8 @@ A video showing how to steup files, run and start the conversation can be found 
 * The conversation is carried away in the terminal(i.e., using keyboard) as a part of our (**Ontology Subgroup**) work. 
 * Whereas, **Protocols Subgroup** uses TTS, STT to have live conversation(i.e., using voice) as it is thier part.  
 
-## 📰 Additional information
 
-Head over to the [doc folder](https://github.com/andreabradpitto/Mentore-Group-Project/tree/Ontlology/doc) to check the [Group Project Proposal](https://github.com/andreabradpitto/Mentore-Group-Project/blob/Ontlology/doc/Group%20Project%20proposal.docx), the [papers](https://github.com/andreabradpitto/Mentore-Group-Project/tree/Ontlology/doc/Papers) on which our work is based, and some other useful resources.  
-  
-
-## :suspect: Developers
+## Developers
 
 * Aliya Arystanbek - s4842279@studenti.unige.it 
 * Chetan Chand Chilakapati - s4850111@studenti.unige.it 
