@@ -53,24 +53,22 @@ Then robot will start conversation by assigning you a client_id(for instance., 0
 The triggering keywords that you can direct to particular topic:
 
 * I like school or **school** – questions regarding school subjects
-* I like maths or **maths** -- questions regarding maths (also, PROBABLITY also can be used as it is a subtopic of maths)
-* I like geography or **geography** -- questions regarding geography (also, CONTINENTS also can be used as it is a subtopic of geography)
-* I like physics or **physics** -- questions regarding physics (also, KINEMATICS also can be used as it is a subtopic of physics)
+* I like maths or **maths** – questions regarding maths (also, **Probability** also can be used as it is a subtopic of maths)
+* I like geography or **geography** – questions regarding geography (also, **Continents** also can be used as it is a subtopic of geography)
+* I like physics or **physics** – questions regarding physics (also, **Knimenatics** also can be used as it is a subtopic of physics)
+
+The positive and negative user answers to get a positive and negative replies of the particular topic:
+
+* **"yes", "Yes", "ok", "Ok", "Fine", "sure", "Sure", "Of course", "of course"** – In this case, robot will reply with positive sentence.
+* **"No", "no"**  – In this case, robot will reply with negative sentence.
 * Click **ctrl+c** to end the conversation.
 
-(Note: When you end the convo and start again, make sure to delete credentials.txt and clients\0 folder, and then follow the same procedure as above)
+(Note: When you end the convo and start again, make sure to delete credentials.txt and clients\0  in (Flask_Caresses) folder, and then follow the same procedure as above **instructions**)
 
 ## 📰 Additional information
 A small video is attached here just for an idea of how to run.(soon to be done)
+
 VIDEO
-
-
-
-
-
-**Mentore** has been coded with Ubuntu 20.04, but it has also been tested on Windows 10, and no issues were found.  
-
-The window size of **Mentore** is set by default to 800×480, in order to match the screen resolution of the robot used in the overall project, *A Motivational And Entertaining Ontology-based Robotic System For Education*.  
 
 Head over to the [doc folder](https://github.com/andreabradpitto/Mentore-Group-Project/tree/GUI/doc) to check the [Group Project Proposal](https://github.com/andreabradpitto/Mentore-Group-Project/tree/GUI/doc/Group%20Project%20proposal.docx), the [papers](https://github.com/andreabradpitto/Mentore-Group-Project/tree/GUI/doc/papers) on which our work is based, and some other useful resources.  
   
@@ -78,7 +76,10 @@ For a list of features that are planned in future releases, please check **Mento
 
 ## :suspect: Developers
 
-Andrea Pitto - s3942710@studenti.unige.it  
-Syed Muhammad Raza Rizvi - s4853521@studenti.unige.it  
-Laiba Zahid - s4853477@studenti.unige.it
+Aliya Arystanbek - s4842279@studenti.unige.it
+Chetan Chand Chilakapati - s4850111@studenti.unige.it
+Daulet Babakhan - s4842280@studenti.unige.it
+Vishruth X - s4848208@studenti.unige.it
+
+
 
