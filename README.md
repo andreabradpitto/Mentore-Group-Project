@@ -76,6 +76,9 @@ A video showing how to steup files, run and start the conversation can be found 
 
 [Video](link)
 
+* The conversation is carried away in the terminal(i.e., using keyboard) as a part of our**(Ontology subgroup)** work. 
+* Whereas, **Protocols Subgroup** uses TTS, STT to have live conversation(i.e., using voice) as it is thier part.  
+
 ## 📰 Additional information
 
 Head over to the [doc folder](https://github.com/andreabradpitto/Mentore-Group-Project/tree/Ontlology/doc) to check the [Group Project Proposal](https://github.com/andreabradpitto/Mentore-Group-Project/blob/Ontlology/doc/Group%20Project%20proposal.docx), the [papers](https://github.com/andreabradpitto/Mentore-Group-Project/tree/Ontlology/doc/Papers) on which our work is based, and some other useful resources.  
