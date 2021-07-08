@@ -1,0 +1,2348 @@
+_810_JapaneseMusic0_p_#action=playmusic title=$parameter1
+_810_JapaneseMusic0_r_Ok, I will play $parameter1 for you.
+_810_JapaneseMusic0_t_(?:P|p)lay (?:the song)? (.*)_1
+_812_RingoMuraKara0_p_#action=playmusic title=$parameter1
+_812_RingoMuraKara0_r_Ok, I will play $parameter1 for you.
+_812_RingoMuraKara0_t_(?:P|p)lay (?:the song)? (.*)_1
+_814_AoiSanmyaku0_p_#action=playmusic title=$parameter1
+_814_AoiSanmyaku0_r_Ok, I will play $parameter1 for you.
+_814_AoiSanmyaku0_t_(?:P|p)lay (?:the song)? (.*)_1
+_816_YuurakuchouDeAimashou0_p_#action=playmusic title=$parameter1
+_816_YuurakuchouDeAimashou0_r_Ok, I will play $parameter1 for you.
+_816_YuurakuchouDeAimashou0_t_(?:P|p)lay (?:the song)? (.*)_1
+_818_SukiyakiUeoMuiteArukou0_p_#action=playmusic title=$parameter1
+_818_SukiyakiUeoMuiteArukou0_r_Ok, I will play $parameter1 for you.
+_818_SukiyakiUeoMuiteArukou0_t_(?:P|p)lay (?:the song)? (.*)_1
+_820_Osho0_p_#action=playmusic title=$parameter1
+_820_Osho0_r_Ok, I will play $parameter1 for you.
+_820_Osho0_t_(?:P|p)lay (?:the song)? (.*)_1
+_822_AoiSanmyaku0_p_#action=playmusic title=$parameter1
+_822_AoiSanmyaku0_r_Ok, I will play $parameter1 for you.
+_822_AoiSanmyaku0_t_(?:P|p)lay (?:the song)? (.*)_1
+_824_ChanchikiOkesa0_p_#action=playmusic title=$parameter1
+_824_ChanchikiOkesa0_r_Ok, I will play $parameter1 for you.
+_824_ChanchikiOkesa0_t_(?:P|p)lay (?:the song)? (.*)_1
+_826_OtomiSan0_p_#action=playmusic title=$parameter1
+_826_OtomiSan0_r_Ok, I will play $parameter1 for you.
+_826_OtomiSan0_t_(?:P|p)lay (?:the song)? (.*)_1
+_828_KokoSannenSei0_p_#action=playmusic title=$parameter1
+_828_KokoSannenSei0_r_Ok, I will play $parameter1 for you.
+_828_KokoSannenSei0_t_(?:P|p)lay (?:the song)? (.*)_1
+_830_RingoNoUta0_p_#action=playmusic title=$parameter1
+_830_RingoNoUta0_r_Ok, I will play $parameter1 for you.
+_830_RingoNoUta0_t_(?:P|p)lay (?:the song)? (.*)_1
+_832_ShadowsOfLostDays0_p_#action=playmusic title=$parameter1
+_832_ShadowsOfLostDays0_r_Ok, I will play $parameter1 for you.
+_832_ShadowsOfLostDays0_t_(?:P|p)lay (?:the song)? (.*)_1
+_833_Osho0_p_#action=playmusic title=$parameter1
+_833_Osho0_r_Ok, I will play $parameter1 for you.
+_833_Osho0_t_(?:P|p)lay (?:the song)? (.*)_1
+_834_AoiSanmyaku0_p_#action=playmusic title=$parameter1
+_834_AoiSanmyaku0_r_Ok, I will play $parameter1 for you.
+_834_AoiSanmyaku0_t_(?:P|p)lay (?:the song)? (.*)_1
+_835_RingoMuraKara0_p_#action=playmusic title=$parameter1
+_835_RingoMuraKara0_r_Ok, I will play $parameter1 for you.
+_835_RingoMuraKara0_t_(?:P|p)lay (?:the song)? (.*)_1
+_836_ShadowsOfLostDays0_p_#action=playmusic title=$parameter1
+_836_ShadowsOfLostDays0_r_Ok, I will play $parameter1 for you.
+_836_ShadowsOfLostDays0_t_(?:P|p)lay (?:the song)? (.*)_1
+_837_OtomiSan0_p_#action=playmusic title=$parameter1
+_837_OtomiSan0_r_Ok, I will play $parameter1 for you.
+_837_OtomiSan0_t_(?:P|p)lay (?:the song)? (.*)_1
+_838_ChanchikiOkesa0_p_#action=playmusic title=$parameter1
+_838_ChanchikiOkesa0_r_Ok, I will play $parameter1 for you.
+_838_ChanchikiOkesa0_t_(?:P|p)lay (?:the song)? (.*)_1
+_839_RingoNoUta0_p_#action=playmusic title=$parameter1
+_839_RingoNoUta0_r_Ok, I will play $parameter1 for you.
+_839_RingoNoUta0_t_(?:P|p)lay (?:the song)? (.*)_1
+_840_KokoSannenSei0_p_#action=playmusic title=$parameter1
+_840_KokoSannenSei0_r_Ok, I will play $parameter1 for you.
+_840_KokoSannenSei0_t_(?:P|p)lay (?:the song)? (.*)_1
+_841_SukiyakiUeoMuiteArukou0_p_#action=playmusic title=$parameter1
+_841_SukiyakiUeoMuiteArukou0_r_Ok, I will play $parameter1 for you.
+_841_SukiyakiUeoMuiteArukou0_t_(?:P|p)lay (?:the song)? (.*)_1
+_842_YuurakuchouDeAimashou0_p_#action=playmusic title=$parameter1
+_842_YuurakuchouDeAimashou0_r_Ok, I will play $parameter1 for you.
+_842_YuurakuchouDeAimashou0_t_(?:P|p)lay (?:the song)? (.*)_1
+_843_PopMusic0_p_#action=playmusic title=$parameter1
+_843_PopMusic0_r_Ok, I will play $parameter1 for you.
+_843_PopMusic0_t_(?:P|p)lay (?:the song)? (.*)_1
+_845_LoveIsAllAround0_p_#action=playmusic title=$parameter1
+_845_LoveIsAllAround0_r_Ok, I will play $parameter1 for you.
+_845_LoveIsAllAround0_r_Ok, I will play some english music for you.
+_845_LoveIsAllAround0_t_(?:P|p)lay (?:the song)? (.*)_1
+_845_LoveIsAllAround0_t_(?:P|p)lay english music
+_847_RingoNoUta0_p_#action=playmusic title=$parameter1
+_847_RingoNoUta0_r_Ok, I will play $parameter1 for you.
+_847_RingoNoUta0_t_(?:P|p)lay (?:the song)? (.*)_1
+_849_YoullNeverWalkAlone0_p_#action=playmusic title=$parameter1
+_849_YoullNeverWalkAlone0_r_Ok, I will play $parameter1 for you.
+_849_YoullNeverWalkAlone0_r_Ok, I will play some english music for you.
+_849_YoullNeverWalkAlone0_t_(?:P|p)lay (?:the song)? (.*)_1
+_849_YoullNeverWalkAlone0_t_(?:P|p)lay english music
+_851_RingoMuraKara0_p_#action=playmusic title=$parameter1
+_851_RingoMuraKara0_r_Ok, I will play $parameter1 for you.
+_851_RingoMuraKara0_t_(?:P|p)lay (?:the song)? (.*)_1
+_853_ADayInTheLife0_p_#action=playmusic title=$parameter1
+_853_ADayInTheLife0_r_Ok, I will play $parameter1 for you.
+_853_ADayInTheLife0_r_Ok, I will play some english music for you.
+_853_ADayInTheLife0_t_(?:P|p)lay (?:the song)? (.*)_1
+_853_ADayInTheLife0_t_(?:P|p)lay english music
+_855_WeWillMeetAgain0_p_#action=playmusic title=$parameter1
+_855_WeWillMeetAgain0_r_Ok, I will play $parameter1 for you.
+_855_WeWillMeetAgain0_r_Ok, I will play some english music for you.
+_855_WeWillMeetAgain0_t_(?:P|p)lay (?:the song)? (.*)_1
+_855_WeWillMeetAgain0_t_(?:P|p)lay english music
+_857_SukiyakiUeoMuiteArukou0_p_#action=playmusic title=$parameter1
+_857_SukiyakiUeoMuiteArukou0_r_Ok, I will play $parameter1 for you.
+_857_SukiyakiUeoMuiteArukou0_t_(?:P|p)lay (?:the song)? (.*)_1
+_859_AoiSanmyaku0_p_#action=playmusic title=$parameter1
+_859_AoiSanmyaku0_r_Ok, I will play $parameter1 for you.
+_859_AoiSanmyaku0_t_(?:P|p)lay (?:the song)? (.*)_1
+_861_AoiSanmyaku0_p_#action=playmusic title=$parameter1
+_861_AoiSanmyaku0_r_Ok, I will play $parameter1 for you.
+_861_AoiSanmyaku0_t_(?:P|p)lay (?:the song)? (.*)_1
+_863_DiscoDeewane0_p_#action=playmusic title=$parameter1
+_863_DiscoDeewane0_r_Ok, I will play $parameter1 for you.
+_863_DiscoDeewane0_t_(?:P|p)lay (?:the song)? (.*)_1
+_865_Downtown0_p_#action=playmusic title=$parameter1
+_865_Downtown0_r_Ok, I will play $parameter1 for you.
+_865_Downtown0_r_Ok, I will play some english music for you.
+_865_Downtown0_t_(?:P|p)lay (?:the song)? (.*)_1
+_865_Downtown0_t_(?:P|p)lay english music
+_867_ChanchikiOkesa0_p_#action=playmusic title=$parameter1
+_867_ChanchikiOkesa0_r_Ok, I will play $parameter1 for you.
+_867_ChanchikiOkesa0_t_(?:P|p)lay (?:the song)? (.*)_1
+_868_SukiyakiUeoMuiteArukou0_p_#action=playmusic title=$parameter1
+_868_SukiyakiUeoMuiteArukou0_r_Ok, I will play $parameter1 for you.
+_868_SukiyakiUeoMuiteArukou0_t_(?:P|p)lay (?:the song)? (.*)_1
+_869_DiscoDeewane0_p_#action=playmusic title=$parameter1
+_869_DiscoDeewane0_r_Ok, I will play $parameter1 for you.
+_869_DiscoDeewane0_t_(?:P|p)lay (?:the song)? (.*)_1
+_870_AoiSanmyaku0_p_#action=playmusic title=$parameter1
+_870_AoiSanmyaku0_r_Ok, I will play $parameter1 for you.
+_870_AoiSanmyaku0_t_(?:P|p)lay (?:the song)? (.*)_1
+_871_RingoNoUta0_p_#action=playmusic title=$parameter1
+_871_RingoNoUta0_r_Ok, I will play $parameter1 for you.
+_871_RingoNoUta0_t_(?:P|p)lay (?:the song)? (.*)_1
+_872_ADayInTheLife0_p_#action=playmusic title=$parameter1
+_872_ADayInTheLife0_r_Ok, I will play $parameter1 for you.
+_872_ADayInTheLife0_r_Ok, I will play some english music for you.
+_872_ADayInTheLife0_t_(?:P|p)lay (?:the song)? (.*)_1
+_872_ADayInTheLife0_t_(?:P|p)lay english music
+_873_ChanchikiOkesa0_p_#action=playmusic title=$parameter1
+_873_ChanchikiOkesa0_r_Ok, I will play $parameter1 for you.
+_873_ChanchikiOkesa0_t_(?:P|p)lay (?:the song)? (.*)_1
+_874_Downtown0_p_#action=playmusic title=$parameter1
+_874_Downtown0_r_Ok, I will play $parameter1 for you.
+_874_Downtown0_r_Ok, I will play some english music for you.
+_874_Downtown0_t_(?:P|p)lay (?:the song)? (.*)_1
+_874_Downtown0_t_(?:P|p)lay english music
+_875_WeWillMeetAgain0_p_#action=playmusic title=$parameter1
+_875_WeWillMeetAgain0_r_Ok, I will play $parameter1 for you.
+_875_WeWillMeetAgain0_r_Ok, I will play some english music for you.
+_875_WeWillMeetAgain0_t_(?:P|p)lay (?:the song)? (.*)_1
+_875_WeWillMeetAgain0_t_(?:P|p)lay english music
+_876_RingoMuraKara0_p_#action=playmusic title=$parameter1
+_876_RingoMuraKara0_r_Ok, I will play $parameter1 for you.
+_876_RingoMuraKara0_t_(?:P|p)lay (?:the song)? (.*)_1
+_877_YoullNeverWalkAlone0_p_#action=playmusic title=$parameter1
+_877_YoullNeverWalkAlone0_r_Ok, I will play $parameter1 for you.
+_877_YoullNeverWalkAlone0_r_Ok, I will play some english music for you.
+_877_YoullNeverWalkAlone0_t_(?:P|p)lay (?:the song)? (.*)_1
+_877_YoullNeverWalkAlone0_t_(?:P|p)lay english music
+_878_LoveIsAllAround0_p_#action=playmusic title=$parameter1
+_878_LoveIsAllAround0_r_Ok, I will play $parameter1 for you.
+_878_LoveIsAllAround0_r_Ok, I will play some english music for you.
+_878_LoveIsAllAround0_t_(?:P|p)lay (?:the song)? (.*)_1
+_878_LoveIsAllAround0_t_(?:P|p)lay english music
+_879_RockMusic0_p_#action=playmusic title=$parameter1
+_879_RockMusic0_r_Ok, I will play $parameter1 for you.
+_879_RockMusic0_t_(?:P|p)lay (?:the song)? (.*)_1
+_881_LoveIsAllAround0_p_#action=playmusic title=$parameter1
+_881_LoveIsAllAround0_r_Ok, I will play $parameter1 for you.
+_881_LoveIsAllAround0_r_Ok, I will play some english music for you.
+_881_LoveIsAllAround0_t_(?:P|p)lay (?:the song)? (.*)_1
+_881_LoveIsAllAround0_t_(?:P|p)lay english music
+_883_Satisfaction0_p_#action=playmusic title=$parameter1
+_883_Satisfaction0_r_Ok, I will play $parameter1 for you.
+_883_Satisfaction0_r_Ok, I will play some english music for you.
+_883_Satisfaction0_t_(?:P|p)lay (?:the song)? (.*)_1
+_883_Satisfaction0_t_(?:P|p)lay english music
+_885_IsharonIsharonMeinDilLeneWaale0_p_#action=playmusic title=$parameter1
+_885_IsharonIsharonMeinDilLeneWaale0_r_Ok, I will play $parameter1 for you.
+_885_IsharonIsharonMeinDilLeneWaale0_t_(?:P|p)lay (?:the song)? (.*)_1
+_886_JaanPehchanHo0_p_#action=playmusic title=$parameter1
+_886_JaanPehchanHo0_r_Ok, I will play $parameter1 for you.
+_886_JaanPehchanHo0_t_(?:P|p)lay (?:the song)? (.*)_1
+_887_RaatKeHamsafar0_p_#action=playmusic title=$parameter1
+_887_RaatKeHamsafar0_r_Ok, I will play $parameter1 for you.
+_887_RaatKeHamsafar0_t_(?:P|p)lay (?:the song)? (.*)_1
+_888_MainPyarKaRahiHoo0_p_#action=playmusic title=$parameter1
+_888_MainPyarKaRahiHoo0_r_Ok, I will play $parameter1 for you.
+_888_MainPyarKaRahiHoo0_t_(?:P|p)lay (?:the song)? (.*)_1
+_890_MyGeneration0_p_#action=playmusic title=$parameter1
+_890_MyGeneration0_r_Ok, I will play $parameter1 for you.
+_890_MyGeneration0_r_Ok, I will play some english music for you.
+_890_MyGeneration0_t_(?:P|p)lay (?:the song)? (.*)_1
+_890_MyGeneration0_t_(?:P|p)lay english music
+_892_YouReallyGotMe0_p_#action=playmusic title=$parameter1
+_892_YouReallyGotMe0_r_Ok, I will play $parameter1 for you.
+_892_YouReallyGotMe0_r_Ok, I will play some english music for you.
+_892_YouReallyGotMe0_t_(?:P|p)lay (?:the song)? (.*)_1
+_892_YouReallyGotMe0_t_(?:P|p)lay english music
+_894_Gloria0_p_#action=playmusic title=$parameter1
+_894_Gloria0_r_Ok, I will play $parameter1 for you.
+_894_Gloria0_r_Ok, I will play some english music for you.
+_894_Gloria0_t_(?:P|p)lay (?:the song)? (.*)_1
+_894_Gloria0_t_(?:P|p)lay english music
+_896_ShadowsOfLostDays0_p_#action=playmusic title=$parameter1
+_896_ShadowsOfLostDays0_r_Ok, I will play $parameter1 for you.
+_896_ShadowsOfLostDays0_t_(?:P|p)lay (?:the song)? (.*)_1
+_897_ShadowsOfLostDays0_p_#action=playmusic title=$parameter1
+_897_ShadowsOfLostDays0_r_Ok, I will play $parameter1 for you.
+_897_ShadowsOfLostDays0_t_(?:P|p)lay (?:the song)? (.*)_1
+_898_LoveIsAllAround0_p_#action=playmusic title=$parameter1
+_898_LoveIsAllAround0_r_Ok, I will play $parameter1 for you.
+_898_LoveIsAllAround0_r_Ok, I will play some english music for you.
+_898_LoveIsAllAround0_t_(?:P|p)lay (?:the song)? (.*)_1
+_898_LoveIsAllAround0_t_(?:P|p)lay english music
+_899_YouReallyGotMe0_p_#action=playmusic title=$parameter1
+_899_YouReallyGotMe0_r_Ok, I will play $parameter1 for you.
+_899_YouReallyGotMe0_r_Ok, I will play some english music for you.
+_899_YouReallyGotMe0_t_(?:P|p)lay (?:the song)? (.*)_1
+_899_YouReallyGotMe0_t_(?:P|p)lay english music
+_900_JaanPehchanHo0_p_#action=playmusic title=$parameter1
+_900_JaanPehchanHo0_r_Ok, I will play $parameter1 for you.
+_900_JaanPehchanHo0_t_(?:P|p)lay (?:the song)? (.*)_1
+_901_Satisfaction0_p_#action=playmusic title=$parameter1
+_901_Satisfaction0_r_Ok, I will play $parameter1 for you.
+_901_Satisfaction0_r_Ok, I will play some english music for you.
+_901_Satisfaction0_t_(?:P|p)lay (?:the song)? (.*)_1
+_901_Satisfaction0_t_(?:P|p)lay english music
+_902_MyGeneration0_p_#action=playmusic title=$parameter1
+_902_MyGeneration0_r_Ok, I will play $parameter1 for you.
+_902_MyGeneration0_r_Ok, I will play some english music for you.
+_902_MyGeneration0_t_(?:P|p)lay (?:the song)? (.*)_1
+_902_MyGeneration0_t_(?:P|p)lay english music
+_903_Gloria0_p_#action=playmusic title=$parameter1
+_903_Gloria0_r_Ok, I will play $parameter1 for you.
+_903_Gloria0_r_Ok, I will play some english music for you.
+_903_Gloria0_t_(?:P|p)lay (?:the song)? (.*)_1
+_903_Gloria0_t_(?:P|p)lay english music
+_904_MovieSong0_p_#action=playmusic title=$parameter1
+_904_MovieSong0_r_Ok, I will play $parameter1 for you.
+_904_MovieSong0_t_(?:P|p)lay (?:the song)? (.*)_1
+_906_RingoNoUta0_p_#action=playmusic title=$parameter1
+_906_RingoNoUta0_r_Ok, I will play $parameter1 for you.
+_906_RingoNoUta0_t_(?:P|p)lay (?:the song)? (.*)_1
+_908_DeewanaHuaBadal0_p_#action=playmusic title=$parameter1
+_908_DeewanaHuaBadal0_r_Ok, I will play $parameter1 for you.
+_908_DeewanaHuaBadal0_t_(?:P|p)lay (?:the song)? (.*)_1
+_910_TumAgarSaathDeneKaVadaKaro0_p_#action=playmusic title=$parameter1
+_910_TumAgarSaathDeneKaVadaKaro0_r_Ok, I will play $parameter1 for you.
+_910_TumAgarSaathDeneKaVadaKaro0_t_(?:P|p)lay (?:the song)? (.*)_1
+_912_AajkalTereMerePyarKeCharche0_p_#action=playmusic title=$parameter1
+_912_AajkalTereMerePyarKeCharche0_r_Ok, I will play $parameter1 for you.
+_912_AajkalTereMerePyarKeCharche0_t_(?:P|p)lay (?:the song)? (.*)_1
+_914_AoiSanmyaku0_p_#action=playmusic title=$parameter1
+_914_AoiSanmyaku0_r_Ok, I will play $parameter1 for you.
+_914_AoiSanmyaku0_t_(?:P|p)lay (?:the song)? (.*)_1
+_916_HonthonMeinAisiBaat0_p_#action=playmusic title=$parameter1
+_916_HonthonMeinAisiBaat0_r_Ok, I will play $parameter1 for you.
+_916_HonthonMeinAisiBaat0_t_(?:P|p)lay (?:the song)? (.*)_1
+_918_TumnePukaraAurHumChaleAaye0_p_#action=playmusic title=$parameter1
+_918_TumnePukaraAurHumChaleAaye0_r_Ok, I will play $parameter1 for you.
+_918_TumnePukaraAurHumChaleAaye0_t_(?:P|p)lay (?:the song)? (.*)_1
+_920_IsharonIsharonMeinDilLeneWaale0_p_#action=playmusic title=$parameter1
+_920_IsharonIsharonMeinDilLeneWaale0_r_Ok, I will play $parameter1 for you.
+_920_IsharonIsharonMeinDilLeneWaale0_t_(?:P|p)lay (?:the song)? (.*)_1
+_921_JaanPehchanHo0_p_#action=playmusic title=$parameter1
+_921_JaanPehchanHo0_r_Ok, I will play $parameter1 for you.
+_921_JaanPehchanHo0_t_(?:P|p)lay (?:the song)? (.*)_1
+_922_RaatKeHamsafar0_p_#action=playmusic title=$parameter1
+_922_RaatKeHamsafar0_r_Ok, I will play $parameter1 for you.
+_922_RaatKeHamsafar0_t_(?:P|p)lay (?:the song)? (.*)_1
+_923_MainPyarKaRahiHoo0_p_#action=playmusic title=$parameter1
+_923_MainPyarKaRahiHoo0_r_Ok, I will play $parameter1 for you.
+_923_MainPyarKaRahiHoo0_t_(?:P|p)lay (?:the song)? (.*)_1
+_925_SinginInTheRain0_p_#action=playmusic title=$parameter1
+_925_SinginInTheRain0_r_Ok, I will play $parameter1 for you.
+_925_SinginInTheRain0_t_(?:P|p)lay (?:the song)? (.*)_1
+_927_AoiSanmyaku0_p_#action=playmusic title=$parameter1
+_927_AoiSanmyaku0_r_Ok, I will play $parameter1 for you.
+_927_AoiSanmyaku0_t_(?:P|p)lay (?:the song)? (.*)_1
+_929_RaatKeHamsafar0_p_#action=playmusic title=$parameter1
+_929_RaatKeHamsafar0_r_Ok, I will play $parameter1 for you.
+_929_RaatKeHamsafar0_t_(?:P|p)lay (?:the song)? (.*)_1
+_930_MainPyarKaRahiHoo0_p_#action=playmusic title=$parameter1
+_930_MainPyarKaRahiHoo0_r_Ok, I will play $parameter1 for you.
+_930_MainPyarKaRahiHoo0_t_(?:P|p)lay (?:the song)? (.*)_1
+_931_IsharonIsharonMeinDilLeneWaale0_p_#action=playmusic title=$parameter1
+_931_IsharonIsharonMeinDilLeneWaale0_r_Ok, I will play $parameter1 for you.
+_931_IsharonIsharonMeinDilLeneWaale0_t_(?:P|p)lay (?:the song)? (.*)_1
+_932_AageBhiJaaneNaTu0_p_#action=playmusic title=$parameter1
+_932_AageBhiJaaneNaTu0_r_Ok, I will play $parameter1 for you.
+_932_AageBhiJaaneNaTu0_t_(?:P|p)lay (?:the song)? (.*)_1
+_934_AajkalTereMerePyarKeCharche0_p_#action=playmusic title=$parameter1
+_934_AajkalTereMerePyarKeCharche0_r_Ok, I will play $parameter1 for you.
+_934_AajkalTereMerePyarKeCharche0_t_(?:P|p)lay (?:the song)? (.*)_1
+_935_DeewanaHuaBadal0_p_#action=playmusic title=$parameter1
+_935_DeewanaHuaBadal0_r_Ok, I will play $parameter1 for you.
+_935_DeewanaHuaBadal0_t_(?:P|p)lay (?:the song)? (.*)_1
+_936_TumnePukaraAurHumChaleAaye0_p_#action=playmusic title=$parameter1
+_936_TumnePukaraAurHumChaleAaye0_r_Ok, I will play $parameter1 for you.
+_936_TumnePukaraAurHumChaleAaye0_t_(?:P|p)lay (?:the song)? (.*)_1
+_938_OverTheRainbow0_p_#action=playmusic title=$parameter1
+_938_OverTheRainbow0_r_Ok, I will play $parameter1 for you.
+_938_OverTheRainbow0_t_(?:P|p)lay (?:the song)? (.*)_1
+_939_HonthonMeinAisiBaat0_p_#action=playmusic title=$parameter1
+_939_HonthonMeinAisiBaat0_r_Ok, I will play $parameter1 for you.
+_939_HonthonMeinAisiBaat0_t_(?:P|p)lay (?:the song)? (.*)_1
+_940_DeewanaHuaBadal0_p_#action=playmusic title=$parameter1
+_940_DeewanaHuaBadal0_r_Ok, I will play $parameter1 for you.
+_940_DeewanaHuaBadal0_t_(?:P|p)lay (?:the song)? (.*)_1
+_941_AajkalTereMerePyarKeCharche0_p_#action=playmusic title=$parameter1
+_941_AajkalTereMerePyarKeCharche0_r_Ok, I will play $parameter1 for you.
+_941_AajkalTereMerePyarKeCharche0_t_(?:P|p)lay (?:the song)? (.*)_1
+_942_AoiSanmyaku0_p_#action=playmusic title=$parameter1
+_942_AoiSanmyaku0_r_Ok, I will play $parameter1 for you.
+_942_AoiSanmyaku0_t_(?:P|p)lay (?:the song)? (.*)_1
+_943_JaanPehchanHo0_p_#action=playmusic title=$parameter1
+_943_JaanPehchanHo0_r_Ok, I will play $parameter1 for you.
+_943_JaanPehchanHo0_t_(?:P|p)lay (?:the song)? (.*)_1
+_944_IsharonIsharonMeinDilLeneWaale0_p_#action=playmusic title=$parameter1
+_944_IsharonIsharonMeinDilLeneWaale0_r_Ok, I will play $parameter1 for you.
+_944_IsharonIsharonMeinDilLeneWaale0_t_(?:P|p)lay (?:the song)? (.*)_1
+_945_TumnePukaraAurHumChaleAaye0_p_#action=playmusic title=$parameter1
+_945_TumnePukaraAurHumChaleAaye0_r_Ok, I will play $parameter1 for you.
+_945_TumnePukaraAurHumChaleAaye0_t_(?:P|p)lay (?:the song)? (.*)_1
+_946_TumAgarSaathDeneKaVadaKaro0_p_#action=playmusic title=$parameter1
+_946_TumAgarSaathDeneKaVadaKaro0_r_Ok, I will play $parameter1 for you.
+_946_TumAgarSaathDeneKaVadaKaro0_t_(?:P|p)lay (?:the song)? (.*)_1
+_947_RaatKeHamsafar0_p_#action=playmusic title=$parameter1
+_947_RaatKeHamsafar0_r_Ok, I will play $parameter1 for you.
+_947_RaatKeHamsafar0_t_(?:P|p)lay (?:the song)? (.*)_1
+_948_RingoNoUta0_p_#action=playmusic title=$parameter1
+_948_RingoNoUta0_r_Ok, I will play $parameter1 for you.
+_948_RingoNoUta0_t_(?:P|p)lay (?:the song)? (.*)_1
+_949_SinginInTheRain0_p_#action=playmusic title=$parameter1
+_949_SinginInTheRain0_r_Ok, I will play $parameter1 for you.
+_949_SinginInTheRain0_t_(?:P|p)lay (?:the song)? (.*)_1
+_950_AageBhiJaaneNaTu0_p_#action=playmusic title=$parameter1
+_950_AageBhiJaaneNaTu0_r_Ok, I will play $parameter1 for you.
+_950_AageBhiJaaneNaTu0_t_(?:P|p)lay (?:the song)? (.*)_1
+_951_OverTheRainbow0_p_#action=playmusic title=$parameter1
+_951_OverTheRainbow0_r_Ok, I will play $parameter1 for you.
+_951_OverTheRainbow0_t_(?:P|p)lay (?:the song)? (.*)_1
+_952_MainPyarKaRahiHoo0_p_#action=playmusic title=$parameter1
+_952_MainPyarKaRahiHoo0_r_Ok, I will play $parameter1 for you.
+_952_MainPyarKaRahiHoo0_t_(?:P|p)lay (?:the song)? (.*)_1
+_953_FestivalMusic0_p_#action=playmusic title=$parameter1
+_953_FestivalMusic0_r_Ok, I will play $parameter1 for you.
+_953_FestivalMusic0_t_(?:P|p)lay (?:the song)? (.*)_1
+_954_EnglishMusic0_p_#action=playmusic title=$parameter1
+_954_EnglishMusic0_r_Ok, I will play $parameter1 for you.
+_954_EnglishMusic0_r_Ok, I will play some english music for you.
+_954_EnglishMusic0_t_(?:P|p)lay (?:the song)? (.*)_1
+_954_EnglishMusic0_t_(?:P|p)lay english music
+_956_ADayInTheLife0_p_#action=playmusic title=$parameter1
+_956_ADayInTheLife0_r_Ok, I will play $parameter1 for you.
+_956_ADayInTheLife0_r_Ok, I will play some english music for you.
+_956_ADayInTheLife0_t_(?:P|p)lay (?:the song)? (.*)_1
+_956_ADayInTheLife0_t_(?:P|p)lay english music
+_958_HouseOfTheRisingSun0_p_#action=playmusic title=$parameter1
+_958_HouseOfTheRisingSun0_r_Ok, I will play $parameter1 for you.
+_958_HouseOfTheRisingSun0_r_Ok, I will play some english music for you.
+_958_HouseOfTheRisingSun0_t_(?:P|p)lay (?:the song)? (.*)_1
+_958_HouseOfTheRisingSun0_t_(?:P|p)lay english music
+_960_Gloria0_p_#action=playmusic title=$parameter1
+_960_Gloria0_r_Ok, I will play $parameter1 for you.
+_960_Gloria0_r_Ok, I will play some english music for you.
+_960_Gloria0_t_(?:P|p)lay (?:the song)? (.*)_1
+_960_Gloria0_t_(?:P|p)lay english music
+_962_MyGeneration0_p_#action=playmusic title=$parameter1
+_962_MyGeneration0_r_Ok, I will play $parameter1 for you.
+_962_MyGeneration0_r_Ok, I will play some english music for you.
+_962_MyGeneration0_t_(?:P|p)lay (?:the song)? (.*)_1
+_962_MyGeneration0_t_(?:P|p)lay english music
+_964_LoveIsAllAround0_p_#action=playmusic title=$parameter1
+_964_LoveIsAllAround0_r_Ok, I will play $parameter1 for you.
+_964_LoveIsAllAround0_r_Ok, I will play some english music for you.
+_964_LoveIsAllAround0_t_(?:P|p)lay (?:the song)? (.*)_1
+_964_LoveIsAllAround0_t_(?:P|p)lay english music
+_966_Downtown0_p_#action=playmusic title=$parameter1
+_966_Downtown0_r_Ok, I will play $parameter1 for you.
+_966_Downtown0_r_Ok, I will play some english music for you.
+_966_Downtown0_t_(?:P|p)lay (?:the song)? (.*)_1
+_966_Downtown0_t_(?:P|p)lay english music
+_968_WeWillMeetAgain0_p_#action=playmusic title=$parameter1
+_968_WeWillMeetAgain0_r_Ok, I will play $parameter1 for you.
+_968_WeWillMeetAgain0_r_Ok, I will play some english music for you.
+_968_WeWillMeetAgain0_t_(?:P|p)lay (?:the song)? (.*)_1
+_968_WeWillMeetAgain0_t_(?:P|p)lay english music
+_970_YouReallyGotMe0_p_#action=playmusic title=$parameter1
+_970_YouReallyGotMe0_r_Ok, I will play $parameter1 for you.
+_970_YouReallyGotMe0_r_Ok, I will play some english music for you.
+_970_YouReallyGotMe0_t_(?:P|p)lay (?:the song)? (.*)_1
+_970_YouReallyGotMe0_t_(?:P|p)lay english music
+_972_YoullNeverWalkAlone0_p_#action=playmusic title=$parameter1
+_972_YoullNeverWalkAlone0_r_Ok, I will play $parameter1 for you.
+_972_YoullNeverWalkAlone0_r_Ok, I will play some english music for you.
+_972_YoullNeverWalkAlone0_t_(?:P|p)lay (?:the song)? (.*)_1
+_972_YoullNeverWalkAlone0_t_(?:P|p)lay english music
+_974_Satisfaction0_p_#action=playmusic title=$parameter1
+_974_Satisfaction0_r_Ok, I will play $parameter1 for you.
+_974_Satisfaction0_r_Ok, I will play some english music for you.
+_974_Satisfaction0_t_(?:P|p)lay (?:the song)? (.*)_1
+_974_Satisfaction0_t_(?:P|p)lay english music
+_975_HouseOfTheRisingSun0_p_#action=playmusic title=$parameter1
+_975_HouseOfTheRisingSun0_r_Ok, I will play $parameter1 for you.
+_975_HouseOfTheRisingSun0_r_Ok, I will play some english music for you.
+_975_HouseOfTheRisingSun0_t_(?:P|p)lay (?:the song)? (.*)_1
+_975_HouseOfTheRisingSun0_t_(?:P|p)lay english music
+_976_WeWillMeetAgain0_p_#action=playmusic title=$parameter1
+_976_WeWillMeetAgain0_r_Ok, I will play $parameter1 for you.
+_976_WeWillMeetAgain0_r_Ok, I will play some english music for you.
+_976_WeWillMeetAgain0_t_(?:P|p)lay (?:the song)? (.*)_1
+_976_WeWillMeetAgain0_t_(?:P|p)lay english music
+_977_Gloria0_p_#action=playmusic title=$parameter1
+_977_Gloria0_r_Ok, I will play $parameter1 for you.
+_977_Gloria0_r_Ok, I will play some english music for you.
+_977_Gloria0_t_(?:P|p)lay (?:the song)? (.*)_1
+_977_Gloria0_t_(?:P|p)lay english music
+_978_YoullNeverWalkAlone0_p_#action=playmusic title=$parameter1
+_978_YoullNeverWalkAlone0_r_Ok, I will play $parameter1 for you.
+_978_YoullNeverWalkAlone0_r_Ok, I will play some english music for you.
+_978_YoullNeverWalkAlone0_t_(?:P|p)lay (?:the song)? (.*)_1
+_978_YoullNeverWalkAlone0_t_(?:P|p)lay english music
+_979_Satisfaction0_p_#action=playmusic title=$parameter1
+_979_Satisfaction0_r_Ok, I will play $parameter1 for you.
+_979_Satisfaction0_r_Ok, I will play some english music for you.
+_979_Satisfaction0_t_(?:P|p)lay (?:the song)? (.*)_1
+_979_Satisfaction0_t_(?:P|p)lay english music
+_980_YouReallyGotMe0_p_#action=playmusic title=$parameter1
+_980_YouReallyGotMe0_r_Ok, I will play $parameter1 for you.
+_980_YouReallyGotMe0_r_Ok, I will play some english music for you.
+_980_YouReallyGotMe0_t_(?:P|p)lay (?:the song)? (.*)_1
+_980_YouReallyGotMe0_t_(?:P|p)lay english music
+_981_MyGeneration0_p_#action=playmusic title=$parameter1
+_981_MyGeneration0_r_Ok, I will play $parameter1 for you.
+_981_MyGeneration0_r_Ok, I will play some english music for you.
+_981_MyGeneration0_t_(?:P|p)lay (?:the song)? (.*)_1
+_981_MyGeneration0_t_(?:P|p)lay english music
+_982_LoveIsAllAround0_p_#action=playmusic title=$parameter1
+_982_LoveIsAllAround0_r_Ok, I will play $parameter1 for you.
+_982_LoveIsAllAround0_r_Ok, I will play some english music for you.
+_982_LoveIsAllAround0_t_(?:P|p)lay (?:the song)? (.*)_1
+_982_LoveIsAllAround0_t_(?:P|p)lay english music
+_983_Downtown0_p_#action=playmusic title=$parameter1
+_983_Downtown0_r_Ok, I will play $parameter1 for you.
+_983_Downtown0_r_Ok, I will play some english music for you.
+_983_Downtown0_t_(?:P|p)lay (?:the song)? (.*)_1
+_983_Downtown0_t_(?:P|p)lay english music
+_984_ADayInTheLife0_p_#action=playmusic title=$parameter1
+_984_ADayInTheLife0_r_Ok, I will play $parameter1 for you.
+_984_ADayInTheLife0_r_Ok, I will play some english music for you.
+_984_ADayInTheLife0_t_(?:P|p)lay (?:the song)? (.*)_1
+_984_ADayInTheLife0_t_(?:P|p)lay english music
+_985_IndianMusic0_p_#action=playmusic title=$parameter1
+_985_IndianMusic0_r_Ok, I will play $parameter1 for you.
+_985_IndianMusic0_t_(?:P|p)lay (?:the song)? (.*)_1
+_987_TumAgarSaathDeneKaVadaKaro0_p_#action=playmusic title=$parameter1
+_987_TumAgarSaathDeneKaVadaKaro0_r_Ok, I will play $parameter1 for you.
+_987_TumAgarSaathDeneKaVadaKaro0_t_(?:P|p)lay (?:the song)? (.*)_1
+_989_TumnePukaraAurHumChaleAaye0_p_#action=playmusic title=$parameter1
+_989_TumnePukaraAurHumChaleAaye0_r_Ok, I will play $parameter1 for you.
+_989_TumnePukaraAurHumChaleAaye0_t_(?:P|p)lay (?:the song)? (.*)_1
+_991_RaatKeHamsafar0_p_#action=playmusic title=$parameter1
+_991_RaatKeHamsafar0_r_Ok, I will play $parameter1 for you.
+_991_RaatKeHamsafar0_t_(?:P|p)lay (?:the song)? (.*)_1
+_992_MainPyarKaRahiHoo0_p_#action=playmusic title=$parameter1
+_992_MainPyarKaRahiHoo0_r_Ok, I will play $parameter1 for you.
+_992_MainPyarKaRahiHoo0_t_(?:P|p)lay (?:the song)? (.*)_1
+_993_IsharonIsharonMeinDilLeneWaale0_p_#action=playmusic title=$parameter1
+_993_IsharonIsharonMeinDilLeneWaale0_r_Ok, I will play $parameter1 for you.
+_993_IsharonIsharonMeinDilLeneWaale0_t_(?:P|p)lay (?:the song)? (.*)_1
+_994_AageBhiJaaneNaTu0_p_#action=playmusic title=$parameter1
+_994_AageBhiJaaneNaTu0_r_Ok, I will play $parameter1 for you.
+_994_AageBhiJaaneNaTu0_t_(?:P|p)lay (?:the song)? (.*)_1
+_996_IsharonIsharonMeinDilLeneWaale0_p_#action=playmusic title=$parameter1
+_996_IsharonIsharonMeinDilLeneWaale0_r_Ok, I will play $parameter1 for you.
+_996_IsharonIsharonMeinDilLeneWaale0_t_(?:P|p)lay (?:the song)? (.*)_1
+_997_JaanPehchanHo0_p_#action=playmusic title=$parameter1
+_997_JaanPehchanHo0_r_Ok, I will play $parameter1 for you.
+_997_JaanPehchanHo0_t_(?:P|p)lay (?:the song)? (.*)_1
+_998_RaatKeHamsafar0_p_#action=playmusic title=$parameter1
+_998_RaatKeHamsafar0_r_Ok, I will play $parameter1 for you.
+_998_RaatKeHamsafar0_t_(?:P|p)lay (?:the song)? (.*)_1
+_999_MainPyarKaRahiHoo0_p_#action=playmusic title=$parameter1
+_999_MainPyarKaRahiHoo0_r_Ok, I will play $parameter1 for you.
+_999_MainPyarKaRahiHoo0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1001_DeewanaHuaBadal0_p_#action=playmusic title=$parameter1
+_1001_DeewanaHuaBadal0_r_Ok, I will play $parameter1 for you.
+_1001_DeewanaHuaBadal0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1003_AajkalTereMerePyarKeCharche0_p_#action=playmusic title=$parameter1
+_1003_AajkalTereMerePyarKeCharche0_r_Ok, I will play $parameter1 for you.
+_1003_AajkalTereMerePyarKeCharche0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1005_DiscoDeewane0_p_#action=playmusic title=$parameter1
+_1005_DiscoDeewane0_r_Ok, I will play $parameter1 for you.
+_1005_DiscoDeewane0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1007_AajkalTereMerePyarKeCharche0_p_#action=playmusic title=$parameter1
+_1007_AajkalTereMerePyarKeCharche0_r_Ok, I will play $parameter1 for you.
+_1007_AajkalTereMerePyarKeCharche0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1008_DeewanaHuaBadal0_p_#action=playmusic title=$parameter1
+_1008_DeewanaHuaBadal0_r_Ok, I will play $parameter1 for you.
+_1008_DeewanaHuaBadal0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1009_TumnePukaraAurHumChaleAaye0_p_#action=playmusic title=$parameter1
+_1009_TumnePukaraAurHumChaleAaye0_r_Ok, I will play $parameter1 for you.
+_1009_TumnePukaraAurHumChaleAaye0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1011_HonthonMeinAisiBaat0_p_#action=playmusic title=$parameter1
+_1011_HonthonMeinAisiBaat0_r_Ok, I will play $parameter1 for you.
+_1011_HonthonMeinAisiBaat0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1012_DiscoDeewane0_p_#action=playmusic title=$parameter1
+_1012_DiscoDeewane0_r_Ok, I will play $parameter1 for you.
+_1012_DiscoDeewane0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1013_HonthonMeinAisiBaat0_p_#action=playmusic title=$parameter1
+_1013_HonthonMeinAisiBaat0_r_Ok, I will play $parameter1 for you.
+_1013_HonthonMeinAisiBaat0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1014_AageBhiJaaneNaTu0_p_#action=playmusic title=$parameter1
+_1014_AageBhiJaaneNaTu0_r_Ok, I will play $parameter1 for you.
+_1014_AageBhiJaaneNaTu0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1015_MainPyarKaRahiHoo0_p_#action=playmusic title=$parameter1
+_1015_MainPyarKaRahiHoo0_r_Ok, I will play $parameter1 for you.
+_1015_MainPyarKaRahiHoo0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1016_AajkalTereMerePyarKeCharche0_p_#action=playmusic title=$parameter1
+_1016_AajkalTereMerePyarKeCharche0_r_Ok, I will play $parameter1 for you.
+_1016_AajkalTereMerePyarKeCharche0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1017_RaatKeHamsafar0_p_#action=playmusic title=$parameter1
+_1017_RaatKeHamsafar0_r_Ok, I will play $parameter1 for you.
+_1017_RaatKeHamsafar0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1018_IsharonIsharonMeinDilLeneWaale0_p_#action=playmusic title=$parameter1
+_1018_IsharonIsharonMeinDilLeneWaale0_r_Ok, I will play $parameter1 for you.
+_1018_IsharonIsharonMeinDilLeneWaale0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1019_DeewanaHuaBadal0_p_#action=playmusic title=$parameter1
+_1019_DeewanaHuaBadal0_r_Ok, I will play $parameter1 for you.
+_1019_DeewanaHuaBadal0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1020_JaanPehchanHo0_p_#action=playmusic title=$parameter1
+_1020_JaanPehchanHo0_r_Ok, I will play $parameter1 for you.
+_1020_JaanPehchanHo0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1021_TumnePukaraAurHumChaleAaye0_p_#action=playmusic title=$parameter1
+_1021_TumnePukaraAurHumChaleAaye0_r_Ok, I will play $parameter1 for you.
+_1021_TumnePukaraAurHumChaleAaye0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1022_TumAgarSaathDeneKaVadaKaro0_p_#action=playmusic title=$parameter1
+_1022_TumAgarSaathDeneKaVadaKaro0_r_Ok, I will play $parameter1 for you.
+_1022_TumAgarSaathDeneKaVadaKaro0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1025_LoveStory0_p_#action=playmovie title=$parameter1
+_1025_LoveStory0_r_Ok, I will play $parameter1 for you.
+_1025_LoveStory0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1027_Pyaasa0_p_#action=playmovie title=$parameter1
+_1027_Pyaasa0_r_Ok, I will play $parameter1 for you.
+_1027_Pyaasa0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1029_Titanic0_p_#action=playmovie title=$parameter1
+_1029_Titanic0_r_Ok, I will play $parameter1 for you.
+_1029_Titanic0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1031_HobsonsChoice0_p_#action=playmovie title=$parameter1
+_1031_HobsonsChoice0_r_Ok, I will play $parameter1 for you.
+_1031_HobsonsChoice0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1033_Madhumati0_p_#action=playmovie title=$parameter1
+_1033_Madhumati0_r_Ok, I will play $parameter1 for you.
+_1033_Madhumati0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1034_Aan0_p_#action=playmovie title=$parameter1
+_1034_Aan0_r_Ok, I will play $parameter1 for you.
+_1034_Aan0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1036_Titanic0_p_#action=playmovie title=$parameter1
+_1036_Titanic0_r_Ok, I will play $parameter1 for you.
+_1036_Titanic0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1038_RoomAtTheTop0_p_#action=playmovie title=$parameter1
+_1038_RoomAtTheTop0_r_Ok, I will play $parameter1 for you.
+_1038_RoomAtTheTop0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1040_MotherIndia0_p_#action=playmovie title=$parameter1
+_1040_MotherIndia0_r_Ok, I will play $parameter1 for you.
+_1040_MotherIndia0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1041_Waqt0_p_#action=playmovie title=$parameter1
+_1041_Waqt0_r_Ok, I will play $parameter1 for you.
+_1041_Waqt0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1042_RoomAtTheTop0_p_#action=playmovie title=$parameter1
+_1042_RoomAtTheTop0_r_Ok, I will play $parameter1 for you.
+_1042_RoomAtTheTop0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1043_Waqt0_p_#action=playmovie title=$parameter1
+_1043_Waqt0_r_Ok, I will play $parameter1 for you.
+_1043_Waqt0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1044_Madhumati0_p_#action=playmovie title=$parameter1
+_1044_Madhumati0_r_Ok, I will play $parameter1 for you.
+_1044_Madhumati0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1045_Titanic0_p_#action=playmovie title=$parameter1
+_1045_Titanic0_r_Ok, I will play $parameter1 for you.
+_1045_Titanic0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1046_HobsonsChoice0_p_#action=playmovie title=$parameter1
+_1046_HobsonsChoice0_r_Ok, I will play $parameter1 for you.
+_1046_HobsonsChoice0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1047_Pyaasa0_p_#action=playmovie title=$parameter1
+_1047_Pyaasa0_r_Ok, I will play $parameter1 for you.
+_1047_Pyaasa0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1048_ItalianMovie0_p_#action=playmovie title=$parameter1
+_1048_ItalianMovie0_r_Ok, I will play $parameter1 for you.
+_1048_ItalianMovie0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1053_FrenchMovie0_p_#action=playmovie title=$parameter1
+_1053_FrenchMovie0_r_Ok, I will play $parameter1 for you.
+_1053_FrenchMovie0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1054_HollywoodMovie0_p_#action=playmovie title=$parameter1
+_1054_HollywoodMovie0_r_Ok, I will play $parameter1 for you.
+_1054_HollywoodMovie0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1056_Titanic0_p_#action=playmovie title=$parameter1
+_1056_Titanic0_r_Ok, I will play $parameter1 for you.
+_1056_Titanic0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1058_ETTheExtraTerrestrial0_p_#action=playmovie title=$parameter1
+_1058_ETTheExtraTerrestrial0_r_Ok, I will play $parameter1 for you.
+_1058_ETTheExtraTerrestrial0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1060_Titanic0_p_#action=playmovie title=$parameter1
+_1060_Titanic0_r_Ok, I will play $parameter1 for you.
+_1060_Titanic0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1061_Titanic0_p_#action=playmovie title=$parameter1
+_1061_Titanic0_r_Ok, I will play $parameter1 for you.
+_1061_Titanic0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1062_ETTheExtraTerrestrial0_p_#action=playmovie title=$parameter1
+_1062_ETTheExtraTerrestrial0_r_Ok, I will play $parameter1 for you.
+_1062_ETTheExtraTerrestrial0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1063_BollywoodMovie0_p_#action=playmovie title=$parameter1
+_1063_BollywoodMovie0_r_Ok, I will play $parameter1 for you.
+_1063_BollywoodMovie0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1065_MotherIndia0_p_#action=playmovie title=$parameter1
+_1065_MotherIndia0_r_Ok, I will play $parameter1 for you.
+_1065_MotherIndia0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1066_Awara0_p_#action=playmovie title=$parameter1
+_1066_Awara0_r_Ok, I will play $parameter1 for you.
+_1066_Awara0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1067_Shree4200_p_#action=playmovie title=$parameter1
+_1067_Shree4200_r_Ok, I will play $parameter1 for you.
+_1067_Shree4200_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1070_Madhumati0_p_#action=playmovie title=$parameter1
+_1070_Madhumati0_r_Ok, I will play $parameter1 for you.
+_1070_Madhumati0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1071_Aan0_p_#action=playmovie title=$parameter1
+_1071_Aan0_r_Ok, I will play $parameter1 for you.
+_1071_Aan0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1073_PatherPanchali0_p_#action=playmovie title=$parameter1
+_1073_PatherPanchali0_r_Ok, I will play $parameter1 for you.
+_1073_PatherPanchali0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1075_Shree4200_p_#action=playmovie title=$parameter1
+_1075_Shree4200_r_Ok, I will play $parameter1 for you.
+_1075_Shree4200_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1076_Awara0_p_#action=playmovie title=$parameter1
+_1076_Awara0_r_Ok, I will play $parameter1 for you.
+_1076_Awara0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1079_Pyaasa0_p_#action=playmovie title=$parameter1
+_1079_Pyaasa0_r_Ok, I will play $parameter1 for you.
+_1079_Pyaasa0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1081_MotherIndia0_p_#action=playmovie title=$parameter1
+_1081_MotherIndia0_r_Ok, I will play $parameter1 for you.
+_1081_MotherIndia0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1082_Waqt0_p_#action=playmovie title=$parameter1
+_1082_Waqt0_r_Ok, I will play $parameter1 for you.
+_1082_Waqt0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1084_Waqt0_p_#action=playmovie title=$parameter1
+_1084_Waqt0_r_Ok, I will play $parameter1 for you.
+_1084_Waqt0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1085_Madhumati0_p_#action=playmovie title=$parameter1
+_1085_Madhumati0_r_Ok, I will play $parameter1 for you.
+_1085_Madhumati0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1086_Shree4200_p_#action=playmovie title=$parameter1
+_1086_Shree4200_r_Ok, I will play $parameter1 for you.
+_1086_Shree4200_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1087_Pyaasa0_p_#action=playmovie title=$parameter1
+_1087_Pyaasa0_r_Ok, I will play $parameter1 for you.
+_1087_Pyaasa0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1088_Aan0_p_#action=playmovie title=$parameter1
+_1088_Aan0_r_Ok, I will play $parameter1 for you.
+_1088_Aan0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1089_PatherPanchali0_p_#action=playmovie title=$parameter1
+_1089_PatherPanchali0_r_Ok, I will play $parameter1 for you.
+_1089_PatherPanchali0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1090_Awara0_p_#action=playmovie title=$parameter1
+_1090_Awara0_r_Ok, I will play $parameter1 for you.
+_1090_Awara0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1091_MotherIndia0_p_#action=playmovie title=$parameter1
+_1091_MotherIndia0_r_Ok, I will play $parameter1 for you.
+_1091_MotherIndia0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1092_JapaneseMovie0_p_#action=playmovie title=$parameter1
+_1092_JapaneseMovie0_r_Ok, I will play $parameter1 for you.
+_1092_JapaneseMovie0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1094_Rashomon0_p_#action=playmovie title=$parameter1
+_1094_Rashomon0_r_Ok, I will play $parameter1 for you.
+_1094_Rashomon0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1095_SevenSamurai0_p_#action=playmovie title=$parameter1
+_1095_SevenSamurai0_r_Ok, I will play $parameter1 for you.
+_1095_SevenSamurai0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1096_HighAndLow0_p_#action=playmovie title=$parameter1
+_1096_HighAndLow0_r_Ok, I will play $parameter1 for you.
+_1096_HighAndLow0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1098_LateSpring0_p_#action=playmovie title=$parameter1
+_1098_LateSpring0_r_Ok, I will play $parameter1 for you.
+_1098_LateSpring0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1100_WomanInTheDunes0_p_#action=playmovie title=$parameter1
+_1100_WomanInTheDunes0_r_Ok, I will play $parameter1 for you.
+_1100_WomanInTheDunes0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1102_KingKongVSGodzilla0_p_#action=playmovie title=$parameter1
+_1102_KingKongVSGodzilla0_r_Ok, I will play $parameter1 for you.
+_1102_KingKongVSGodzilla0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1104_EmperorMeijiAndTheGreatRussoJapaneseWar0_p_#action=playmovie title=$parameter1
+_1104_EmperorMeijiAndTheGreatRussoJapaneseWar0_r_Ok, I will play $parameter1 for you.
+_1104_EmperorMeijiAndTheGreatRussoJapaneseWar0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1106_Rashomon0_p_#action=playmovie title=$parameter1
+_1106_Rashomon0_r_Ok, I will play $parameter1 for you.
+_1106_Rashomon0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1107_SevenSamurai0_p_#action=playmovie title=$parameter1
+_1107_SevenSamurai0_r_Ok, I will play $parameter1 for you.
+_1107_SevenSamurai0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1109_Harakiri0_p_#action=playmovie title=$parameter1
+_1109_Harakiri0_r_Ok, I will play $parameter1 for you.
+_1109_Harakiri0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1111_Antarctica0_p_#action=playmovie title=$parameter1
+_1111_Antarctica0_r_Ok, I will play $parameter1 for you.
+_1111_Antarctica0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1113_FiresOnThePlain0_p_#action=playmovie title=$parameter1
+_1113_FiresOnThePlain0_r_Ok, I will play $parameter1 for you.
+_1113_FiresOnThePlain0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1114_Harakiri0_p_#action=playmovie title=$parameter1
+_1114_Harakiri0_r_Ok, I will play $parameter1 for you.
+_1114_Harakiri0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1115_TokyoOlimpiad0_p_#action=playmovie title=$parameter1
+_1115_TokyoOlimpiad0_r_Ok, I will play $parameter1 for you.
+_1115_TokyoOlimpiad0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1116_Rashomon0_p_#action=playmovie title=$parameter1
+_1116_Rashomon0_r_Ok, I will play $parameter1 for you.
+_1116_Rashomon0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1117_FiresOnThePlain0_p_#action=playmovie title=$parameter1
+_1117_FiresOnThePlain0_r_Ok, I will play $parameter1 for you.
+_1117_FiresOnThePlain0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1118_LateSpring0_p_#action=playmovie title=$parameter1
+_1118_LateSpring0_r_Ok, I will play $parameter1 for you.
+_1118_LateSpring0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1119_WomanInTheDunes0_p_#action=playmovie title=$parameter1
+_1119_WomanInTheDunes0_r_Ok, I will play $parameter1 for you.
+_1119_WomanInTheDunes0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1120_SpiritedAway0_p_#action=playmovie title=$parameter1
+_1120_SpiritedAway0_r_Ok, I will play $parameter1 for you.
+_1120_SpiritedAway0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1121_HighAndLow0_p_#action=playmovie title=$parameter1
+_1121_HighAndLow0_r_Ok, I will play $parameter1 for you.
+_1121_HighAndLow0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1122_EmperorMeijiAndTheGreatRussoJapaneseWar0_p_#action=playmovie title=$parameter1
+_1122_EmperorMeijiAndTheGreatRussoJapaneseWar0_r_Ok, I will play $parameter1 for you.
+_1122_EmperorMeijiAndTheGreatRussoJapaneseWar0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1123_Doraemon0_p_#action=playmovie title=$parameter1
+_1123_Doraemon0_r_Ok, I will play $parameter1 for you.
+_1123_Doraemon0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1124_KingKongVSGodzilla0_p_#action=playmovie title=$parameter1
+_1124_KingKongVSGodzilla0_r_Ok, I will play $parameter1 for you.
+_1124_KingKongVSGodzilla0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1125_Antarctica0_p_#action=playmovie title=$parameter1
+_1125_Antarctica0_r_Ok, I will play $parameter1 for you.
+_1125_Antarctica0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1126_PrincessMononoke0_p_#action=playmovie title=$parameter1
+_1126_PrincessMononoke0_r_Ok, I will play $parameter1 for you.
+_1126_PrincessMononoke0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1127_SevenSamurai0_p_#action=playmovie title=$parameter1
+_1127_SevenSamurai0_r_Ok, I will play $parameter1 for you.
+_1127_SevenSamurai0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1128_ActionMovie0_p_#action=playmovie title=$parameter1
+_1128_ActionMovie0_r_Ok, I will play $parameter1 for you.
+_1128_ActionMovie0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1131_Rashomon0_p_#action=playmovie title=$parameter1
+_1131_Rashomon0_r_Ok, I will play $parameter1 for you.
+_1131_Rashomon0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1132_SevenSamurai0_p_#action=playmovie title=$parameter1
+_1132_SevenSamurai0_r_Ok, I will play $parameter1 for you.
+_1132_SevenSamurai0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1133_HighAndLow0_p_#action=playmovie title=$parameter1
+_1133_HighAndLow0_r_Ok, I will play $parameter1 for you.
+_1133_HighAndLow0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1136_KingKongVSGodzilla0_p_#action=playmovie title=$parameter1
+_1136_KingKongVSGodzilla0_r_Ok, I will play $parameter1 for you.
+_1136_KingKongVSGodzilla0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1138_TheBridgeOnTheRiverKwai0_p_#action=playmovie title=$parameter1
+_1138_TheBridgeOnTheRiverKwai0_r_Ok, I will play $parameter1 for you.
+_1138_TheBridgeOnTheRiverKwai0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1140_OurManInHavana0_p_#action=playmovie title=$parameter1
+_1140_OurManInHavana0_r_Ok, I will play $parameter1 for you.
+_1140_OurManInHavana0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1141_TheLadykillers0_p_#action=playmovie title=$parameter1
+_1141_TheLadykillers0_r_Ok, I will play $parameter1 for you.
+_1141_TheLadykillers0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1142_TheBridgeOnTheRiverKwai0_p_#action=playmovie title=$parameter1
+_1142_TheBridgeOnTheRiverKwai0_r_Ok, I will play $parameter1 for you.
+_1142_TheBridgeOnTheRiverKwai0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1143_TheManInTheWhiteSuit0_p_#action=playmovie title=$parameter1
+_1143_TheManInTheWhiteSuit0_r_Ok, I will play $parameter1 for you.
+_1143_TheManInTheWhiteSuit0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1144_TheLavenderHillMob0_p_#action=playmovie title=$parameter1
+_1144_TheLavenderHillMob0_r_Ok, I will play $parameter1 for you.
+_1144_TheLavenderHillMob0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1146_FiresOnThePlain0_p_#action=playmovie title=$parameter1
+_1146_FiresOnThePlain0_r_Ok, I will play $parameter1 for you.
+_1146_FiresOnThePlain0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1148_RichardIII0_p_#action=playmovie title=$parameter1
+_1148_RichardIII0_r_Ok, I will play $parameter1 for you.
+_1148_RichardIII0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1150_MotherIndia0_p_#action=playmovie title=$parameter1
+_1150_MotherIndia0_r_Ok, I will play $parameter1 for you.
+_1150_MotherIndia0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1151_Awara0_p_#action=playmovie title=$parameter1
+_1151_Awara0_r_Ok, I will play $parameter1 for you.
+_1151_Awara0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1152_Shree4200_p_#action=playmovie title=$parameter1
+_1152_Shree4200_r_Ok, I will play $parameter1 for you.
+_1152_Shree4200_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1154_Rashomon0_p_#action=playmovie title=$parameter1
+_1154_Rashomon0_r_Ok, I will play $parameter1 for you.
+_1154_Rashomon0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1155_SevenSamurai0_p_#action=playmovie title=$parameter1
+_1155_SevenSamurai0_r_Ok, I will play $parameter1 for you.
+_1155_SevenSamurai0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1157_Shree4200_p_#action=playmovie title=$parameter1
+_1157_Shree4200_r_Ok, I will play $parameter1 for you.
+_1157_Shree4200_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1158_Awara0_p_#action=playmovie title=$parameter1
+_1158_Awara0_r_Ok, I will play $parameter1 for you.
+_1158_Awara0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1159_KingKongVSGodzilla0_p_#action=playmovie title=$parameter1
+_1159_KingKongVSGodzilla0_r_Ok, I will play $parameter1 for you.
+_1159_KingKongVSGodzilla0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1160_Shree4200_p_#action=playmovie title=$parameter1
+_1160_Shree4200_r_Ok, I will play $parameter1 for you.
+_1160_Shree4200_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1161_OurManInHavana0_p_#action=playmovie title=$parameter1
+_1161_OurManInHavana0_r_Ok, I will play $parameter1 for you.
+_1161_OurManInHavana0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1162_SevenSamurai0_p_#action=playmovie title=$parameter1
+_1162_SevenSamurai0_r_Ok, I will play $parameter1 for you.
+_1162_SevenSamurai0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1163_TheBridgeOnTheRiverKwai0_p_#action=playmovie title=$parameter1
+_1163_TheBridgeOnTheRiverKwai0_r_Ok, I will play $parameter1 for you.
+_1163_TheBridgeOnTheRiverKwai0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1164_FiresOnThePlain0_p_#action=playmovie title=$parameter1
+_1164_FiresOnThePlain0_r_Ok, I will play $parameter1 for you.
+_1164_FiresOnThePlain0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1165_EnglishMovie0_p_#action=playmovie title=$parameter1
+_1165_EnglishMovie0_r_Ok, I will play $parameter1 for you.
+_1165_EnglishMovie0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1167_TheLadykillers0_p_#action=playmovie title=$parameter1
+_1167_TheLadykillers0_r_Ok, I will play $parameter1 for you.
+_1167_TheLadykillers0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1170_HobsonsChoice0_p_#action=playmovie title=$parameter1
+_1170_HobsonsChoice0_r_Ok, I will play $parameter1 for you.
+_1170_HobsonsChoice0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1173_TheManInTheWhiteSuit0_p_#action=playmovie title=$parameter1
+_1173_TheManInTheWhiteSuit0_r_Ok, I will play $parameter1 for you.
+_1173_TheManInTheWhiteSuit0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1175_RoomAtTheTop0_p_#action=playmovie title=$parameter1
+_1175_RoomAtTheTop0_r_Ok, I will play $parameter1 for you.
+_1175_RoomAtTheTop0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1177_TheBridgeOnTheRiverKwai0_p_#action=playmovie title=$parameter1
+_1177_TheBridgeOnTheRiverKwai0_r_Ok, I will play $parameter1 for you.
+_1177_TheBridgeOnTheRiverKwai0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1179_OurManInHavana0_p_#action=playmovie title=$parameter1
+_1179_OurManInHavana0_r_Ok, I will play $parameter1 for you.
+_1179_OurManInHavana0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1180_TheLadykillers0_p_#action=playmovie title=$parameter1
+_1180_TheLadykillers0_r_Ok, I will play $parameter1 for you.
+_1180_TheLadykillers0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1181_TheBridgeOnTheRiverKwai0_p_#action=playmovie title=$parameter1
+_1181_TheBridgeOnTheRiverKwai0_r_Ok, I will play $parameter1 for you.
+_1181_TheBridgeOnTheRiverKwai0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1182_TheManInTheWhiteSuit0_p_#action=playmovie title=$parameter1
+_1182_TheManInTheWhiteSuit0_r_Ok, I will play $parameter1 for you.
+_1182_TheManInTheWhiteSuit0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1183_TheLavenderHillMob0_p_#action=playmovie title=$parameter1
+_1183_TheLavenderHillMob0_r_Ok, I will play $parameter1 for you.
+_1183_TheLavenderHillMob0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1185_RichardIII0_p_#action=playmovie title=$parameter1
+_1185_RichardIII0_r_Ok, I will play $parameter1 for you.
+_1185_RichardIII0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1186_TheBridgeOnTheRiverKwai0_p_#action=playmovie title=$parameter1
+_1186_TheBridgeOnTheRiverKwai0_r_Ok, I will play $parameter1 for you.
+_1186_TheBridgeOnTheRiverKwai0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1187_RoomAtTheTop0_p_#action=playmovie title=$parameter1
+_1187_RoomAtTheTop0_r_Ok, I will play $parameter1 for you.
+_1187_RoomAtTheTop0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1188_TheLadykillers0_p_#action=playmovie title=$parameter1
+_1188_TheLadykillers0_r_Ok, I will play $parameter1 for you.
+_1188_TheLadykillers0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1189_RichardIII0_p_#action=playmovie title=$parameter1
+_1189_RichardIII0_r_Ok, I will play $parameter1 for you.
+_1189_RichardIII0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1190_TheLavenderHillMob0_p_#action=playmovie title=$parameter1
+_1190_TheLavenderHillMob0_r_Ok, I will play $parameter1 for you.
+_1190_TheLavenderHillMob0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1191_HobsonsChoice0_p_#action=playmovie title=$parameter1
+_1191_HobsonsChoice0_r_Ok, I will play $parameter1 for you.
+_1191_HobsonsChoice0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1192_TheManInTheWhiteSuit0_p_#action=playmovie title=$parameter1
+_1192_TheManInTheWhiteSuit0_r_Ok, I will play $parameter1 for you.
+_1192_TheManInTheWhiteSuit0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1193_OurManInHavana0_p_#action=playmovie title=$parameter1
+_1193_OurManInHavana0_r_Ok, I will play $parameter1 for you.
+_1193_OurManInHavana0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1195_Shree4200_p_#action=playmovie title=$parameter1
+_1195_Shree4200_r_Ok, I will play $parameter1 for you.
+_1195_Shree4200_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1196_Awara0_p_#action=playmovie title=$parameter1
+_1196_Awara0_r_Ok, I will play $parameter1 for you.
+_1196_Awara0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1198_Rashomon0_p_#action=playmovie title=$parameter1
+_1198_Rashomon0_r_Ok, I will play $parameter1 for you.
+_1198_Rashomon0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1199_SevenSamurai0_p_#action=playmovie title=$parameter1
+_1199_SevenSamurai0_r_Ok, I will play $parameter1 for you.
+_1199_SevenSamurai0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1201_Harakiri0_p_#action=playmovie title=$parameter1
+_1201_Harakiri0_r_Ok, I will play $parameter1 for you.
+_1201_Harakiri0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1203_TheLadykillers0_p_#action=playmovie title=$parameter1
+_1203_TheLadykillers0_r_Ok, I will play $parameter1 for you.
+_1203_TheLadykillers0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1207_MotherIndia0_p_#action=playmovie title=$parameter1
+_1207_MotherIndia0_r_Ok, I will play $parameter1 for you.
+_1207_MotherIndia0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1208_Awara0_p_#action=playmovie title=$parameter1
+_1208_Awara0_r_Ok, I will play $parameter1 for you.
+_1208_Awara0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1209_Shree4200_p_#action=playmovie title=$parameter1
+_1209_Shree4200_r_Ok, I will play $parameter1 for you.
+_1209_Shree4200_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1211_TheManInTheWhiteSuit0_p_#action=playmovie title=$parameter1
+_1211_TheManInTheWhiteSuit0_r_Ok, I will play $parameter1 for you.
+_1211_TheManInTheWhiteSuit0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1213_Titanic0_p_#action=playmovie title=$parameter1
+_1213_Titanic0_r_Ok, I will play $parameter1 for you.
+_1213_Titanic0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1215_Madhumati0_p_#action=playmovie title=$parameter1
+_1215_Madhumati0_r_Ok, I will play $parameter1 for you.
+_1215_Madhumati0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1216_Aan0_p_#action=playmovie title=$parameter1
+_1216_Aan0_r_Ok, I will play $parameter1 for you.
+_1216_Aan0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1219_PatherPanchali0_p_#action=playmovie title=$parameter1
+_1219_PatherPanchali0_r_Ok, I will play $parameter1 for you.
+_1219_PatherPanchali0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1221_RoomAtTheTop0_p_#action=playmovie title=$parameter1
+_1221_RoomAtTheTop0_r_Ok, I will play $parameter1 for you.
+_1221_RoomAtTheTop0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1223_ETTheExtraTerrestrial0_p_#action=playmovie title=$parameter1
+_1223_ETTheExtraTerrestrial0_r_Ok, I will play $parameter1 for you.
+_1223_ETTheExtraTerrestrial0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1226_MotherIndia0_p_#action=playmovie title=$parameter1
+_1226_MotherIndia0_r_Ok, I will play $parameter1 for you.
+_1226_MotherIndia0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1227_Waqt0_p_#action=playmovie title=$parameter1
+_1227_Waqt0_r_Ok, I will play $parameter1 for you.
+_1227_Waqt0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1229_FiresOnThePlain0_p_#action=playmovie title=$parameter1
+_1229_FiresOnThePlain0_r_Ok, I will play $parameter1 for you.
+_1229_FiresOnThePlain0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1232_Pyaasa0_p_#action=playmovie title=$parameter1
+_1232_Pyaasa0_r_Ok, I will play $parameter1 for you.
+_1232_Pyaasa0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1234_TheBridgeOnTheRiverKwai0_p_#action=playmovie title=$parameter1
+_1234_TheBridgeOnTheRiverKwai0_r_Ok, I will play $parameter1 for you.
+_1234_TheBridgeOnTheRiverKwai0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1237_WomanInTheDunes0_p_#action=playmovie title=$parameter1
+_1237_WomanInTheDunes0_r_Ok, I will play $parameter1 for you.
+_1237_WomanInTheDunes0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1239_Titanic0_p_#action=playmovie title=$parameter1
+_1239_Titanic0_r_Ok, I will play $parameter1 for you.
+_1239_Titanic0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1241_Antarctica0_p_#action=playmovie title=$parameter1
+_1241_Antarctica0_r_Ok, I will play $parameter1 for you.
+_1241_Antarctica0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1243_Rashomon0_p_#action=playmovie title=$parameter1
+_1243_Rashomon0_r_Ok, I will play $parameter1 for you.
+_1243_Rashomon0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1244_SevenSamurai0_p_#action=playmovie title=$parameter1
+_1244_SevenSamurai0_r_Ok, I will play $parameter1 for you.
+_1244_SevenSamurai0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1245_HighAndLow0_p_#action=playmovie title=$parameter1
+_1245_HighAndLow0_r_Ok, I will play $parameter1 for you.
+_1245_HighAndLow0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1248_OurManInHavana0_p_#action=playmovie title=$parameter1
+_1248_OurManInHavana0_r_Ok, I will play $parameter1 for you.
+_1248_OurManInHavana0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1249_TheLadykillers0_p_#action=playmovie title=$parameter1
+_1249_TheLadykillers0_r_Ok, I will play $parameter1 for you.
+_1249_TheLadykillers0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1250_TheBridgeOnTheRiverKwai0_p_#action=playmovie title=$parameter1
+_1250_TheBridgeOnTheRiverKwai0_r_Ok, I will play $parameter1 for you.
+_1250_TheBridgeOnTheRiverKwai0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1251_TheManInTheWhiteSuit0_p_#action=playmovie title=$parameter1
+_1251_TheManInTheWhiteSuit0_r_Ok, I will play $parameter1 for you.
+_1251_TheManInTheWhiteSuit0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1252_TheLavenderHillMob0_p_#action=playmovie title=$parameter1
+_1252_TheLavenderHillMob0_r_Ok, I will play $parameter1 for you.
+_1252_TheLavenderHillMob0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1254_HobsonsChoice0_p_#action=playmovie title=$parameter1
+_1254_HobsonsChoice0_r_Ok, I will play $parameter1 for you.
+_1254_HobsonsChoice0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1257_RichardIII0_p_#action=playmovie title=$parameter1
+_1257_RichardIII0_r_Ok, I will play $parameter1 for you.
+_1257_RichardIII0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1259_KingKongVSGodzilla0_p_#action=playmovie title=$parameter1
+_1259_KingKongVSGodzilla0_r_Ok, I will play $parameter1 for you.
+_1259_KingKongVSGodzilla0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1262_EmperorMeijiAndTheGreatRussoJapaneseWar0_p_#action=playmovie title=$parameter1
+_1262_EmperorMeijiAndTheGreatRussoJapaneseWar0_r_Ok, I will play $parameter1 for you.
+_1262_EmperorMeijiAndTheGreatRussoJapaneseWar0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1264_LateSpring0_p_#action=playmovie title=$parameter1
+_1264_LateSpring0_r_Ok, I will play $parameter1 for you.
+_1264_LateSpring0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1307_ADayInTheLife0_p_#action=playmusic title=$parameter1
+_1307_ADayInTheLife0_r_Ok, I will play $parameter1 for you.
+_1307_ADayInTheLife0_r_Ok, I will play some english music for you.
+_1307_ADayInTheLife0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1307_ADayInTheLife0_t_(?:P|p)lay english music
+_1308_Downtown0_p_#action=playmusic title=$parameter1
+_1308_Downtown0_r_Ok, I will play $parameter1 for you.
+_1308_Downtown0_r_Ok, I will play some english music for you.
+_1308_Downtown0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1308_Downtown0_t_(?:P|p)lay english music
+_1309_KokoSannenSei0_p_#action=playmusic title=$parameter1
+_1309_KokoSannenSei0_r_Ok, I will play $parameter1 for you.
+_1309_KokoSannenSei0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1310_JaanPehchanHo0_p_#action=playmusic title=$parameter1
+_1310_JaanPehchanHo0_r_Ok, I will play $parameter1 for you.
+_1310_JaanPehchanHo0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1311_MainPyarKaRahiHoo0_p_#action=playmusic title=$parameter1
+_1311_MainPyarKaRahiHoo0_r_Ok, I will play $parameter1 for you.
+_1311_MainPyarKaRahiHoo0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1312_DiscoDeewane0_p_#action=playmusic title=$parameter1
+_1312_DiscoDeewane0_r_Ok, I will play $parameter1 for you.
+_1312_DiscoDeewane0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1313_AageBhiJaaneNaTu0_p_#action=playmusic title=$parameter1
+_1313_AageBhiJaaneNaTu0_r_Ok, I will play $parameter1 for you.
+_1313_AageBhiJaaneNaTu0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1314_Satisfaction0_p_#action=playmusic title=$parameter1
+_1314_Satisfaction0_r_Ok, I will play $parameter1 for you.
+_1314_Satisfaction0_r_Ok, I will play some english music for you.
+_1314_Satisfaction0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1314_Satisfaction0_t_(?:P|p)lay english music
+_1315_Osho0_p_#action=playmusic title=$parameter1
+_1315_Osho0_r_Ok, I will play $parameter1 for you.
+_1315_Osho0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1316_ChanchikiOkesa0_p_#action=playmusic title=$parameter1
+_1316_ChanchikiOkesa0_r_Ok, I will play $parameter1 for you.
+_1316_ChanchikiOkesa0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1317_RaatKeHamsafar0_p_#action=playmusic title=$parameter1
+_1317_RaatKeHamsafar0_r_Ok, I will play $parameter1 for you.
+_1317_RaatKeHamsafar0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1318_YuurakuchouDeAimashou0_p_#action=playmusic title=$parameter1
+_1318_YuurakuchouDeAimashou0_r_Ok, I will play $parameter1 for you.
+_1318_YuurakuchouDeAimashou0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1319_RingoMuraKara0_p_#action=playmusic title=$parameter1
+_1319_RingoMuraKara0_r_Ok, I will play $parameter1 for you.
+_1319_RingoMuraKara0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1320_WeWillMeetAgain0_p_#action=playmusic title=$parameter1
+_1320_WeWillMeetAgain0_r_Ok, I will play $parameter1 for you.
+_1320_WeWillMeetAgain0_r_Ok, I will play some english music for you.
+_1320_WeWillMeetAgain0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1320_WeWillMeetAgain0_t_(?:P|p)lay english music
+_1321_SinginInTheRain0_p_#action=playmusic title=$parameter1
+_1321_SinginInTheRain0_r_Ok, I will play $parameter1 for you.
+_1321_SinginInTheRain0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1322_HonthonMeinAisiBaat0_p_#action=playmusic title=$parameter1
+_1322_HonthonMeinAisiBaat0_r_Ok, I will play $parameter1 for you.
+_1322_HonthonMeinAisiBaat0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1323_YouReallyGotMe0_p_#action=playmusic title=$parameter1
+_1323_YouReallyGotMe0_r_Ok, I will play $parameter1 for you.
+_1323_YouReallyGotMe0_r_Ok, I will play some english music for you.
+_1323_YouReallyGotMe0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1323_YouReallyGotMe0_t_(?:P|p)lay english music
+_1324_SukiyakiUeoMuiteArukou0_p_#action=playmusic title=$parameter1
+_1324_SukiyakiUeoMuiteArukou0_r_Ok, I will play $parameter1 for you.
+_1324_SukiyakiUeoMuiteArukou0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1325_AoiSanmyaku0_p_#action=playmusic title=$parameter1
+_1325_AoiSanmyaku0_r_Ok, I will play $parameter1 for you.
+_1325_AoiSanmyaku0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1326_ShadowsOfLostDays0_p_#action=playmusic title=$parameter1
+_1326_ShadowsOfLostDays0_r_Ok, I will play $parameter1 for you.
+_1326_ShadowsOfLostDays0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1327_TumAgarSaathDeneKaVadaKaro0_p_#action=playmusic title=$parameter1
+_1327_TumAgarSaathDeneKaVadaKaro0_r_Ok, I will play $parameter1 for you.
+_1327_TumAgarSaathDeneKaVadaKaro0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1328_MyGeneration0_p_#action=playmusic title=$parameter1
+_1328_MyGeneration0_r_Ok, I will play $parameter1 for you.
+_1328_MyGeneration0_r_Ok, I will play some english music for you.
+_1328_MyGeneration0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1328_MyGeneration0_t_(?:P|p)lay english music
+_1329_LoveIsAllAround0_p_#action=playmusic title=$parameter1
+_1329_LoveIsAllAround0_r_Ok, I will play $parameter1 for you.
+_1329_LoveIsAllAround0_r_Ok, I will play some english music for you.
+_1329_LoveIsAllAround0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1329_LoveIsAllAround0_t_(?:P|p)lay english music
+_1330_TumnePukaraAurHumChaleAaye0_p_#action=playmusic title=$parameter1
+_1330_TumnePukaraAurHumChaleAaye0_r_Ok, I will play $parameter1 for you.
+_1330_TumnePukaraAurHumChaleAaye0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1331_OtomiSan0_p_#action=playmusic title=$parameter1
+_1331_OtomiSan0_r_Ok, I will play $parameter1 for you.
+_1331_OtomiSan0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1332_YoullNeverWalkAlone0_p_#action=playmusic title=$parameter1
+_1332_YoullNeverWalkAlone0_r_Ok, I will play $parameter1 for you.
+_1332_YoullNeverWalkAlone0_r_Ok, I will play some english music for you.
+_1332_YoullNeverWalkAlone0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1332_YoullNeverWalkAlone0_t_(?:P|p)lay english music
+_1333_IsharonIsharonMeinDilLeneWaale0_p_#action=playmusic title=$parameter1
+_1333_IsharonIsharonMeinDilLeneWaale0_r_Ok, I will play $parameter1 for you.
+_1333_IsharonIsharonMeinDilLeneWaale0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1334_DeewanaHuaBadal0_p_#action=playmusic title=$parameter1
+_1334_DeewanaHuaBadal0_r_Ok, I will play $parameter1 for you.
+_1334_DeewanaHuaBadal0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1335_HouseOfTheRisingSun0_p_#action=playmusic title=$parameter1
+_1335_HouseOfTheRisingSun0_r_Ok, I will play $parameter1 for you.
+_1335_HouseOfTheRisingSun0_r_Ok, I will play some english music for you.
+_1335_HouseOfTheRisingSun0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1335_HouseOfTheRisingSun0_t_(?:P|p)lay english music
+_1336_Gloria0_p_#action=playmusic title=$parameter1
+_1336_Gloria0_r_Ok, I will play $parameter1 for you.
+_1336_Gloria0_r_Ok, I will play some english music for you.
+_1336_Gloria0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1336_Gloria0_t_(?:P|p)lay english music
+_1337_OverTheRainbow0_p_#action=playmusic title=$parameter1
+_1337_OverTheRainbow0_r_Ok, I will play $parameter1 for you.
+_1337_OverTheRainbow0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1338_RingoNoUta0_p_#action=playmusic title=$parameter1
+_1338_RingoNoUta0_r_Ok, I will play $parameter1 for you.
+_1338_RingoNoUta0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1339_AajkalTereMerePyarKeCharche0_p_#action=playmusic title=$parameter1
+_1339_AajkalTereMerePyarKeCharche0_r_Ok, I will play $parameter1 for you.
+_1339_AajkalTereMerePyarKeCharche0_t_(?:P|p)lay (?:the song)? (.*)_1
+_1815_Movie0_p_#action=playmovie title=$parameter1
+_1815_Movie0_r_Ok, I will play $parameter1 for you.
+_1815_Movie0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1816_LoveStory0_p_#action=playmovie title=$parameter1
+_1816_LoveStory0_r_Ok, I will play $parameter1 for you.
+_1816_LoveStory0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1818_Pyaasa0_p_#action=playmovie title=$parameter1
+_1818_Pyaasa0_r_Ok, I will play $parameter1 for you.
+_1818_Pyaasa0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1820_Titanic0_p_#action=playmovie title=$parameter1
+_1820_Titanic0_r_Ok, I will play $parameter1 for you.
+_1820_Titanic0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1822_HobsonsChoice0_p_#action=playmovie title=$parameter1
+_1822_HobsonsChoice0_r_Ok, I will play $parameter1 for you.
+_1822_HobsonsChoice0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1824_Madhumati0_p_#action=playmovie title=$parameter1
+_1824_Madhumati0_r_Ok, I will play $parameter1 for you.
+_1824_Madhumati0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1825_Aan0_p_#action=playmovie title=$parameter1
+_1825_Aan0_r_Ok, I will play $parameter1 for you.
+_1825_Aan0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1827_Titanic0_p_#action=playmovie title=$parameter1
+_1827_Titanic0_r_Ok, I will play $parameter1 for you.
+_1827_Titanic0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1829_RoomAtTheTop0_p_#action=playmovie title=$parameter1
+_1829_RoomAtTheTop0_r_Ok, I will play $parameter1 for you.
+_1829_RoomAtTheTop0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1831_MotherIndia0_p_#action=playmovie title=$parameter1
+_1831_MotherIndia0_r_Ok, I will play $parameter1 for you.
+_1831_MotherIndia0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1832_Waqt0_p_#action=playmovie title=$parameter1
+_1832_Waqt0_r_Ok, I will play $parameter1 for you.
+_1832_Waqt0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1833_RoomAtTheTop0_p_#action=playmovie title=$parameter1
+_1833_RoomAtTheTop0_r_Ok, I will play $parameter1 for you.
+_1833_RoomAtTheTop0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1834_Waqt0_p_#action=playmovie title=$parameter1
+_1834_Waqt0_r_Ok, I will play $parameter1 for you.
+_1834_Waqt0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1835_Madhumati0_p_#action=playmovie title=$parameter1
+_1835_Madhumati0_r_Ok, I will play $parameter1 for you.
+_1835_Madhumati0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1836_Titanic0_p_#action=playmovie title=$parameter1
+_1836_Titanic0_r_Ok, I will play $parameter1 for you.
+_1836_Titanic0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1837_HobsonsChoice0_p_#action=playmovie title=$parameter1
+_1837_HobsonsChoice0_r_Ok, I will play $parameter1 for you.
+_1837_HobsonsChoice0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1838_Pyaasa0_p_#action=playmovie title=$parameter1
+_1838_Pyaasa0_r_Ok, I will play $parameter1 for you.
+_1838_Pyaasa0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1839_ActionMovie0_p_#action=playmovie title=$parameter1
+_1839_ActionMovie0_r_Ok, I will play $parameter1 for you.
+_1839_ActionMovie0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1842_Rashomon0_p_#action=playmovie title=$parameter1
+_1842_Rashomon0_r_Ok, I will play $parameter1 for you.
+_1842_Rashomon0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1843_SevenSamurai0_p_#action=playmovie title=$parameter1
+_1843_SevenSamurai0_r_Ok, I will play $parameter1 for you.
+_1843_SevenSamurai0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1844_HighAndLow0_p_#action=playmovie title=$parameter1
+_1844_HighAndLow0_r_Ok, I will play $parameter1 for you.
+_1844_HighAndLow0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1847_KingKongVSGodzilla0_p_#action=playmovie title=$parameter1
+_1847_KingKongVSGodzilla0_r_Ok, I will play $parameter1 for you.
+_1847_KingKongVSGodzilla0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1849_TheBridgeOnTheRiverKwai0_p_#action=playmovie title=$parameter1
+_1849_TheBridgeOnTheRiverKwai0_r_Ok, I will play $parameter1 for you.
+_1849_TheBridgeOnTheRiverKwai0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1851_OurManInHavana0_p_#action=playmovie title=$parameter1
+_1851_OurManInHavana0_r_Ok, I will play $parameter1 for you.
+_1851_OurManInHavana0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1852_TheLadykillers0_p_#action=playmovie title=$parameter1
+_1852_TheLadykillers0_r_Ok, I will play $parameter1 for you.
+_1852_TheLadykillers0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1853_TheBridgeOnTheRiverKwai0_p_#action=playmovie title=$parameter1
+_1853_TheBridgeOnTheRiverKwai0_r_Ok, I will play $parameter1 for you.
+_1853_TheBridgeOnTheRiverKwai0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1854_TheManInTheWhiteSuit0_p_#action=playmovie title=$parameter1
+_1854_TheManInTheWhiteSuit0_r_Ok, I will play $parameter1 for you.
+_1854_TheManInTheWhiteSuit0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1855_TheLavenderHillMob0_p_#action=playmovie title=$parameter1
+_1855_TheLavenderHillMob0_r_Ok, I will play $parameter1 for you.
+_1855_TheLavenderHillMob0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1857_FiresOnThePlain0_p_#action=playmovie title=$parameter1
+_1857_FiresOnThePlain0_r_Ok, I will play $parameter1 for you.
+_1857_FiresOnThePlain0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1859_RichardIII0_p_#action=playmovie title=$parameter1
+_1859_RichardIII0_r_Ok, I will play $parameter1 for you.
+_1859_RichardIII0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1861_MotherIndia0_p_#action=playmovie title=$parameter1
+_1861_MotherIndia0_r_Ok, I will play $parameter1 for you.
+_1861_MotherIndia0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1862_Awara0_p_#action=playmovie title=$parameter1
+_1862_Awara0_r_Ok, I will play $parameter1 for you.
+_1862_Awara0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1863_Shree4200_p_#action=playmovie title=$parameter1
+_1863_Shree4200_r_Ok, I will play $parameter1 for you.
+_1863_Shree4200_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1865_Rashomon0_p_#action=playmovie title=$parameter1
+_1865_Rashomon0_r_Ok, I will play $parameter1 for you.
+_1865_Rashomon0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1866_SevenSamurai0_p_#action=playmovie title=$parameter1
+_1866_SevenSamurai0_r_Ok, I will play $parameter1 for you.
+_1866_SevenSamurai0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1868_Shree4200_p_#action=playmovie title=$parameter1
+_1868_Shree4200_r_Ok, I will play $parameter1 for you.
+_1868_Shree4200_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1869_Awara0_p_#action=playmovie title=$parameter1
+_1869_Awara0_r_Ok, I will play $parameter1 for you.
+_1869_Awara0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1870_KingKongVSGodzilla0_p_#action=playmovie title=$parameter1
+_1870_KingKongVSGodzilla0_r_Ok, I will play $parameter1 for you.
+_1870_KingKongVSGodzilla0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1871_Shree4200_p_#action=playmovie title=$parameter1
+_1871_Shree4200_r_Ok, I will play $parameter1 for you.
+_1871_Shree4200_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1872_OurManInHavana0_p_#action=playmovie title=$parameter1
+_1872_OurManInHavana0_r_Ok, I will play $parameter1 for you.
+_1872_OurManInHavana0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1873_SevenSamurai0_p_#action=playmovie title=$parameter1
+_1873_SevenSamurai0_r_Ok, I will play $parameter1 for you.
+_1873_SevenSamurai0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1874_TheBridgeOnTheRiverKwai0_p_#action=playmovie title=$parameter1
+_1874_TheBridgeOnTheRiverKwai0_r_Ok, I will play $parameter1 for you.
+_1874_TheBridgeOnTheRiverKwai0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1875_FiresOnThePlain0_p_#action=playmovie title=$parameter1
+_1875_FiresOnThePlain0_r_Ok, I will play $parameter1 for you.
+_1875_FiresOnThePlain0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1876_FrenchMovie0_p_#action=playmovie title=$parameter1
+_1876_FrenchMovie0_r_Ok, I will play $parameter1 for you.
+_1876_FrenchMovie0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1877_JapaneseMovie0_p_#action=playmovie title=$parameter1
+_1877_JapaneseMovie0_r_Ok, I will play $parameter1 for you.
+_1877_JapaneseMovie0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1879_Rashomon0_p_#action=playmovie title=$parameter1
+_1879_Rashomon0_r_Ok, I will play $parameter1 for you.
+_1879_Rashomon0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1880_SevenSamurai0_p_#action=playmovie title=$parameter1
+_1880_SevenSamurai0_r_Ok, I will play $parameter1 for you.
+_1880_SevenSamurai0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1881_HighAndLow0_p_#action=playmovie title=$parameter1
+_1881_HighAndLow0_r_Ok, I will play $parameter1 for you.
+_1881_HighAndLow0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1883_LateSpring0_p_#action=playmovie title=$parameter1
+_1883_LateSpring0_r_Ok, I will play $parameter1 for you.
+_1883_LateSpring0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1885_WomanInTheDunes0_p_#action=playmovie title=$parameter1
+_1885_WomanInTheDunes0_r_Ok, I will play $parameter1 for you.
+_1885_WomanInTheDunes0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1887_KingKongVSGodzilla0_p_#action=playmovie title=$parameter1
+_1887_KingKongVSGodzilla0_r_Ok, I will play $parameter1 for you.
+_1887_KingKongVSGodzilla0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1889_EmperorMeijiAndTheGreatRussoJapaneseWar0_p_#action=playmovie title=$parameter1
+_1889_EmperorMeijiAndTheGreatRussoJapaneseWar0_r_Ok, I will play $parameter1 for you.
+_1889_EmperorMeijiAndTheGreatRussoJapaneseWar0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1891_Rashomon0_p_#action=playmovie title=$parameter1
+_1891_Rashomon0_r_Ok, I will play $parameter1 for you.
+_1891_Rashomon0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1892_SevenSamurai0_p_#action=playmovie title=$parameter1
+_1892_SevenSamurai0_r_Ok, I will play $parameter1 for you.
+_1892_SevenSamurai0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1894_Harakiri0_p_#action=playmovie title=$parameter1
+_1894_Harakiri0_r_Ok, I will play $parameter1 for you.
+_1894_Harakiri0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1896_Antarctica0_p_#action=playmovie title=$parameter1
+_1896_Antarctica0_r_Ok, I will play $parameter1 for you.
+_1896_Antarctica0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1898_FiresOnThePlain0_p_#action=playmovie title=$parameter1
+_1898_FiresOnThePlain0_r_Ok, I will play $parameter1 for you.
+_1898_FiresOnThePlain0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1899_Harakiri0_p_#action=playmovie title=$parameter1
+_1899_Harakiri0_r_Ok, I will play $parameter1 for you.
+_1899_Harakiri0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1900_TokyoOlimpiad0_p_#action=playmovie title=$parameter1
+_1900_TokyoOlimpiad0_r_Ok, I will play $parameter1 for you.
+_1900_TokyoOlimpiad0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1901_Rashomon0_p_#action=playmovie title=$parameter1
+_1901_Rashomon0_r_Ok, I will play $parameter1 for you.
+_1901_Rashomon0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1902_FiresOnThePlain0_p_#action=playmovie title=$parameter1
+_1902_FiresOnThePlain0_r_Ok, I will play $parameter1 for you.
+_1902_FiresOnThePlain0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1903_LateSpring0_p_#action=playmovie title=$parameter1
+_1903_LateSpring0_r_Ok, I will play $parameter1 for you.
+_1903_LateSpring0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1904_WomanInTheDunes0_p_#action=playmovie title=$parameter1
+_1904_WomanInTheDunes0_r_Ok, I will play $parameter1 for you.
+_1904_WomanInTheDunes0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1905_SpiritedAway0_p_#action=playmovie title=$parameter1
+_1905_SpiritedAway0_r_Ok, I will play $parameter1 for you.
+_1905_SpiritedAway0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1906_HighAndLow0_p_#action=playmovie title=$parameter1
+_1906_HighAndLow0_r_Ok, I will play $parameter1 for you.
+_1906_HighAndLow0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1907_EmperorMeijiAndTheGreatRussoJapaneseWar0_p_#action=playmovie title=$parameter1
+_1907_EmperorMeijiAndTheGreatRussoJapaneseWar0_r_Ok, I will play $parameter1 for you.
+_1907_EmperorMeijiAndTheGreatRussoJapaneseWar0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1908_Doraemon0_p_#action=playmovie title=$parameter1
+_1908_Doraemon0_r_Ok, I will play $parameter1 for you.
+_1908_Doraemon0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1909_KingKongVSGodzilla0_p_#action=playmovie title=$parameter1
+_1909_KingKongVSGodzilla0_r_Ok, I will play $parameter1 for you.
+_1909_KingKongVSGodzilla0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1910_Antarctica0_p_#action=playmovie title=$parameter1
+_1910_Antarctica0_r_Ok, I will play $parameter1 for you.
+_1910_Antarctica0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1911_PrincessMononoke0_p_#action=playmovie title=$parameter1
+_1911_PrincessMononoke0_r_Ok, I will play $parameter1 for you.
+_1911_PrincessMononoke0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1912_SevenSamurai0_p_#action=playmovie title=$parameter1
+_1912_SevenSamurai0_r_Ok, I will play $parameter1 for you.
+_1912_SevenSamurai0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1913_EnglishMovie0_p_#action=playmovie title=$parameter1
+_1913_EnglishMovie0_r_Ok, I will play $parameter1 for you.
+_1913_EnglishMovie0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1915_TheLadykillers0_p_#action=playmovie title=$parameter1
+_1915_TheLadykillers0_r_Ok, I will play $parameter1 for you.
+_1915_TheLadykillers0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1918_HobsonsChoice0_p_#action=playmovie title=$parameter1
+_1918_HobsonsChoice0_r_Ok, I will play $parameter1 for you.
+_1918_HobsonsChoice0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1921_TheManInTheWhiteSuit0_p_#action=playmovie title=$parameter1
+_1921_TheManInTheWhiteSuit0_r_Ok, I will play $parameter1 for you.
+_1921_TheManInTheWhiteSuit0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1923_RoomAtTheTop0_p_#action=playmovie title=$parameter1
+_1923_RoomAtTheTop0_r_Ok, I will play $parameter1 for you.
+_1923_RoomAtTheTop0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1925_TheBridgeOnTheRiverKwai0_p_#action=playmovie title=$parameter1
+_1925_TheBridgeOnTheRiverKwai0_r_Ok, I will play $parameter1 for you.
+_1925_TheBridgeOnTheRiverKwai0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1927_OurManInHavana0_p_#action=playmovie title=$parameter1
+_1927_OurManInHavana0_r_Ok, I will play $parameter1 for you.
+_1927_OurManInHavana0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1928_TheLadykillers0_p_#action=playmovie title=$parameter1
+_1928_TheLadykillers0_r_Ok, I will play $parameter1 for you.
+_1928_TheLadykillers0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1929_TheBridgeOnTheRiverKwai0_p_#action=playmovie title=$parameter1
+_1929_TheBridgeOnTheRiverKwai0_r_Ok, I will play $parameter1 for you.
+_1929_TheBridgeOnTheRiverKwai0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1930_TheManInTheWhiteSuit0_p_#action=playmovie title=$parameter1
+_1930_TheManInTheWhiteSuit0_r_Ok, I will play $parameter1 for you.
+_1930_TheManInTheWhiteSuit0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1931_TheLavenderHillMob0_p_#action=playmovie title=$parameter1
+_1931_TheLavenderHillMob0_r_Ok, I will play $parameter1 for you.
+_1931_TheLavenderHillMob0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1933_RichardIII0_p_#action=playmovie title=$parameter1
+_1933_RichardIII0_r_Ok, I will play $parameter1 for you.
+_1933_RichardIII0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1934_TheBridgeOnTheRiverKwai0_p_#action=playmovie title=$parameter1
+_1934_TheBridgeOnTheRiverKwai0_r_Ok, I will play $parameter1 for you.
+_1934_TheBridgeOnTheRiverKwai0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1935_RoomAtTheTop0_p_#action=playmovie title=$parameter1
+_1935_RoomAtTheTop0_r_Ok, I will play $parameter1 for you.
+_1935_RoomAtTheTop0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1936_TheLadykillers0_p_#action=playmovie title=$parameter1
+_1936_TheLadykillers0_r_Ok, I will play $parameter1 for you.
+_1936_TheLadykillers0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1937_RichardIII0_p_#action=playmovie title=$parameter1
+_1937_RichardIII0_r_Ok, I will play $parameter1 for you.
+_1937_RichardIII0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1938_TheLavenderHillMob0_p_#action=playmovie title=$parameter1
+_1938_TheLavenderHillMob0_r_Ok, I will play $parameter1 for you.
+_1938_TheLavenderHillMob0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1939_HobsonsChoice0_p_#action=playmovie title=$parameter1
+_1939_HobsonsChoice0_r_Ok, I will play $parameter1 for you.
+_1939_HobsonsChoice0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1940_TheManInTheWhiteSuit0_p_#action=playmovie title=$parameter1
+_1940_TheManInTheWhiteSuit0_r_Ok, I will play $parameter1 for you.
+_1940_TheManInTheWhiteSuit0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1941_OurManInHavana0_p_#action=playmovie title=$parameter1
+_1941_OurManInHavana0_r_Ok, I will play $parameter1 for you.
+_1941_OurManInHavana0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1942_BollywoodMovie0_p_#action=playmovie title=$parameter1
+_1942_BollywoodMovie0_r_Ok, I will play $parameter1 for you.
+_1942_BollywoodMovie0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1944_MotherIndia0_p_#action=playmovie title=$parameter1
+_1944_MotherIndia0_r_Ok, I will play $parameter1 for you.
+_1944_MotherIndia0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1945_Awara0_p_#action=playmovie title=$parameter1
+_1945_Awara0_r_Ok, I will play $parameter1 for you.
+_1945_Awara0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1946_Shree4200_p_#action=playmovie title=$parameter1
+_1946_Shree4200_r_Ok, I will play $parameter1 for you.
+_1946_Shree4200_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1949_Madhumati0_p_#action=playmovie title=$parameter1
+_1949_Madhumati0_r_Ok, I will play $parameter1 for you.
+_1949_Madhumati0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1950_Aan0_p_#action=playmovie title=$parameter1
+_1950_Aan0_r_Ok, I will play $parameter1 for you.
+_1950_Aan0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1952_PatherPanchali0_p_#action=playmovie title=$parameter1
+_1952_PatherPanchali0_r_Ok, I will play $parameter1 for you.
+_1952_PatherPanchali0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1954_Shree4200_p_#action=playmovie title=$parameter1
+_1954_Shree4200_r_Ok, I will play $parameter1 for you.
+_1954_Shree4200_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1955_Awara0_p_#action=playmovie title=$parameter1
+_1955_Awara0_r_Ok, I will play $parameter1 for you.
+_1955_Awara0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1958_Pyaasa0_p_#action=playmovie title=$parameter1
+_1958_Pyaasa0_r_Ok, I will play $parameter1 for you.
+_1958_Pyaasa0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1960_MotherIndia0_p_#action=playmovie title=$parameter1
+_1960_MotherIndia0_r_Ok, I will play $parameter1 for you.
+_1960_MotherIndia0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1961_Waqt0_p_#action=playmovie title=$parameter1
+_1961_Waqt0_r_Ok, I will play $parameter1 for you.
+_1961_Waqt0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1963_Waqt0_p_#action=playmovie title=$parameter1
+_1963_Waqt0_r_Ok, I will play $parameter1 for you.
+_1963_Waqt0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1964_Madhumati0_p_#action=playmovie title=$parameter1
+_1964_Madhumati0_r_Ok, I will play $parameter1 for you.
+_1964_Madhumati0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1965_Shree4200_p_#action=playmovie title=$parameter1
+_1965_Shree4200_r_Ok, I will play $parameter1 for you.
+_1965_Shree4200_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1966_Pyaasa0_p_#action=playmovie title=$parameter1
+_1966_Pyaasa0_r_Ok, I will play $parameter1 for you.
+_1966_Pyaasa0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1967_Aan0_p_#action=playmovie title=$parameter1
+_1967_Aan0_r_Ok, I will play $parameter1 for you.
+_1967_Aan0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1968_PatherPanchali0_p_#action=playmovie title=$parameter1
+_1968_PatherPanchali0_r_Ok, I will play $parameter1 for you.
+_1968_PatherPanchali0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1969_Awara0_p_#action=playmovie title=$parameter1
+_1969_Awara0_r_Ok, I will play $parameter1 for you.
+_1969_Awara0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1970_MotherIndia0_p_#action=playmovie title=$parameter1
+_1970_MotherIndia0_r_Ok, I will play $parameter1 for you.
+_1970_MotherIndia0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1971_ItalianMovie0_p_#action=playmovie title=$parameter1
+_1971_ItalianMovie0_r_Ok, I will play $parameter1 for you.
+_1971_ItalianMovie0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1976_HollywoodMovie0_p_#action=playmovie title=$parameter1
+_1976_HollywoodMovie0_r_Ok, I will play $parameter1 for you.
+_1976_HollywoodMovie0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1978_Titanic0_p_#action=playmovie title=$parameter1
+_1978_Titanic0_r_Ok, I will play $parameter1 for you.
+_1978_Titanic0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1980_ETTheExtraTerrestrial0_p_#action=playmovie title=$parameter1
+_1980_ETTheExtraTerrestrial0_r_Ok, I will play $parameter1 for you.
+_1980_ETTheExtraTerrestrial0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1982_Titanic0_p_#action=playmovie title=$parameter1
+_1982_Titanic0_r_Ok, I will play $parameter1 for you.
+_1982_Titanic0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1983_Titanic0_p_#action=playmovie title=$parameter1
+_1983_Titanic0_r_Ok, I will play $parameter1 for you.
+_1983_Titanic0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_1984_ETTheExtraTerrestrial0_p_#action=playmovie title=$parameter1
+_1984_ETTheExtraTerrestrial0_r_Ok, I will play $parameter1 for you.
+_1984_ETTheExtraTerrestrial0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_2006_Music0_p_#action=playmusic title=$parameter1
+_2006_Music0_r_Ok, I will play $parameter1 for you.
+_2006_Music0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2007_FestivalMusic0_p_#action=playmusic title=$parameter1
+_2007_FestivalMusic0_r_Ok, I will play $parameter1 for you.
+_2007_FestivalMusic0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2008_IndianMusic0_p_#action=playmusic title=$parameter1
+_2008_IndianMusic0_r_Ok, I will play $parameter1 for you.
+_2008_IndianMusic0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2010_TumAgarSaathDeneKaVadaKaro0_p_#action=playmusic title=$parameter1
+_2010_TumAgarSaathDeneKaVadaKaro0_r_Ok, I will play $parameter1 for you.
+_2010_TumAgarSaathDeneKaVadaKaro0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2012_TumnePukaraAurHumChaleAaye0_p_#action=playmusic title=$parameter1
+_2012_TumnePukaraAurHumChaleAaye0_r_Ok, I will play $parameter1 for you.
+_2012_TumnePukaraAurHumChaleAaye0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2014_RaatKeHamsafar0_p_#action=playmusic title=$parameter1
+_2014_RaatKeHamsafar0_r_Ok, I will play $parameter1 for you.
+_2014_RaatKeHamsafar0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2015_MainPyarKaRahiHoo0_p_#action=playmusic title=$parameter1
+_2015_MainPyarKaRahiHoo0_r_Ok, I will play $parameter1 for you.
+_2015_MainPyarKaRahiHoo0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2016_IsharonIsharonMeinDilLeneWaale0_p_#action=playmusic title=$parameter1
+_2016_IsharonIsharonMeinDilLeneWaale0_r_Ok, I will play $parameter1 for you.
+_2016_IsharonIsharonMeinDilLeneWaale0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2017_AageBhiJaaneNaTu0_p_#action=playmusic title=$parameter1
+_2017_AageBhiJaaneNaTu0_r_Ok, I will play $parameter1 for you.
+_2017_AageBhiJaaneNaTu0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2019_IsharonIsharonMeinDilLeneWaale0_p_#action=playmusic title=$parameter1
+_2019_IsharonIsharonMeinDilLeneWaale0_r_Ok, I will play $parameter1 for you.
+_2019_IsharonIsharonMeinDilLeneWaale0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2020_JaanPehchanHo0_p_#action=playmusic title=$parameter1
+_2020_JaanPehchanHo0_r_Ok, I will play $parameter1 for you.
+_2020_JaanPehchanHo0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2021_RaatKeHamsafar0_p_#action=playmusic title=$parameter1
+_2021_RaatKeHamsafar0_r_Ok, I will play $parameter1 for you.
+_2021_RaatKeHamsafar0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2022_MainPyarKaRahiHoo0_p_#action=playmusic title=$parameter1
+_2022_MainPyarKaRahiHoo0_r_Ok, I will play $parameter1 for you.
+_2022_MainPyarKaRahiHoo0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2024_DeewanaHuaBadal0_p_#action=playmusic title=$parameter1
+_2024_DeewanaHuaBadal0_r_Ok, I will play $parameter1 for you.
+_2024_DeewanaHuaBadal0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2026_AajkalTereMerePyarKeCharche0_p_#action=playmusic title=$parameter1
+_2026_AajkalTereMerePyarKeCharche0_r_Ok, I will play $parameter1 for you.
+_2026_AajkalTereMerePyarKeCharche0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2028_DiscoDeewane0_p_#action=playmusic title=$parameter1
+_2028_DiscoDeewane0_r_Ok, I will play $parameter1 for you.
+_2028_DiscoDeewane0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2030_AajkalTereMerePyarKeCharche0_p_#action=playmusic title=$parameter1
+_2030_AajkalTereMerePyarKeCharche0_r_Ok, I will play $parameter1 for you.
+_2030_AajkalTereMerePyarKeCharche0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2031_DeewanaHuaBadal0_p_#action=playmusic title=$parameter1
+_2031_DeewanaHuaBadal0_r_Ok, I will play $parameter1 for you.
+_2031_DeewanaHuaBadal0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2032_TumnePukaraAurHumChaleAaye0_p_#action=playmusic title=$parameter1
+_2032_TumnePukaraAurHumChaleAaye0_r_Ok, I will play $parameter1 for you.
+_2032_TumnePukaraAurHumChaleAaye0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2034_HonthonMeinAisiBaat0_p_#action=playmusic title=$parameter1
+_2034_HonthonMeinAisiBaat0_r_Ok, I will play $parameter1 for you.
+_2034_HonthonMeinAisiBaat0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2035_DiscoDeewane0_p_#action=playmusic title=$parameter1
+_2035_DiscoDeewane0_r_Ok, I will play $parameter1 for you.
+_2035_DiscoDeewane0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2036_HonthonMeinAisiBaat0_p_#action=playmusic title=$parameter1
+_2036_HonthonMeinAisiBaat0_r_Ok, I will play $parameter1 for you.
+_2036_HonthonMeinAisiBaat0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2037_AageBhiJaaneNaTu0_p_#action=playmusic title=$parameter1
+_2037_AageBhiJaaneNaTu0_r_Ok, I will play $parameter1 for you.
+_2037_AageBhiJaaneNaTu0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2038_MainPyarKaRahiHoo0_p_#action=playmusic title=$parameter1
+_2038_MainPyarKaRahiHoo0_r_Ok, I will play $parameter1 for you.
+_2038_MainPyarKaRahiHoo0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2039_AajkalTereMerePyarKeCharche0_p_#action=playmusic title=$parameter1
+_2039_AajkalTereMerePyarKeCharche0_r_Ok, I will play $parameter1 for you.
+_2039_AajkalTereMerePyarKeCharche0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2040_RaatKeHamsafar0_p_#action=playmusic title=$parameter1
+_2040_RaatKeHamsafar0_r_Ok, I will play $parameter1 for you.
+_2040_RaatKeHamsafar0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2041_IsharonIsharonMeinDilLeneWaale0_p_#action=playmusic title=$parameter1
+_2041_IsharonIsharonMeinDilLeneWaale0_r_Ok, I will play $parameter1 for you.
+_2041_IsharonIsharonMeinDilLeneWaale0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2042_DeewanaHuaBadal0_p_#action=playmusic title=$parameter1
+_2042_DeewanaHuaBadal0_r_Ok, I will play $parameter1 for you.
+_2042_DeewanaHuaBadal0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2043_JaanPehchanHo0_p_#action=playmusic title=$parameter1
+_2043_JaanPehchanHo0_r_Ok, I will play $parameter1 for you.
+_2043_JaanPehchanHo0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2044_TumnePukaraAurHumChaleAaye0_p_#action=playmusic title=$parameter1
+_2044_TumnePukaraAurHumChaleAaye0_r_Ok, I will play $parameter1 for you.
+_2044_TumnePukaraAurHumChaleAaye0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2045_TumAgarSaathDeneKaVadaKaro0_p_#action=playmusic title=$parameter1
+_2045_TumAgarSaathDeneKaVadaKaro0_r_Ok, I will play $parameter1 for you.
+_2045_TumAgarSaathDeneKaVadaKaro0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2046_PopMusic0_p_#action=playmusic title=$parameter1
+_2046_PopMusic0_r_Ok, I will play $parameter1 for you.
+_2046_PopMusic0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2048_LoveIsAllAround0_p_#action=playmusic title=$parameter1
+_2048_LoveIsAllAround0_r_Ok, I will play $parameter1 for you.
+_2048_LoveIsAllAround0_r_Ok, I will play some english music for you.
+_2048_LoveIsAllAround0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2048_LoveIsAllAround0_t_(?:P|p)lay english music
+_2050_RingoNoUta0_p_#action=playmusic title=$parameter1
+_2050_RingoNoUta0_r_Ok, I will play $parameter1 for you.
+_2050_RingoNoUta0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2052_YoullNeverWalkAlone0_p_#action=playmusic title=$parameter1
+_2052_YoullNeverWalkAlone0_r_Ok, I will play $parameter1 for you.
+_2052_YoullNeverWalkAlone0_r_Ok, I will play some english music for you.
+_2052_YoullNeverWalkAlone0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2052_YoullNeverWalkAlone0_t_(?:P|p)lay english music
+_2054_RingoMuraKara0_p_#action=playmusic title=$parameter1
+_2054_RingoMuraKara0_r_Ok, I will play $parameter1 for you.
+_2054_RingoMuraKara0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2056_ADayInTheLife0_p_#action=playmusic title=$parameter1
+_2056_ADayInTheLife0_r_Ok, I will play $parameter1 for you.
+_2056_ADayInTheLife0_r_Ok, I will play some english music for you.
+_2056_ADayInTheLife0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2056_ADayInTheLife0_t_(?:P|p)lay english music
+_2058_WeWillMeetAgain0_p_#action=playmusic title=$parameter1
+_2058_WeWillMeetAgain0_r_Ok, I will play $parameter1 for you.
+_2058_WeWillMeetAgain0_r_Ok, I will play some english music for you.
+_2058_WeWillMeetAgain0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2058_WeWillMeetAgain0_t_(?:P|p)lay english music
+_2060_SukiyakiUeoMuiteArukou0_p_#action=playmusic title=$parameter1
+_2060_SukiyakiUeoMuiteArukou0_r_Ok, I will play $parameter1 for you.
+_2060_SukiyakiUeoMuiteArukou0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2062_AoiSanmyaku0_p_#action=playmusic title=$parameter1
+_2062_AoiSanmyaku0_r_Ok, I will play $parameter1 for you.
+_2062_AoiSanmyaku0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2064_AoiSanmyaku0_p_#action=playmusic title=$parameter1
+_2064_AoiSanmyaku0_r_Ok, I will play $parameter1 for you.
+_2064_AoiSanmyaku0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2066_DiscoDeewane0_p_#action=playmusic title=$parameter1
+_2066_DiscoDeewane0_r_Ok, I will play $parameter1 for you.
+_2066_DiscoDeewane0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2068_Downtown0_p_#action=playmusic title=$parameter1
+_2068_Downtown0_r_Ok, I will play $parameter1 for you.
+_2068_Downtown0_r_Ok, I will play some english music for you.
+_2068_Downtown0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2068_Downtown0_t_(?:P|p)lay english music
+_2070_ChanchikiOkesa0_p_#action=playmusic title=$parameter1
+_2070_ChanchikiOkesa0_r_Ok, I will play $parameter1 for you.
+_2070_ChanchikiOkesa0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2071_SukiyakiUeoMuiteArukou0_p_#action=playmusic title=$parameter1
+_2071_SukiyakiUeoMuiteArukou0_r_Ok, I will play $parameter1 for you.
+_2071_SukiyakiUeoMuiteArukou0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2072_DiscoDeewane0_p_#action=playmusic title=$parameter1
+_2072_DiscoDeewane0_r_Ok, I will play $parameter1 for you.
+_2072_DiscoDeewane0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2073_AoiSanmyaku0_p_#action=playmusic title=$parameter1
+_2073_AoiSanmyaku0_r_Ok, I will play $parameter1 for you.
+_2073_AoiSanmyaku0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2074_RingoNoUta0_p_#action=playmusic title=$parameter1
+_2074_RingoNoUta0_r_Ok, I will play $parameter1 for you.
+_2074_RingoNoUta0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2075_ADayInTheLife0_p_#action=playmusic title=$parameter1
+_2075_ADayInTheLife0_r_Ok, I will play $parameter1 for you.
+_2075_ADayInTheLife0_r_Ok, I will play some english music for you.
+_2075_ADayInTheLife0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2075_ADayInTheLife0_t_(?:P|p)lay english music
+_2076_ChanchikiOkesa0_p_#action=playmusic title=$parameter1
+_2076_ChanchikiOkesa0_r_Ok, I will play $parameter1 for you.
+_2076_ChanchikiOkesa0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2077_Downtown0_p_#action=playmusic title=$parameter1
+_2077_Downtown0_r_Ok, I will play $parameter1 for you.
+_2077_Downtown0_r_Ok, I will play some english music for you.
+_2077_Downtown0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2077_Downtown0_t_(?:P|p)lay english music
+_2078_WeWillMeetAgain0_p_#action=playmusic title=$parameter1
+_2078_WeWillMeetAgain0_r_Ok, I will play $parameter1 for you.
+_2078_WeWillMeetAgain0_r_Ok, I will play some english music for you.
+_2078_WeWillMeetAgain0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2078_WeWillMeetAgain0_t_(?:P|p)lay english music
+_2079_RingoMuraKara0_p_#action=playmusic title=$parameter1
+_2079_RingoMuraKara0_r_Ok, I will play $parameter1 for you.
+_2079_RingoMuraKara0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2080_YoullNeverWalkAlone0_p_#action=playmusic title=$parameter1
+_2080_YoullNeverWalkAlone0_r_Ok, I will play $parameter1 for you.
+_2080_YoullNeverWalkAlone0_r_Ok, I will play some english music for you.
+_2080_YoullNeverWalkAlone0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2080_YoullNeverWalkAlone0_t_(?:P|p)lay english music
+_2081_LoveIsAllAround0_p_#action=playmusic title=$parameter1
+_2081_LoveIsAllAround0_r_Ok, I will play $parameter1 for you.
+_2081_LoveIsAllAround0_r_Ok, I will play some english music for you.
+_2081_LoveIsAllAround0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2081_LoveIsAllAround0_t_(?:P|p)lay english music
+_2082_MovieSong0_p_#action=playmusic title=$parameter1
+_2082_MovieSong0_r_Ok, I will play $parameter1 for you.
+_2082_MovieSong0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2084_RingoNoUta0_p_#action=playmusic title=$parameter1
+_2084_RingoNoUta0_r_Ok, I will play $parameter1 for you.
+_2084_RingoNoUta0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2086_DeewanaHuaBadal0_p_#action=playmusic title=$parameter1
+_2086_DeewanaHuaBadal0_r_Ok, I will play $parameter1 for you.
+_2086_DeewanaHuaBadal0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2088_TumAgarSaathDeneKaVadaKaro0_p_#action=playmusic title=$parameter1
+_2088_TumAgarSaathDeneKaVadaKaro0_r_Ok, I will play $parameter1 for you.
+_2088_TumAgarSaathDeneKaVadaKaro0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2090_AajkalTereMerePyarKeCharche0_p_#action=playmusic title=$parameter1
+_2090_AajkalTereMerePyarKeCharche0_r_Ok, I will play $parameter1 for you.
+_2090_AajkalTereMerePyarKeCharche0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2092_AoiSanmyaku0_p_#action=playmusic title=$parameter1
+_2092_AoiSanmyaku0_r_Ok, I will play $parameter1 for you.
+_2092_AoiSanmyaku0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2094_HonthonMeinAisiBaat0_p_#action=playmusic title=$parameter1
+_2094_HonthonMeinAisiBaat0_r_Ok, I will play $parameter1 for you.
+_2094_HonthonMeinAisiBaat0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2096_TumnePukaraAurHumChaleAaye0_p_#action=playmusic title=$parameter1
+_2096_TumnePukaraAurHumChaleAaye0_r_Ok, I will play $parameter1 for you.
+_2096_TumnePukaraAurHumChaleAaye0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2098_IsharonIsharonMeinDilLeneWaale0_p_#action=playmusic title=$parameter1
+_2098_IsharonIsharonMeinDilLeneWaale0_r_Ok, I will play $parameter1 for you.
+_2098_IsharonIsharonMeinDilLeneWaale0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2099_JaanPehchanHo0_p_#action=playmusic title=$parameter1
+_2099_JaanPehchanHo0_r_Ok, I will play $parameter1 for you.
+_2099_JaanPehchanHo0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2100_RaatKeHamsafar0_p_#action=playmusic title=$parameter1
+_2100_RaatKeHamsafar0_r_Ok, I will play $parameter1 for you.
+_2100_RaatKeHamsafar0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2101_MainPyarKaRahiHoo0_p_#action=playmusic title=$parameter1
+_2101_MainPyarKaRahiHoo0_r_Ok, I will play $parameter1 for you.
+_2101_MainPyarKaRahiHoo0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2103_SinginInTheRain0_p_#action=playmusic title=$parameter1
+_2103_SinginInTheRain0_r_Ok, I will play $parameter1 for you.
+_2103_SinginInTheRain0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2105_AoiSanmyaku0_p_#action=playmusic title=$parameter1
+_2105_AoiSanmyaku0_r_Ok, I will play $parameter1 for you.
+_2105_AoiSanmyaku0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2107_RaatKeHamsafar0_p_#action=playmusic title=$parameter1
+_2107_RaatKeHamsafar0_r_Ok, I will play $parameter1 for you.
+_2107_RaatKeHamsafar0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2108_MainPyarKaRahiHoo0_p_#action=playmusic title=$parameter1
+_2108_MainPyarKaRahiHoo0_r_Ok, I will play $parameter1 for you.
+_2108_MainPyarKaRahiHoo0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2109_IsharonIsharonMeinDilLeneWaale0_p_#action=playmusic title=$parameter1
+_2109_IsharonIsharonMeinDilLeneWaale0_r_Ok, I will play $parameter1 for you.
+_2109_IsharonIsharonMeinDilLeneWaale0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2110_AageBhiJaaneNaTu0_p_#action=playmusic title=$parameter1
+_2110_AageBhiJaaneNaTu0_r_Ok, I will play $parameter1 for you.
+_2110_AageBhiJaaneNaTu0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2112_AajkalTereMerePyarKeCharche0_p_#action=playmusic title=$parameter1
+_2112_AajkalTereMerePyarKeCharche0_r_Ok, I will play $parameter1 for you.
+_2112_AajkalTereMerePyarKeCharche0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2113_DeewanaHuaBadal0_p_#action=playmusic title=$parameter1
+_2113_DeewanaHuaBadal0_r_Ok, I will play $parameter1 for you.
+_2113_DeewanaHuaBadal0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2114_TumnePukaraAurHumChaleAaye0_p_#action=playmusic title=$parameter1
+_2114_TumnePukaraAurHumChaleAaye0_r_Ok, I will play $parameter1 for you.
+_2114_TumnePukaraAurHumChaleAaye0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2116_OverTheRainbow0_p_#action=playmusic title=$parameter1
+_2116_OverTheRainbow0_r_Ok, I will play $parameter1 for you.
+_2116_OverTheRainbow0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2117_HonthonMeinAisiBaat0_p_#action=playmusic title=$parameter1
+_2117_HonthonMeinAisiBaat0_r_Ok, I will play $parameter1 for you.
+_2117_HonthonMeinAisiBaat0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2118_DeewanaHuaBadal0_p_#action=playmusic title=$parameter1
+_2118_DeewanaHuaBadal0_r_Ok, I will play $parameter1 for you.
+_2118_DeewanaHuaBadal0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2119_AajkalTereMerePyarKeCharche0_p_#action=playmusic title=$parameter1
+_2119_AajkalTereMerePyarKeCharche0_r_Ok, I will play $parameter1 for you.
+_2119_AajkalTereMerePyarKeCharche0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2120_AoiSanmyaku0_p_#action=playmusic title=$parameter1
+_2120_AoiSanmyaku0_r_Ok, I will play $parameter1 for you.
+_2120_AoiSanmyaku0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2121_JaanPehchanHo0_p_#action=playmusic title=$parameter1
+_2121_JaanPehchanHo0_r_Ok, I will play $parameter1 for you.
+_2121_JaanPehchanHo0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2122_IsharonIsharonMeinDilLeneWaale0_p_#action=playmusic title=$parameter1
+_2122_IsharonIsharonMeinDilLeneWaale0_r_Ok, I will play $parameter1 for you.
+_2122_IsharonIsharonMeinDilLeneWaale0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2123_TumnePukaraAurHumChaleAaye0_p_#action=playmusic title=$parameter1
+_2123_TumnePukaraAurHumChaleAaye0_r_Ok, I will play $parameter1 for you.
+_2123_TumnePukaraAurHumChaleAaye0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2124_TumAgarSaathDeneKaVadaKaro0_p_#action=playmusic title=$parameter1
+_2124_TumAgarSaathDeneKaVadaKaro0_r_Ok, I will play $parameter1 for you.
+_2124_TumAgarSaathDeneKaVadaKaro0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2125_RaatKeHamsafar0_p_#action=playmusic title=$parameter1
+_2125_RaatKeHamsafar0_r_Ok, I will play $parameter1 for you.
+_2125_RaatKeHamsafar0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2126_RingoNoUta0_p_#action=playmusic title=$parameter1
+_2126_RingoNoUta0_r_Ok, I will play $parameter1 for you.
+_2126_RingoNoUta0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2127_SinginInTheRain0_p_#action=playmusic title=$parameter1
+_2127_SinginInTheRain0_r_Ok, I will play $parameter1 for you.
+_2127_SinginInTheRain0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2128_AageBhiJaaneNaTu0_p_#action=playmusic title=$parameter1
+_2128_AageBhiJaaneNaTu0_r_Ok, I will play $parameter1 for you.
+_2128_AageBhiJaaneNaTu0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2129_OverTheRainbow0_p_#action=playmusic title=$parameter1
+_2129_OverTheRainbow0_r_Ok, I will play $parameter1 for you.
+_2129_OverTheRainbow0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2130_MainPyarKaRahiHoo0_p_#action=playmusic title=$parameter1
+_2130_MainPyarKaRahiHoo0_r_Ok, I will play $parameter1 for you.
+_2130_MainPyarKaRahiHoo0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2131_JapaneseMusic0_p_#action=playmusic title=$parameter1
+_2131_JapaneseMusic0_r_Ok, I will play $parameter1 for you.
+_2131_JapaneseMusic0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2133_RingoMuraKara0_p_#action=playmusic title=$parameter1
+_2133_RingoMuraKara0_r_Ok, I will play $parameter1 for you.
+_2133_RingoMuraKara0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2135_AoiSanmyaku0_p_#action=playmusic title=$parameter1
+_2135_AoiSanmyaku0_r_Ok, I will play $parameter1 for you.
+_2135_AoiSanmyaku0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2137_YuurakuchouDeAimashou0_p_#action=playmusic title=$parameter1
+_2137_YuurakuchouDeAimashou0_r_Ok, I will play $parameter1 for you.
+_2137_YuurakuchouDeAimashou0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2139_SukiyakiUeoMuiteArukou0_p_#action=playmusic title=$parameter1
+_2139_SukiyakiUeoMuiteArukou0_r_Ok, I will play $parameter1 for you.
+_2139_SukiyakiUeoMuiteArukou0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2141_Osho0_p_#action=playmusic title=$parameter1
+_2141_Osho0_r_Ok, I will play $parameter1 for you.
+_2141_Osho0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2143_AoiSanmyaku0_p_#action=playmusic title=$parameter1
+_2143_AoiSanmyaku0_r_Ok, I will play $parameter1 for you.
+_2143_AoiSanmyaku0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2145_ChanchikiOkesa0_p_#action=playmusic title=$parameter1
+_2145_ChanchikiOkesa0_r_Ok, I will play $parameter1 for you.
+_2145_ChanchikiOkesa0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2147_OtomiSan0_p_#action=playmusic title=$parameter1
+_2147_OtomiSan0_r_Ok, I will play $parameter1 for you.
+_2147_OtomiSan0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2149_KokoSannenSei0_p_#action=playmusic title=$parameter1
+_2149_KokoSannenSei0_r_Ok, I will play $parameter1 for you.
+_2149_KokoSannenSei0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2151_RingoNoUta0_p_#action=playmusic title=$parameter1
+_2151_RingoNoUta0_r_Ok, I will play $parameter1 for you.
+_2151_RingoNoUta0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2153_ShadowsOfLostDays0_p_#action=playmusic title=$parameter1
+_2153_ShadowsOfLostDays0_r_Ok, I will play $parameter1 for you.
+_2153_ShadowsOfLostDays0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2154_Osho0_p_#action=playmusic title=$parameter1
+_2154_Osho0_r_Ok, I will play $parameter1 for you.
+_2154_Osho0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2155_AoiSanmyaku0_p_#action=playmusic title=$parameter1
+_2155_AoiSanmyaku0_r_Ok, I will play $parameter1 for you.
+_2155_AoiSanmyaku0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2156_RingoMuraKara0_p_#action=playmusic title=$parameter1
+_2156_RingoMuraKara0_r_Ok, I will play $parameter1 for you.
+_2156_RingoMuraKara0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2157_ShadowsOfLostDays0_p_#action=playmusic title=$parameter1
+_2157_ShadowsOfLostDays0_r_Ok, I will play $parameter1 for you.
+_2157_ShadowsOfLostDays0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2158_OtomiSan0_p_#action=playmusic title=$parameter1
+_2158_OtomiSan0_r_Ok, I will play $parameter1 for you.
+_2158_OtomiSan0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2159_ChanchikiOkesa0_p_#action=playmusic title=$parameter1
+_2159_ChanchikiOkesa0_r_Ok, I will play $parameter1 for you.
+_2159_ChanchikiOkesa0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2160_RingoNoUta0_p_#action=playmusic title=$parameter1
+_2160_RingoNoUta0_r_Ok, I will play $parameter1 for you.
+_2160_RingoNoUta0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2161_KokoSannenSei0_p_#action=playmusic title=$parameter1
+_2161_KokoSannenSei0_r_Ok, I will play $parameter1 for you.
+_2161_KokoSannenSei0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2162_SukiyakiUeoMuiteArukou0_p_#action=playmusic title=$parameter1
+_2162_SukiyakiUeoMuiteArukou0_r_Ok, I will play $parameter1 for you.
+_2162_SukiyakiUeoMuiteArukou0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2163_YuurakuchouDeAimashou0_p_#action=playmusic title=$parameter1
+_2163_YuurakuchouDeAimashou0_r_Ok, I will play $parameter1 for you.
+_2163_YuurakuchouDeAimashou0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2164_EnglishMusic0_p_#action=playmusic title=$parameter1
+_2164_EnglishMusic0_r_Ok, I will play $parameter1 for you.
+_2164_EnglishMusic0_r_Ok, I will play some english music for you.
+_2164_EnglishMusic0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2164_EnglishMusic0_t_(?:P|p)lay english music
+_2166_ADayInTheLife0_p_#action=playmusic title=$parameter1
+_2166_ADayInTheLife0_r_Ok, I will play $parameter1 for you.
+_2166_ADayInTheLife0_r_Ok, I will play some english music for you.
+_2166_ADayInTheLife0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2166_ADayInTheLife0_t_(?:P|p)lay english music
+_2168_HouseOfTheRisingSun0_p_#action=playmusic title=$parameter1
+_2168_HouseOfTheRisingSun0_r_Ok, I will play $parameter1 for you.
+_2168_HouseOfTheRisingSun0_r_Ok, I will play some english music for you.
+_2168_HouseOfTheRisingSun0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2168_HouseOfTheRisingSun0_t_(?:P|p)lay english music
+_2170_Gloria0_p_#action=playmusic title=$parameter1
+_2170_Gloria0_r_Ok, I will play $parameter1 for you.
+_2170_Gloria0_r_Ok, I will play some english music for you.
+_2170_Gloria0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2170_Gloria0_t_(?:P|p)lay english music
+_2172_MyGeneration0_p_#action=playmusic title=$parameter1
+_2172_MyGeneration0_r_Ok, I will play $parameter1 for you.
+_2172_MyGeneration0_r_Ok, I will play some english music for you.
+_2172_MyGeneration0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2172_MyGeneration0_t_(?:P|p)lay english music
+_2174_LoveIsAllAround0_p_#action=playmusic title=$parameter1
+_2174_LoveIsAllAround0_r_Ok, I will play $parameter1 for you.
+_2174_LoveIsAllAround0_r_Ok, I will play some english music for you.
+_2174_LoveIsAllAround0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2174_LoveIsAllAround0_t_(?:P|p)lay english music
+_2176_Downtown0_p_#action=playmusic title=$parameter1
+_2176_Downtown0_r_Ok, I will play $parameter1 for you.
+_2176_Downtown0_r_Ok, I will play some english music for you.
+_2176_Downtown0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2176_Downtown0_t_(?:P|p)lay english music
+_2178_WeWillMeetAgain0_p_#action=playmusic title=$parameter1
+_2178_WeWillMeetAgain0_r_Ok, I will play $parameter1 for you.
+_2178_WeWillMeetAgain0_r_Ok, I will play some english music for you.
+_2178_WeWillMeetAgain0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2178_WeWillMeetAgain0_t_(?:P|p)lay english music
+_2180_YouReallyGotMe0_p_#action=playmusic title=$parameter1
+_2180_YouReallyGotMe0_r_Ok, I will play $parameter1 for you.
+_2180_YouReallyGotMe0_r_Ok, I will play some english music for you.
+_2180_YouReallyGotMe0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2180_YouReallyGotMe0_t_(?:P|p)lay english music
+_2182_YoullNeverWalkAlone0_p_#action=playmusic title=$parameter1
+_2182_YoullNeverWalkAlone0_r_Ok, I will play $parameter1 for you.
+_2182_YoullNeverWalkAlone0_r_Ok, I will play some english music for you.
+_2182_YoullNeverWalkAlone0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2182_YoullNeverWalkAlone0_t_(?:P|p)lay english music
+_2184_Satisfaction0_p_#action=playmusic title=$parameter1
+_2184_Satisfaction0_r_Ok, I will play $parameter1 for you.
+_2184_Satisfaction0_r_Ok, I will play some english music for you.
+_2184_Satisfaction0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2184_Satisfaction0_t_(?:P|p)lay english music
+_2185_HouseOfTheRisingSun0_p_#action=playmusic title=$parameter1
+_2185_HouseOfTheRisingSun0_r_Ok, I will play $parameter1 for you.
+_2185_HouseOfTheRisingSun0_r_Ok, I will play some english music for you.
+_2185_HouseOfTheRisingSun0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2185_HouseOfTheRisingSun0_t_(?:P|p)lay english music
+_2186_WeWillMeetAgain0_p_#action=playmusic title=$parameter1
+_2186_WeWillMeetAgain0_r_Ok, I will play $parameter1 for you.
+_2186_WeWillMeetAgain0_r_Ok, I will play some english music for you.
+_2186_WeWillMeetAgain0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2186_WeWillMeetAgain0_t_(?:P|p)lay english music
+_2187_Gloria0_p_#action=playmusic title=$parameter1
+_2187_Gloria0_r_Ok, I will play $parameter1 for you.
+_2187_Gloria0_r_Ok, I will play some english music for you.
+_2187_Gloria0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2187_Gloria0_t_(?:P|p)lay english music
+_2188_YoullNeverWalkAlone0_p_#action=playmusic title=$parameter1
+_2188_YoullNeverWalkAlone0_r_Ok, I will play $parameter1 for you.
+_2188_YoullNeverWalkAlone0_r_Ok, I will play some english music for you.
+_2188_YoullNeverWalkAlone0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2188_YoullNeverWalkAlone0_t_(?:P|p)lay english music
+_2189_Satisfaction0_p_#action=playmusic title=$parameter1
+_2189_Satisfaction0_r_Ok, I will play $parameter1 for you.
+_2189_Satisfaction0_r_Ok, I will play some english music for you.
+_2189_Satisfaction0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2189_Satisfaction0_t_(?:P|p)lay english music
+_2190_YouReallyGotMe0_p_#action=playmusic title=$parameter1
+_2190_YouReallyGotMe0_r_Ok, I will play $parameter1 for you.
+_2190_YouReallyGotMe0_r_Ok, I will play some english music for you.
+_2190_YouReallyGotMe0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2190_YouReallyGotMe0_t_(?:P|p)lay english music
+_2191_MyGeneration0_p_#action=playmusic title=$parameter1
+_2191_MyGeneration0_r_Ok, I will play $parameter1 for you.
+_2191_MyGeneration0_r_Ok, I will play some english music for you.
+_2191_MyGeneration0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2191_MyGeneration0_t_(?:P|p)lay english music
+_2192_LoveIsAllAround0_p_#action=playmusic title=$parameter1
+_2192_LoveIsAllAround0_r_Ok, I will play $parameter1 for you.
+_2192_LoveIsAllAround0_r_Ok, I will play some english music for you.
+_2192_LoveIsAllAround0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2192_LoveIsAllAround0_t_(?:P|p)lay english music
+_2193_Downtown0_p_#action=playmusic title=$parameter1
+_2193_Downtown0_r_Ok, I will play $parameter1 for you.
+_2193_Downtown0_r_Ok, I will play some english music for you.
+_2193_Downtown0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2193_Downtown0_t_(?:P|p)lay english music
+_2194_ADayInTheLife0_p_#action=playmusic title=$parameter1
+_2194_ADayInTheLife0_r_Ok, I will play $parameter1 for you.
+_2194_ADayInTheLife0_r_Ok, I will play some english music for you.
+_2194_ADayInTheLife0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2194_ADayInTheLife0_t_(?:P|p)lay english music
+_2195_RockMusic0_p_#action=playmusic title=$parameter1
+_2195_RockMusic0_r_Ok, I will play $parameter1 for you.
+_2195_RockMusic0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2197_LoveIsAllAround0_p_#action=playmusic title=$parameter1
+_2197_LoveIsAllAround0_r_Ok, I will play $parameter1 for you.
+_2197_LoveIsAllAround0_r_Ok, I will play some english music for you.
+_2197_LoveIsAllAround0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2197_LoveIsAllAround0_t_(?:P|p)lay english music
+_2199_Satisfaction0_p_#action=playmusic title=$parameter1
+_2199_Satisfaction0_r_Ok, I will play $parameter1 for you.
+_2199_Satisfaction0_r_Ok, I will play some english music for you.
+_2199_Satisfaction0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2199_Satisfaction0_t_(?:P|p)lay english music
+_2201_IsharonIsharonMeinDilLeneWaale0_p_#action=playmusic title=$parameter1
+_2201_IsharonIsharonMeinDilLeneWaale0_r_Ok, I will play $parameter1 for you.
+_2201_IsharonIsharonMeinDilLeneWaale0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2202_JaanPehchanHo0_p_#action=playmusic title=$parameter1
+_2202_JaanPehchanHo0_r_Ok, I will play $parameter1 for you.
+_2202_JaanPehchanHo0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2203_RaatKeHamsafar0_p_#action=playmusic title=$parameter1
+_2203_RaatKeHamsafar0_r_Ok, I will play $parameter1 for you.
+_2203_RaatKeHamsafar0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2204_MainPyarKaRahiHoo0_p_#action=playmusic title=$parameter1
+_2204_MainPyarKaRahiHoo0_r_Ok, I will play $parameter1 for you.
+_2204_MainPyarKaRahiHoo0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2206_MyGeneration0_p_#action=playmusic title=$parameter1
+_2206_MyGeneration0_r_Ok, I will play $parameter1 for you.
+_2206_MyGeneration0_r_Ok, I will play some english music for you.
+_2206_MyGeneration0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2206_MyGeneration0_t_(?:P|p)lay english music
+_2208_YouReallyGotMe0_p_#action=playmusic title=$parameter1
+_2208_YouReallyGotMe0_r_Ok, I will play $parameter1 for you.
+_2208_YouReallyGotMe0_r_Ok, I will play some english music for you.
+_2208_YouReallyGotMe0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2208_YouReallyGotMe0_t_(?:P|p)lay english music
+_2210_Gloria0_p_#action=playmusic title=$parameter1
+_2210_Gloria0_r_Ok, I will play $parameter1 for you.
+_2210_Gloria0_r_Ok, I will play some english music for you.
+_2210_Gloria0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2210_Gloria0_t_(?:P|p)lay english music
+_2212_ShadowsOfLostDays0_p_#action=playmusic title=$parameter1
+_2212_ShadowsOfLostDays0_r_Ok, I will play $parameter1 for you.
+_2212_ShadowsOfLostDays0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2213_ShadowsOfLostDays0_p_#action=playmusic title=$parameter1
+_2213_ShadowsOfLostDays0_r_Ok, I will play $parameter1 for you.
+_2213_ShadowsOfLostDays0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2214_LoveIsAllAround0_p_#action=playmusic title=$parameter1
+_2214_LoveIsAllAround0_r_Ok, I will play $parameter1 for you.
+_2214_LoveIsAllAround0_r_Ok, I will play some english music for you.
+_2214_LoveIsAllAround0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2214_LoveIsAllAround0_t_(?:P|p)lay english music
+_2215_YouReallyGotMe0_p_#action=playmusic title=$parameter1
+_2215_YouReallyGotMe0_r_Ok, I will play $parameter1 for you.
+_2215_YouReallyGotMe0_r_Ok, I will play some english music for you.
+_2215_YouReallyGotMe0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2215_YouReallyGotMe0_t_(?:P|p)lay english music
+_2216_JaanPehchanHo0_p_#action=playmusic title=$parameter1
+_2216_JaanPehchanHo0_r_Ok, I will play $parameter1 for you.
+_2216_JaanPehchanHo0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2217_Satisfaction0_p_#action=playmusic title=$parameter1
+_2217_Satisfaction0_r_Ok, I will play $parameter1 for you.
+_2217_Satisfaction0_r_Ok, I will play some english music for you.
+_2217_Satisfaction0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2217_Satisfaction0_t_(?:P|p)lay english music
+_2218_MyGeneration0_p_#action=playmusic title=$parameter1
+_2218_MyGeneration0_r_Ok, I will play $parameter1 for you.
+_2218_MyGeneration0_r_Ok, I will play some english music for you.
+_2218_MyGeneration0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2218_MyGeneration0_t_(?:P|p)lay english music
+_2219_Gloria0_p_#action=playmusic title=$parameter1
+_2219_Gloria0_r_Ok, I will play $parameter1 for you.
+_2219_Gloria0_r_Ok, I will play some english music for you.
+_2219_Gloria0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2219_Gloria0_t_(?:P|p)lay english music
+_2641_DiscoDeewane0_p_#action=playmusic title=$parameter1
+_2641_DiscoDeewane0_r_Ok, I will play $parameter1 for you.
+_2641_DiscoDeewane0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2642_YouReallyGotMe0_p_#action=playmusic title=$parameter1
+_2642_YouReallyGotMe0_r_Ok, I will play $parameter1 for you.
+_2642_YouReallyGotMe0_r_Ok, I will play some english music for you.
+_2642_YouReallyGotMe0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2642_YouReallyGotMe0_t_(?:P|p)lay english music
+_2643_Gloria0_p_#action=playmusic title=$parameter1
+_2643_Gloria0_r_Ok, I will play $parameter1 for you.
+_2643_Gloria0_r_Ok, I will play some english music for you.
+_2643_Gloria0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2643_Gloria0_t_(?:P|p)lay english music
+_2644_ADayInTheLife0_p_#action=playmusic title=$parameter1
+_2644_ADayInTheLife0_r_Ok, I will play $parameter1 for you.
+_2644_ADayInTheLife0_r_Ok, I will play some english music for you.
+_2644_ADayInTheLife0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2644_ADayInTheLife0_t_(?:P|p)lay english music
+_2645_ChanchikiOkesa0_p_#action=playmusic title=$parameter1
+_2645_ChanchikiOkesa0_r_Ok, I will play $parameter1 for you.
+_2645_ChanchikiOkesa0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2646_Satisfaction0_p_#action=playmusic title=$parameter1
+_2646_Satisfaction0_r_Ok, I will play $parameter1 for you.
+_2646_Satisfaction0_r_Ok, I will play some english music for you.
+_2646_Satisfaction0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2646_Satisfaction0_t_(?:P|p)lay english music
+_2647_Downtown0_p_#action=playmusic title=$parameter1
+_2647_Downtown0_r_Ok, I will play $parameter1 for you.
+_2647_Downtown0_r_Ok, I will play some english music for you.
+_2647_Downtown0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2647_Downtown0_t_(?:P|p)lay english music
+_2648_AajkalTereMerePyarKeCharche0_p_#action=playmusic title=$parameter1
+_2648_AajkalTereMerePyarKeCharche0_r_Ok, I will play $parameter1 for you.
+_2648_AajkalTereMerePyarKeCharche0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2649_LoveIsAllAround0_p_#action=playmusic title=$parameter1
+_2649_LoveIsAllAround0_r_Ok, I will play $parameter1 for you.
+_2649_LoveIsAllAround0_r_Ok, I will play some english music for you.
+_2649_LoveIsAllAround0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2649_LoveIsAllAround0_t_(?:P|p)lay english music
+_2650_RaatKeHamsafar0_p_#action=playmusic title=$parameter1
+_2650_RaatKeHamsafar0_r_Ok, I will play $parameter1 for you.
+_2650_RaatKeHamsafar0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2651_MyGeneration0_p_#action=playmusic title=$parameter1
+_2651_MyGeneration0_r_Ok, I will play $parameter1 for you.
+_2651_MyGeneration0_r_Ok, I will play some english music for you.
+_2651_MyGeneration0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2651_MyGeneration0_t_(?:P|p)lay english music
+_2652_WeWillMeetAgain0_p_#action=playmusic title=$parameter1
+_2652_WeWillMeetAgain0_r_Ok, I will play $parameter1 for you.
+_2652_WeWillMeetAgain0_r_Ok, I will play some english music for you.
+_2652_WeWillMeetAgain0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2652_WeWillMeetAgain0_t_(?:P|p)lay english music
+_2653_SukiyakiUeoMuiteArukou0_p_#action=playmusic title=$parameter1
+_2653_SukiyakiUeoMuiteArukou0_r_Ok, I will play $parameter1 for you.
+_2653_SukiyakiUeoMuiteArukou0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2654_RingoMuraKara0_p_#action=playmusic title=$parameter1
+_2654_RingoMuraKara0_r_Ok, I will play $parameter1 for you.
+_2654_RingoMuraKara0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2655_Osho0_p_#action=playmusic title=$parameter1
+_2655_Osho0_r_Ok, I will play $parameter1 for you.
+_2655_Osho0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2656_MainPyarKaRahiHoo0_p_#action=playmusic title=$parameter1
+_2656_MainPyarKaRahiHoo0_r_Ok, I will play $parameter1 for you.
+_2656_MainPyarKaRahiHoo0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2657_DeewanaHuaBadal0_p_#action=playmusic title=$parameter1
+_2657_DeewanaHuaBadal0_r_Ok, I will play $parameter1 for you.
+_2657_DeewanaHuaBadal0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2658_ShadowsOfLostDays0_p_#action=playmusic title=$parameter1
+_2658_ShadowsOfLostDays0_r_Ok, I will play $parameter1 for you.
+_2658_ShadowsOfLostDays0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2659_HonthonMeinAisiBaat0_p_#action=playmusic title=$parameter1
+_2659_HonthonMeinAisiBaat0_r_Ok, I will play $parameter1 for you.
+_2659_HonthonMeinAisiBaat0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2660_RingoNoUta0_p_#action=playmusic title=$parameter1
+_2660_RingoNoUta0_r_Ok, I will play $parameter1 for you.
+_2660_RingoNoUta0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2661_TumnePukaraAurHumChaleAaye0_p_#action=playmusic title=$parameter1
+_2661_TumnePukaraAurHumChaleAaye0_r_Ok, I will play $parameter1 for you.
+_2661_TumnePukaraAurHumChaleAaye0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2662_AoiSanmyaku0_p_#action=playmusic title=$parameter1
+_2662_AoiSanmyaku0_r_Ok, I will play $parameter1 for you.
+_2662_AoiSanmyaku0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2663_JaanPehchanHo0_p_#action=playmusic title=$parameter1
+_2663_JaanPehchanHo0_r_Ok, I will play $parameter1 for you.
+_2663_JaanPehchanHo0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2664_KokoSannenSei0_p_#action=playmusic title=$parameter1
+_2664_KokoSannenSei0_r_Ok, I will play $parameter1 for you.
+_2664_KokoSannenSei0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2665_AageBhiJaaneNaTu0_p_#action=playmusic title=$parameter1
+_2665_AageBhiJaaneNaTu0_r_Ok, I will play $parameter1 for you.
+_2665_AageBhiJaaneNaTu0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2666_YuurakuchouDeAimashou0_p_#action=playmusic title=$parameter1
+_2666_YuurakuchouDeAimashou0_r_Ok, I will play $parameter1 for you.
+_2666_YuurakuchouDeAimashou0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2667_SinginInTheRain0_p_#action=playmusic title=$parameter1
+_2667_SinginInTheRain0_r_Ok, I will play $parameter1 for you.
+_2667_SinginInTheRain0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2668_OverTheRainbow0_p_#action=playmusic title=$parameter1
+_2668_OverTheRainbow0_r_Ok, I will play $parameter1 for you.
+_2668_OverTheRainbow0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2669_FestivalMusic0_p_#action=playmusic title=$parameter1
+_2669_FestivalMusic0_r_Ok, I will play $parameter1 for you.
+_2669_FestivalMusic0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2670_HouseOfTheRisingSun0_p_#action=playmusic title=$parameter1
+_2670_HouseOfTheRisingSun0_r_Ok, I will play $parameter1 for you.
+_2670_HouseOfTheRisingSun0_r_Ok, I will play some english music for you.
+_2670_HouseOfTheRisingSun0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2670_HouseOfTheRisingSun0_t_(?:P|p)lay english music
+_2671_TumAgarSaathDeneKaVadaKaro0_p_#action=playmusic title=$parameter1
+_2671_TumAgarSaathDeneKaVadaKaro0_r_Ok, I will play $parameter1 for you.
+_2671_TumAgarSaathDeneKaVadaKaro0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2672_RelaxingMusic0_p_#action=playmusic title=$parameter1
+_2672_RelaxingMusic0_r_Ok, I will play $parameter1 for you.
+_2672_RelaxingMusic0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2673_IsharonIsharonMeinDilLeneWaale0_p_#action=playmusic title=$parameter1
+_2673_IsharonIsharonMeinDilLeneWaale0_r_Ok, I will play $parameter1 for you.
+_2673_IsharonIsharonMeinDilLeneWaale0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2674_YoullNeverWalkAlone0_p_#action=playmusic title=$parameter1
+_2674_YoullNeverWalkAlone0_r_Ok, I will play $parameter1 for you.
+_2674_YoullNeverWalkAlone0_r_Ok, I will play some english music for you.
+_2674_YoullNeverWalkAlone0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2674_YoullNeverWalkAlone0_t_(?:P|p)lay english music
+_2675_OtomiSan0_p_#action=playmusic title=$parameter1
+_2675_OtomiSan0_r_Ok, I will play $parameter1 for you.
+_2675_OtomiSan0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2677_ChanchikiOkesa0_p_#action=playmusic title=$parameter1
+_2677_ChanchikiOkesa0_r_Ok, I will play $parameter1 for you.
+_2677_ChanchikiOkesa0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2678_IsharonIsharonMeinDilLeneWaale0_p_#action=playmusic title=$parameter1
+_2678_IsharonIsharonMeinDilLeneWaale0_r_Ok, I will play $parameter1 for you.
+_2678_IsharonIsharonMeinDilLeneWaale0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2679_YuurakuchouDeAimashou0_p_#action=playmusic title=$parameter1
+_2679_YuurakuchouDeAimashou0_r_Ok, I will play $parameter1 for you.
+_2679_YuurakuchouDeAimashou0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2680_YouReallyGotMe0_p_#action=playmusic title=$parameter1
+_2680_YouReallyGotMe0_r_Ok, I will play $parameter1 for you.
+_2680_YouReallyGotMe0_r_Ok, I will play some english music for you.
+_2680_YouReallyGotMe0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2680_YouReallyGotMe0_t_(?:P|p)lay english music
+_2681_JaanPehchanHo0_p_#action=playmusic title=$parameter1
+_2681_JaanPehchanHo0_r_Ok, I will play $parameter1 for you.
+_2681_JaanPehchanHo0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2682_DiscoDeewane0_p_#action=playmusic title=$parameter1
+_2682_DiscoDeewane0_r_Ok, I will play $parameter1 for you.
+_2682_DiscoDeewane0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2683_DeewanaHuaBadal0_p_#action=playmusic title=$parameter1
+_2683_DeewanaHuaBadal0_r_Ok, I will play $parameter1 for you.
+_2683_DeewanaHuaBadal0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2684_Satisfaction0_p_#action=playmusic title=$parameter1
+_2684_Satisfaction0_r_Ok, I will play $parameter1 for you.
+_2684_Satisfaction0_r_Ok, I will play some english music for you.
+_2684_Satisfaction0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2684_Satisfaction0_t_(?:P|p)lay english music
+_2685_OtomiSan0_p_#action=playmusic title=$parameter1
+_2685_OtomiSan0_r_Ok, I will play $parameter1 for you.
+_2685_OtomiSan0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2686_RaatKeHamsafar0_p_#action=playmusic title=$parameter1
+_2686_RaatKeHamsafar0_r_Ok, I will play $parameter1 for you.
+_2686_RaatKeHamsafar0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2687_RingoNoUta0_p_#action=playmusic title=$parameter1
+_2687_RingoNoUta0_r_Ok, I will play $parameter1 for you.
+_2687_RingoNoUta0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2688_Osho0_p_#action=playmusic title=$parameter1
+_2688_Osho0_r_Ok, I will play $parameter1 for you.
+_2688_Osho0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2689_AajkalTereMerePyarKeCharche0_p_#action=playmusic title=$parameter1
+_2689_AajkalTereMerePyarKeCharche0_r_Ok, I will play $parameter1 for you.
+_2689_AajkalTereMerePyarKeCharche0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2690_HouseOfTheRisingSun0_p_#action=playmusic title=$parameter1
+_2690_HouseOfTheRisingSun0_r_Ok, I will play $parameter1 for you.
+_2690_HouseOfTheRisingSun0_r_Ok, I will play some english music for you.
+_2690_HouseOfTheRisingSun0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2690_HouseOfTheRisingSun0_t_(?:P|p)lay english music
+_2691_SinginInTheRain0_p_#action=playmusic title=$parameter1
+_2691_SinginInTheRain0_r_Ok, I will play $parameter1 for you.
+_2691_SinginInTheRain0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2692_SukiyakiUeoMuiteArukou0_p_#action=playmusic title=$parameter1
+_2692_SukiyakiUeoMuiteArukou0_r_Ok, I will play $parameter1 for you.
+_2692_SukiyakiUeoMuiteArukou0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2693_LoveIsAllAround0_p_#action=playmusic title=$parameter1
+_2693_LoveIsAllAround0_r_Ok, I will play $parameter1 for you.
+_2693_LoveIsAllAround0_r_Ok, I will play some english music for you.
+_2693_LoveIsAllAround0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2693_LoveIsAllAround0_t_(?:P|p)lay english music
+_2694_MainPyarKaRahiHoo0_p_#action=playmusic title=$parameter1
+_2694_MainPyarKaRahiHoo0_r_Ok, I will play $parameter1 for you.
+_2694_MainPyarKaRahiHoo0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2695_KokoSannenSei0_p_#action=playmusic title=$parameter1
+_2695_KokoSannenSei0_r_Ok, I will play $parameter1 for you.
+_2695_KokoSannenSei0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2696_TumnePukaraAurHumChaleAaye0_p_#action=playmusic title=$parameter1
+_2696_TumnePukaraAurHumChaleAaye0_r_Ok, I will play $parameter1 for you.
+_2696_TumnePukaraAurHumChaleAaye0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2697_AoiSanmyaku0_p_#action=playmusic title=$parameter1
+_2697_AoiSanmyaku0_r_Ok, I will play $parameter1 for you.
+_2697_AoiSanmyaku0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2698_AageBhiJaaneNaTu0_p_#action=playmusic title=$parameter1
+_2698_AageBhiJaaneNaTu0_r_Ok, I will play $parameter1 for you.
+_2698_AageBhiJaaneNaTu0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2699_Gloria0_p_#action=playmusic title=$parameter1
+_2699_Gloria0_r_Ok, I will play $parameter1 for you.
+_2699_Gloria0_r_Ok, I will play some english music for you.
+_2699_Gloria0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2699_Gloria0_t_(?:P|p)lay english music
+_2700_MyGeneration0_p_#action=playmusic title=$parameter1
+_2700_MyGeneration0_r_Ok, I will play $parameter1 for you.
+_2700_MyGeneration0_r_Ok, I will play some english music for you.
+_2700_MyGeneration0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2700_MyGeneration0_t_(?:P|p)lay english music
+_2701_HonthonMeinAisiBaat0_p_#action=playmusic title=$parameter1
+_2701_HonthonMeinAisiBaat0_r_Ok, I will play $parameter1 for you.
+_2701_HonthonMeinAisiBaat0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2702_ShadowsOfLostDays0_p_#action=playmusic title=$parameter1
+_2702_ShadowsOfLostDays0_r_Ok, I will play $parameter1 for you.
+_2702_ShadowsOfLostDays0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2703_TumAgarSaathDeneKaVadaKaro0_p_#action=playmusic title=$parameter1
+_2703_TumAgarSaathDeneKaVadaKaro0_r_Ok, I will play $parameter1 for you.
+_2703_TumAgarSaathDeneKaVadaKaro0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2704_OverTheRainbow0_p_#action=playmusic title=$parameter1
+_2704_OverTheRainbow0_r_Ok, I will play $parameter1 for you.
+_2704_OverTheRainbow0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2705_WeWillMeetAgain0_p_#action=playmusic title=$parameter1
+_2705_WeWillMeetAgain0_r_Ok, I will play $parameter1 for you.
+_2705_WeWillMeetAgain0_r_Ok, I will play some english music for you.
+_2705_WeWillMeetAgain0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2705_WeWillMeetAgain0_t_(?:P|p)lay english music
+_2706_YoullNeverWalkAlone0_p_#action=playmusic title=$parameter1
+_2706_YoullNeverWalkAlone0_r_Ok, I will play $parameter1 for you.
+_2706_YoullNeverWalkAlone0_r_Ok, I will play some english music for you.
+_2706_YoullNeverWalkAlone0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2706_YoullNeverWalkAlone0_t_(?:P|p)lay english music
+_2707_ADayInTheLife0_p_#action=playmusic title=$parameter1
+_2707_ADayInTheLife0_r_Ok, I will play $parameter1 for you.
+_2707_ADayInTheLife0_r_Ok, I will play some english music for you.
+_2707_ADayInTheLife0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2707_ADayInTheLife0_t_(?:P|p)lay english music
+_2708_RingoMuraKara0_p_#action=playmusic title=$parameter1
+_2708_RingoMuraKara0_r_Ok, I will play $parameter1 for you.
+_2708_RingoMuraKara0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2709_Downtown0_p_#action=playmusic title=$parameter1
+_2709_Downtown0_r_Ok, I will play $parameter1 for you.
+_2709_Downtown0_r_Ok, I will play some english music for you.
+_2709_Downtown0_t_(?:P|p)lay (?:the song)? (.*)_1
+_2709_Downtown0_t_(?:P|p)lay english music
+_2828_Aan0_p_#action=playmovie title=$parameter1
+_2828_Aan0_r_Ok, I will play $parameter1 for you.
+_2828_Aan0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_2829_RichardIII0_p_#action=playmovie title=$parameter1
+_2829_RichardIII0_r_Ok, I will play $parameter1 for you.
+_2829_RichardIII0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_2830_Harakiri0_p_#action=playmovie title=$parameter1
+_2830_Harakiri0_r_Ok, I will play $parameter1 for you.
+_2830_Harakiri0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_2831_EmperorMeijiAndTheGreatRussoJapaneseWar0_p_#action=playmovie title=$parameter1
+_2831_EmperorMeijiAndTheGreatRussoJapaneseWar0_r_Ok, I will play $parameter1 for you.
+_2831_EmperorMeijiAndTheGreatRussoJapaneseWar0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_2832_Doraemon0_p_#action=playmovie title=$parameter1
+_2832_Doraemon0_r_Ok, I will play $parameter1 for you.
+_2832_Doraemon0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_2833_HobsonsChoice0_p_#action=playmovie title=$parameter1
+_2833_HobsonsChoice0_r_Ok, I will play $parameter1 for you.
+_2833_HobsonsChoice0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_2834_PrincessMononoke0_p_#action=playmovie title=$parameter1
+_2834_PrincessMononoke0_r_Ok, I will play $parameter1 for you.
+_2834_PrincessMononoke0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_2835_MotherIndia0_p_#action=playmovie title=$parameter1
+_2835_MotherIndia0_r_Ok, I will play $parameter1 for you.
+_2835_MotherIndia0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_2836_ETTheExtraTerrestrial0_p_#action=playmovie title=$parameter1
+_2836_ETTheExtraTerrestrial0_r_Ok, I will play $parameter1 for you.
+_2836_ETTheExtraTerrestrial0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_2837_Awara0_p_#action=playmovie title=$parameter1
+_2837_Awara0_r_Ok, I will play $parameter1 for you.
+_2837_Awara0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_2838_Pyaasa0_p_#action=playmovie title=$parameter1
+_2838_Pyaasa0_r_Ok, I will play $parameter1 for you.
+_2838_Pyaasa0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_2839_Madhumati0_p_#action=playmovie title=$parameter1
+_2839_Madhumati0_r_Ok, I will play $parameter1 for you.
+_2839_Madhumati0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_2840_TheBridgeOnTheRiverKwai0_p_#action=playmovie title=$parameter1
+_2840_TheBridgeOnTheRiverKwai0_r_Ok, I will play $parameter1 for you.
+_2840_TheBridgeOnTheRiverKwai0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_2841_Shree4200_p_#action=playmovie title=$parameter1
+_2841_Shree4200_r_Ok, I will play $parameter1 for you.
+_2841_Shree4200_t_(?:P|p)lay (?:the movie)? (.*)_1
+_2842_OurManInHavana0_p_#action=playmovie title=$parameter1
+_2842_OurManInHavana0_r_Ok, I will play $parameter1 for you.
+_2842_OurManInHavana0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_2843_RoomAtTheTop0_p_#action=playmovie title=$parameter1
+_2843_RoomAtTheTop0_r_Ok, I will play $parameter1 for you.
+_2843_RoomAtTheTop0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_2844_Rashomon0_p_#action=playmovie title=$parameter1
+_2844_Rashomon0_r_Ok, I will play $parameter1 for you.
+_2844_Rashomon0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_2845_Titanic0_p_#action=playmovie title=$parameter1
+_2845_Titanic0_r_Ok, I will play $parameter1 for you.
+_2845_Titanic0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_2846_LateSpring0_p_#action=playmovie title=$parameter1
+_2846_LateSpring0_r_Ok, I will play $parameter1 for you.
+_2846_LateSpring0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_2847_TokyoOlimpiad0_p_#action=playmovie title=$parameter1
+_2847_TokyoOlimpiad0_r_Ok, I will play $parameter1 for you.
+_2847_TokyoOlimpiad0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_2848_Antarctica0_p_#action=playmovie title=$parameter1
+_2848_Antarctica0_r_Ok, I will play $parameter1 for you.
+_2848_Antarctica0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_2849_HighAndLow0_p_#action=playmovie title=$parameter1
+_2849_HighAndLow0_r_Ok, I will play $parameter1 for you.
+_2849_HighAndLow0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_2850_WomanInTheDunes0_p_#action=playmovie title=$parameter1
+_2850_WomanInTheDunes0_r_Ok, I will play $parameter1 for you.
+_2850_WomanInTheDunes0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_2851_Waqt0_p_#action=playmovie title=$parameter1
+_2851_Waqt0_r_Ok, I will play $parameter1 for you.
+_2851_Waqt0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_2852_SpiritedAway0_p_#action=playmovie title=$parameter1
+_2852_SpiritedAway0_r_Ok, I will play $parameter1 for you.
+_2852_SpiritedAway0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_2853_PatherPanchali0_p_#action=playmovie title=$parameter1
+_2853_PatherPanchali0_r_Ok, I will play $parameter1 for you.
+_2853_PatherPanchali0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_2854_TheLadykillers0_p_#action=playmovie title=$parameter1
+_2854_TheLadykillers0_r_Ok, I will play $parameter1 for you.
+_2854_TheLadykillers0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_2855_KingKongVSGodzilla0_p_#action=playmovie title=$parameter1
+_2855_KingKongVSGodzilla0_r_Ok, I will play $parameter1 for you.
+_2855_KingKongVSGodzilla0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_2856_TheManInTheWhiteSuit0_p_#action=playmovie title=$parameter1
+_2856_TheManInTheWhiteSuit0_r_Ok, I will play $parameter1 for you.
+_2856_TheManInTheWhiteSuit0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_2857_SevenSamurai0_p_#action=playmovie title=$parameter1
+_2857_SevenSamurai0_r_Ok, I will play $parameter1 for you.
+_2857_SevenSamurai0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_2858_TheLavenderHillMob0_p_#action=playmovie title=$parameter1
+_2858_TheLavenderHillMob0_r_Ok, I will play $parameter1 for you.
+_2858_TheLavenderHillMob0_t_(?:P|p)lay (?:the movie)? (.*)_1
+_2859_FiresOnThePlain0_p_#action=playmovie title=$parameter1
+_2859_FiresOnThePlain0_r_Ok, I will play $parameter1 for you.
+_2859_FiresOnThePlain0_t_(?:P|p)lay (?:the movie)? (.*)_1

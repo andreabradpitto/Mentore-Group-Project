@@ -1,0 +1,12 @@
+_Intent0_k_#action=setlikeliness topic=$parameter1 value=1.0 #action=jump topic=$parameter1 startsentence=p
+_Intent0_r_I know that $parameter1 is amazing.
+_Intent0_t_I (?:really)?(?:like|love) (.*)_1
+_Intent1_k_#action=setlikeliness topic=$parameter1 value=0.0 #action=jump topic=$parameter1 startsentence=n
+_Intent1_r_I understand you don't like $parameter1.
+_Intent1_t_I (?:really)?(?:hate|don't like) (.*)_1
+_Intent2_k_#action=setlikeliness topic=$parameter1 value=0.5 #action=jump topic=$parameter1 startsentence=q
+_Intent2_r_I understand you want to talk about $parameter1.
+_Intent2_t_I (?:want|would like) to talk about (.*)_1
+_Intent3_k_#action=setlikeliness topic=$parameter1 value=0.2 #action=jump topic=$parameter1 startsentence=n
+_Intent3_r_I understand you don't want to talk about $parameter1.
+_Intent3_t_I don't want to talk about (.*)_1

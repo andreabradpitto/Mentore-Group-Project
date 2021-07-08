@@ -1,0 +1,69 @@
+---Sentences to say at the beginning---
+s_I missed you! What would you like to talk about?
+
+---Before a question - to add variability (once every 5)---
+q_I am curious...
+q_So...
+q_May I ask you a question?
+q_A quick question.
+q_Just one more question.
+q_I need to ask you this...
+q_Listen to this...
+q_I was thinking...
+q_I like to know things about you.
+q_I'd like to hear your opinion.
+q_This is a controversial topic.
+q_Tell me...
+q_I have a question for you.
+q_Hey...
+q_I've got a question for you.
+q_Uhm...
+
+---Sentences to say if the topic has likeliness zero, before making the question---
+z_I am confused.
+z_Just to confirm...
+z_Sorry to ask you this again, but I am no more sure.
+z_I may have asked you this before, but...
+
+---Sentences to answer a wait---
+w_Ooooh, interesting!
+w_I like to know more about you.
+w_I see, very interesting!
+w_Oh ok, now that's clear.
+w_I understand what you mean, really.
+w_Ok, I understand.
+w_I see.
+w_Ok.
+w_Interesting...
+w_Good to know.
+w_Got it.
+w_I'll remember that!
+w_Yup! I see...
+
+---When the end of the DT is reached, to pass the ball to the user---
+e_Let's talk about something. Any idea?
+e_I just had an idea... Tell me something you like
+e_have a lot of fun with you. Tell me more.
+e_Come on, tell me something else.
+e_Go on, it's your turn.
+
+---If the DT is over and no topic is triggered by the user - to introduce the new topic randomly chosen (among the top concepts)--
+r_I love talking with you!
+r_Hold on a second, if you don't mind.
+r_Hey, I got an idea. Listen!
+r_Now I remember!
+r_Yup. What about this.
+r_Wait, listen to me.
+r_Hey, I was just thinking about something.
+
+---In case of negative answers to the question goal---
+gn_Ok, no problem
+gn_I see
+gn_No problem
+gn_Ok
+
+---In case of positive answers to the question goal---
+gp_Great, let's do that!
+gp_Ok, let's do it!
+gp_Nice! I will help you do this!
+gp_Great, I am happy to be helpful!
