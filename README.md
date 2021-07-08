@@ -80,5 +80,6 @@ Chetan Chand Chilakapati - s4850111@studenti.unige.it
 Daulet Babakhan - s4842280@studenti.unige.it
 Vishruth X - s4848208@studenti.unige.it
 
-
+https://github.com/AliyaArystanbek - s4842279@studenti.unige.it 
+https://github.com/DauletBabakhan - s4842280@studenti.unige.it
 
