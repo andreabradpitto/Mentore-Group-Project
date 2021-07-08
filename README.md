@@ -27,7 +27,7 @@ pip install re
 
 ## :information_source: Instructions
 
-To run ontology and start the conversation , open a terminal, move to the folder(Flask_Caresses\dialogue_tree), and then run: 
+To run ontology and start the conversation , open a terminal, move to the folder(Flask_CARESSES\dialogue_tree), and then run: 
 
 ```bash
 java -jar new_CKB.jar -nationality Indian  -virtual 1
@@ -42,7 +42,7 @@ Now, move to this folder(Flask_Caresses) in the terminal 1, and then run:
 python dialogue_manager.py 
 ```
 
-Also, open another terminal 2(keeping terminal 1 open, as server is running) move to this folder(Flask_Caresses), and then run:
+Also, open another terminal 2(keeping terminal 1 open, as server is running) move to this folder(Flask_CARESSES), and then run:
 
 ```bash
 python test_dialogue_manager.py 
@@ -63,7 +63,7 @@ The positive and negative user answers to get a positive and negative replies of
 * **"No", "no"**  – In this case, robot replies with negative sentence.
 * Click **ctrl+c** to end the conversation.
 
-(Note: When you end the convo and start again, make sure to delete credentials.txt and clients\0  in (Flask_Caresses) folder, and then follow the same procedure as above **instructions**
+(Note: When you end the convo and start again, make sure to delete credentials.txt and clients\0  in (Flask_CARESSES) folder, and then follow the same procedure as above **instructions**
 
 ## Video Tutorial
 
