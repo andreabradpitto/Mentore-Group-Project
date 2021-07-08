@@ -38,9 +38,8 @@ Note: Here we choose Nationality **Indian** because, the ontology which we desig
 Now, move to this folder(Flask_Caresses) in the terminal 1, and then run:
 
 ```bash
-mkdir clients
+mkdir clients            #Only required if you run this first time.
 ```
-*Only required if you run this first time.
 
 ```bash
 python dialogue_manager.py 
