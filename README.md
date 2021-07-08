@@ -21,7 +21,7 @@ pip install flask_restful
 ```
 (optional)
 ```bash
-pip install flask_restful
+pip install re
 ```
 
 
