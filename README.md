@@ -1,6 +1,6 @@
 # Mentore-Group-Project ONTOLOGY  readme
 
-This is the readme for the branch devoted to the **Mentore** Ontology development.
+This is the readme for the branch devoted to the **Mentore** **Ontology** development.
 
 ## :exclamation: Software requirements
 
@@ -16,6 +16,10 @@ In order to install some of the packages in Python, run:
 ```bash
 pip install flask
 ```
+```bash
+pip install flask_restful
+```
+(optional)
 ```bash
 pip install flask_restful
 ```
