@@ -39,6 +39,11 @@ java -jar new_CKB.jar -nationality Indian  -virtual 1
 Now, move to this folder(Flask_Caresses) in the terminal 1, and then run:
 
 ```bash
+mkdir clients
+```
+*Only required if you run this first time.
+
+```bash
 python dialogue_manager.py 
 ```
 
