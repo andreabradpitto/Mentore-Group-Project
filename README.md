@@ -17,5 +17,6 @@ Branch list:
   - Developers: [Gabriele Reverberi](https://github.com/gaxrever), [Sandeep Soleti](https://github.com/sandeepsoleti), [Srinivasan](https://github.com/srini0613)
 
 - [main](https://github.com/andreabradpitto/Mentore-Group-Project) (default branch): you are here.
+  - Mantainer: [Andrea Pitto](https://github.com/andreabradpitto)
 
 ---
