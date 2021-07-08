@@ -76,7 +76,7 @@ A video showing how to steup files, run and start the conversation can be found 
 
 [Video](link)
 
-* The conversation is carried away in the terminal(i.e., using keyboard) as a part of our**(Ontology subgroup)** work. 
+* The conversation is carried away in the terminal(i.e., using keyboard) as a part of our****(Ontology subgroup)**** work. 
 * Whereas, **Protocols Subgroup** uses TTS, STT to have live conversation(i.e., using voice) as it is thier part.  
 
 ## 📰 Additional information
