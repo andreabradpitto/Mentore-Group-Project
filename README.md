@@ -4,9 +4,9 @@ This is the readme for the brach devoted to the **Mentore** Ontology development
 
 ## :exclamation: Software requirements
 
-•	Java 1.8 older version
-•	Protégé 5.5
-•	Python(version >= 3.6)
+* Java 1.8 older version
+*	Protégé 5.5
+*	Python(version >= 3.6)
 
 
 ## :white_check_mark: Software installation
