@@ -34,7 +34,7 @@ java -jar new_CKB.jar -nationality Indian  -virtual 1
 
 * After running it in the terminal, you’ll get **OK** message(That means owl file is working perfect)
 
-Note: Here we choose Nationality **Indian** because, the ontology which we designed have instances linked to Indian(others like English and Japanese are not included, just to not make more complicated)
+**Note**: Here we choose Nationality **Indian** because, the ontology which we designed have instances linked to Indian(others like English and Japanese are not included, just to not make more complicated)
 
 Now, move to this folder(Flask_Caresses) in the terminal 1, and then run:
 
@@ -67,7 +67,7 @@ The positive and negative user answers to get a positive and negative replies of
 * **"No", "no"**  – In this case, robot replies with negative sentence.
 * Click **ctrl+c** to end the conversation.
 
-(Note: When you end the convo and start again, make sure to delete credentials.txt and clients\0  in (Flask_CARESSES) folder, and then follow the same procedure as above **instructions**
+(**Note**: When you end the convo and start again, make sure to delete credentials.txt and clients\0  in (Flask_CARESSES) folder, and then follow the same procedure as above **instructions**
 
 ## Video Tutorial
 
