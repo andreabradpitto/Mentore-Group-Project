@@ -76,6 +76,10 @@ For a list of features that are planned in future releases, please check **Mento
 
 ## :suspect: Developers
 
+Andrea Pitto - s3942710@studenti.unige.it  
+Syed Muhammad Raza Rizvi - s4853521@studenti.unige.it  
+Laiba Zahid - s4853477@studenti.unige.it
+
 Aliya Arystanbek - s4842279@studenti.unige.it
 Chetan Chand Chilakapati - s4850111@studenti.unige.it
 Daulet Babakhan - s4842280@studenti.unige.it
