@@ -70,7 +70,7 @@ A small video is attached here just for an idea of how to run.(soon to be done)
 
 VIDEO
 
-Head over to the [doc folder](https://github.com/andreabradpitto/Mentore-Group-Project/tree/Ontlology/doc), to check the [Group Project Proposal](https://github.com/andreabradpitto/Mentore-Group-Project/blob/Ontlology/doc/Group%20Project%20proposal.docx), the [papers](https://github.com/andreabradpitto/Mentore-Group-Project/tree/Ontlology/doc/Papers) on which our work is based, and some other useful resources.  
+Head over to the [doc folder](https://github.com/andreabradpitto/Mentore-Group-Project/tree/Ontlology/doc) to check the [Group Project Proposal](https://github.com/andreabradpitto/Mentore-Group-Project/blob/Ontlology/doc/Group%20Project%20proposal.docx), the [papers](https://github.com/andreabradpitto/Mentore-Group-Project/tree/Ontlology/doc/Papers) on which our work is based, and some other useful resources.  
   
 
 ## :suspect: Developers
