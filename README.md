@@ -1,6 +1,6 @@
 # Mentore-Group-Project ONTOLOGY  readme
 
-This is the readme for the brach devoted to the **Mentore** Ontology development.
+This is the readme for the branch devoted to the **Mentore** Ontology development.
 
 ## :exclamation: Software requirements
 
