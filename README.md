@@ -32,7 +32,8 @@ java -jar new_CKB.jar -nationality Indian  -virtual 1
 ```
 
 * After running it in the terminal, you’ll get **OK** message(That means owl file is working perfect)
-* Note: Here we choose Nationality **Indian** because, the ontology which we designed have instances linked to Indian(others like English and Japanese are not included, just to not make more complicated)
+
+Note: Here we choose Nationality **Indian** because, the ontology which we designed have instances linked to Indian(others like English and Japanese are not included, just to not make more complicated)
 
 Now, move to this folder(Flask_Caresses) in the terminal 1, and then run:
 
