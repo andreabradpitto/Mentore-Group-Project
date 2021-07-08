@@ -67,7 +67,7 @@ The positive and negative user answers to get a positive and negative replies of
 
 ## Video Tutorial
 
-A video showing how to steup files, run and start the conversation can be found at the following link.
+A video showing how to steup files, run and start the conversation can be found at the following link.**(yet to add)**
 
 [Video](link)
 
