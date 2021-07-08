@@ -59,8 +59,8 @@ The triggering keywords that you can direct to particular topic:
 
 The positive and negative user answers to get a positive and negative replies of the particular topic:
 
-* **"yes", "Yes", "ok", "Ok", "Fine", "sure", "Sure", "Of course", "of course"** – In this case, robot will reply with positive sentence.
-* **"No", "no"**  – In this case, robot will reply with negative sentence.
+* **"yes", "Yes", "ok", "Ok", "Fine", "sure", "Sure", "Of course", "of course"** – In this case, robot replies with positive sentence.
+* **"No", "no"**  – In this case, robot replies with negative sentence.
 * Click **ctrl+c** to end the conversation.
 
 (Note: When you end the convo and start again, make sure to delete credentials.txt and clients\0  in (Flask_Caresses) folder, and then follow the same procedure as above **instructions**)
