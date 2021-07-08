@@ -33,15 +33,17 @@ To run ontology and start the conversation , open a terminal, move to the folder
 java -jar new_CKB.jar -nationality Indian  -virtual 1
 ```
 
-After running it in the terminal, you’ll get OK message.(That means owl file is working perfect)
-note: here we choose Nationaliona;y Indian is used because, the ontology which we designed have instances linked to Indian.(others like English and Japanese are not included)
+* After running it in the terminal, you’ll get **OK** message(That means owl file is working perfect)
+* Note: Here we choose Nationality **Indian** because, the ontology which we designed have instances linked to Indian(others like English and Japanese are not included, just to not make more complicated)
 
-Then move to this folder(Flask_Caresses) in the terminal 1, and then run:
+Now, move to this folder(Flask_Caresses) in the terminal 1, and then run:
+
 ```bash
 python dialogue_manager.py 
 ```
 
-Then open another terminal 2(keeping terminal 1 open, as server is running) move to this folder(Flask_Caresses), and then run:
+Also, open another terminal 2(keeping terminal 1 open, as server is running) move to this folder(Flask_Caresses), and then run:
+
 ```bash
 python test_dialogue_manager.py 
 ```
