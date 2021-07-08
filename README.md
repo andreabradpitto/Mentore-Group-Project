@@ -1,5 +1,5 @@
 # Mentore-Group-Project 
-# Subgroup - Ontology
+## Subgroup - Ontology
 
 ## Software requirements
 
