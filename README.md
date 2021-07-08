@@ -1,5 +1,6 @@
 # Mentore-Group-Project 
 ## Subgroup - Ontology
+Our part is to design ontology regarding school subjects. For isstance, we chave chosen Geography, Maths and Physics as a subjects. The hierarchy is integrated using existing CARESSES.owl file. 
 
 ## Software requirements
 
