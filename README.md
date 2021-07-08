@@ -65,18 +65,21 @@ The positive and negative user answers to get a positive and negative replies of
 
 (Note: When you end the convo and start again, make sure to delete credentials.txt and clients\0  in (Flask_Caresses) folder, and then follow the same procedure as above **instructions**
 
-## 📰 Additional information
-A small video is attached here just for an idea of how to run.(soon to be done)
+## Video Tutorial
 
-VIDEO
+A video showing how to steup files, run and start the conversation can be found at the following link.
+
+[Video](link)
+
+## 📰 Additional information
 
 Head over to the [doc folder](https://github.com/andreabradpitto/Mentore-Group-Project/tree/Ontlology/doc) to check the [Group Project Proposal](https://github.com/andreabradpitto/Mentore-Group-Project/blob/Ontlology/doc/Group%20Project%20proposal.docx), the [papers](https://github.com/andreabradpitto/Mentore-Group-Project/tree/Ontlology/doc/Papers) on which our work is based, and some other useful resources.  
   
 
 ## :suspect: Developers
 
-Aliya Arystanbek - s4842279@studenti.unige.it 
-Chetan Chand Chilakapati - s4850111@studenti.unige.it 
-Daulet Babakhan - s4842280@studenti.unige.it
-Vishruth X - s4848208@studenti.unige.it
+* Aliya Arystanbek - s4842279@studenti.unige.it 
+* Chetan Chand Chilakapati - s4850111@studenti.unige.it 
+* Daulet Babakhan - s4842280@studenti.unige.it
+* Vishruth X - s4848208@studenti.unige.it
 
