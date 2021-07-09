@@ -115,19 +115,20 @@ class AddQuestionWindow(PageWindow):
     def resetPlainGoal(self):
         self.plain_checkBox.setChecked(0)
         self.goal_checkBox.setChecked(0)
-        self.answerLabel = QtWidgets.QLabel(self.centralwidget)
-        self.answerLabel.setGeometry(QtCore.QRect(100, 230, 181, 21))
-        self.answerLabel.setObjectName("answerLabel")
-        self.answerLabel.setText(
-            "<html><head/><body><p align=\"left\">Insert answer:</p></body></html>")
-        self.answer_lineEdit = QtWidgets.QLineEdit(self.centralwidget)
-        self.answer_lineEdit.setGeometry(QtCore.QRect(100, 255, 600, 30))
-        self.answer_lineEdit.setObjectName("answer_lineEdit")
-        self.answer_lineEdit.textChanged.connect(self.disableButton)
-        self.add_pb.setDisabled(1)
-        self.answerLabel.show()
-        self.answer_lineEdit.show()
-        self.answer_present = 1
+        if self.answer_present == 0:
+            self.answerLabel = QtWidgets.QLabel(self.centralwidget)
+            self.answerLabel.setGeometry(QtCore.QRect(100, 230, 181, 21))
+            self.answerLabel.setObjectName("answerLabel")
+            self.answerLabel.setText(
+                "<html><head/><body><p align=\"left\">Insert answer:</p></body></html>")
+            self.answer_lineEdit = QtWidgets.QLineEdit(self.centralwidget)
+            self.answer_lineEdit.setGeometry(QtCore.QRect(100, 255, 600, 30))
+            self.answer_lineEdit.setObjectName("answer_lineEdit")
+            self.answer_lineEdit.textChanged.connect(self.disableButton)
+            self.add_pb.setDisabled(1)
+            self.answerLabel.show()
+            self.answer_lineEdit.show()
+            self.answer_present = 1
         self.mainLabelUpdater("contextual")
         self.contextual_checkBox.setChecked(1)
 
