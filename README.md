@@ -71,10 +71,13 @@ The positive and negative user answers to get a positive and negative replies of
 (**Note**: When you end the convo and start again, make sure to delete credentials.txt and clients\0  in (Flask_CARESSES) folder, and then follow the same procedure as above **instructions**
 
 ## Video Tutorial
+A detailed video on Ontology hierarchy can be found at the following link.
+
+[Video](https://unigeit.sharepoint.com/sites/GP_2RS-Subgroup2/Documenti%20condivisi/Registrazioni/New%20channel%20meeting-20210710_203138-Meeting%20Recording.mp4?web=1)
 
 A video showing how to steup files, run and start the conversation can be found at the following link.**(yet to add)**
 
-[Video](https://unigeit.sharepoint.com/sites/GP_2RS-Subgroup2/Documenti%20condivisi/Registrazioni/New%20channel%20meeting-20210710_202000-Meeting%20Recording.mp4?web=1)
+[Video](https://unigeit.sharepoint.com/sites/GP_2RS-Subgroup2/Documenti%20condivisi/Registrazioni/New%20channel%20meeting-20210710_202302-Meeting%20Recording.mp4?web=1)
 
 * The conversation is carried away in the terminal(i.e., using keyboard) as a part of our (**Ontology Subgroup**) work. 
 * Whereas, **Protocols Subgroup** uses TTS, STT to have live conversation(i.e., using voice) as it is thier part.  
