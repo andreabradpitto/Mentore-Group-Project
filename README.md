@@ -74,7 +74,7 @@ The positive and negative user answers to get a positive and negative replies of
 
 A video showing how to steup files, run and start the conversation can be found at the following link.**(yet to add)**
 
-[Video](link)
+[Video](https://unigeit.sharepoint.com/sites/GP_2RS/Documenti%20condivisi/General/Recordings/Meeting%20in%20_General_-20210710_201537-Meeting%20Recording.mp4?web=1)
 
 * The conversation is carried away in the terminal(i.e., using keyboard) as a part of our (**Ontology Subgroup**) work. 
 * Whereas, **Protocols Subgroup** uses TTS, STT to have live conversation(i.e., using voice) as it is thier part.  
