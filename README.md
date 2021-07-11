@@ -1,11 +1,3 @@
-
-
-https://user-images.githubusercontent.com/62232861/125200279-abb35700-e26a-11eb-9529-dd9909fffbad.mp4
-
-
-
-https://user-images.githubusercontent.com/62232861/125200299-ba9a0980-e26a-11eb-8e79-eb1c1aaf23ea.mp4
-
 # Mentore-Group-Project 
 ## Subgroup - Ontology
 Our part is to design ontology regarding school subjects. For isstance, we chave chosen Geography, Maths and Physics as a subjects. The hierarchy is modified using existing CARESSES.owl file. 
@@ -81,7 +73,7 @@ The positive and negative user answers to get a positive and negative replies of
 ## Video Tutorial
 A detailed video on Ontology hierarchy can be found at the following link.
 
-[Video](https://unigeit.sharepoint.com/sites/GP_2RS-Subgroup2/Documenti%20condivisi/Registrazioni/New%20channel%20meeting-20210710_203138-Meeting%20Recording.mp4?web=1)
+[Video](https://user-images.githubusercontent.com/62232861/125200299-ba9a0980-e26a-11eb-8e79-eb1c1aaf23ea.mp4)
 
 A video showing how to steup files, run and start the conversation can be found at the following link.
 
