@@ -1,3 +1,11 @@
+
+
+https://user-images.githubusercontent.com/62232861/125200279-abb35700-e26a-11eb-9529-dd9909fffbad.mp4
+
+
+
+https://user-images.githubusercontent.com/62232861/125200299-ba9a0980-e26a-11eb-8e79-eb1c1aaf23ea.mp4
+
 # Mentore-Group-Project 
 ## Subgroup - Ontology
 Our part is to design ontology regarding school subjects. For isstance, we chave chosen Geography, Maths and Physics as a subjects. The hierarchy is modified using existing CARESSES.owl file. 
