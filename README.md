@@ -73,7 +73,7 @@ The positive and negative user answers to get a positive and negative replies of
 ## Video Tutorial
 A detailed video on Ontology hierarchy can be found at the following link.
 
-[Video]
+[Video](https://unigeit.sharepoint.com/sites/GP_2RS-Subgroup2/Documenti%20condivisi/Registrazioni/New%20channel%20meeting-20210710_203138-Meeting%20Recording.mp4?web=1)
 
 A video showing how to steup files, run and start the conversation can be found at the following link.
 
