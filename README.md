@@ -27,8 +27,11 @@ pip install PyQt5
 Install the [Owlready2](https://pypi.org/project/Owlready2/) module for ontology-oriented programming (the documentation can be checked [here](https://owlready2.readthedocs.io/en/latest/)) with:
 
 ```bash
+pip install Cython
 pip install Owlready2
 ```
+
+[Cython](https://cython.org/) assures better performance for the Owlready2 module.
 
 ## :information_source: Instructions
 
