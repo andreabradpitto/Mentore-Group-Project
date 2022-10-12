@@ -15,6 +15,7 @@ This is the readme for the brach devoted to the **Mentore** Graphical User Inter
 - Python (version >= 3.6)
 - PyQt5 (version >= 5.14.0)
 - Owlready2
+- (Optional) Cython
 
 ## :white_check_mark: Software installation
 

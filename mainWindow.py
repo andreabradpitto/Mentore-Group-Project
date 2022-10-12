@@ -94,6 +94,15 @@ class MainWindow(PageWindow):
                 self.recent2_pb.setText(self.recent1_pb.text())
                 self.recent1_pb.setText(concept)
 
+        elif concept == self.recent2_pb.text():
+            self.recent2_pb.setText(self.recent1_pb.text())
+            self.recent1_pb.setText(concept)
+
+        elif concept == self.recent3_pb.text():
+            self.recent3_pb.setText(self.recent2_pb.text())
+            self.recent2_pb.setText(self.recent1_pb.text())
+            self.recent1_pb.setText(concept)
+
     def selectRecent1(self):
         conceptName = self.recent1_pb.text()
         self.selectedConceptSignal.emit(conceptName)
