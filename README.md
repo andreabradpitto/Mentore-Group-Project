@@ -2,6 +2,8 @@
 
 This is the readme for the repository of the Mentore Group Project: *A Motivational And Entertaining Ontology-based Robotic System For Education* (**GP2_RS**).
 
+NB this project's brach layout has been purposely split into well-defined sub-projects.
+
 ---
 
 Please check each branch in order to inspect every sub-group's work.  
